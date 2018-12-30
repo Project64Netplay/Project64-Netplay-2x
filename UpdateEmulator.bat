@@ -1,3 +1,12 @@
+@echo off
+title Mario Everything Project 64 Updater
+:choice
+set /P c=Are you sure you want to continue[Y/N]?
+if /I "%c%" EQU "Y" goto :Start
+if /I "%c%" EQU "N" goto :Exit
+goto :Exit
+
+:Start
 TASKKILL /IM Project64.exe /F
 wget.exe https://github.com/CindyLouWho03/MarioEverything-Project64Netplay/archive/master.zip
 7z x master.zip
@@ -17,3 +26,6 @@ cd ..\
 rmdir MarioEverything-Project64Netplay-master /s
 DEL master.zip
 start Project64.exe
+
+:Exit
+EXIT
