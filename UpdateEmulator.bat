@@ -1,3 +1,4 @@
+TASKKILL /IM Project64.exe /F
 wget.exe https://github.com/CindyLouWho03/MarioEverything-Project64Netplay/archive/master.zip
 7z x master.zip
 rmdir Config /s
