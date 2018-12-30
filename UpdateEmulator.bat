@@ -1,5 +1,9 @@
 wget.exe https://github.com/CindyLouWho03/MarioEverything-Project64Netplay/archive/master.zip
 7z x master.zip
+rmdir Config /s
+rmdir Extras /s
+rmdir Plugin /s
+rmdir Save /s
 cd MarioEverything-Project64Netplay-master
 move Config ..\
 move Extras ..\
