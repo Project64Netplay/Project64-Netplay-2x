@@ -10,7 +10,6 @@ goto :Exit
 TASKKILL /IM Project64.exe /F
 wget.exe https://github.com/CindyLouWho03/MarioEverything-Project64Netplay/archive/master.zip
 7z x master.zip
-mkdir BackupCache
 cd Config
 move Project64.cfg ..\
 move NRage.ini ..\
@@ -33,8 +32,10 @@ move README.md ..\
 move Replace.bat ..\
 cd ..\
 rmdir MarioEverything-Project64Netplay-master /s
-rmdir BackupCache /s
 DEL master.zip
+move GlideN64.ini Plugin\GFX
+move NRage.ini Config
+move Project64.cfg Config
 start Project64.exe
 
 :Exit
