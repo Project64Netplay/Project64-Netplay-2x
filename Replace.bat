@@ -1,4 +1,5 @@
 @echo off
+Debug
 title Mario Everything Project 64 Save Replacer
 echo ===============================================================================
 fc /b "Save\Backup\MarioParty.eep" "Save\MarioParty.eep" > nul
