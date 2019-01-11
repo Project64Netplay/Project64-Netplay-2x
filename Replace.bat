@@ -1,3 +1,4 @@
+TEST
 @echo off
 title Mario Everything Project 64 Save Replacer
 echo ===============================================================================
