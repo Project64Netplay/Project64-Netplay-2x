@@ -22,7 +22,7 @@ rmdir Config /s
 rmdir Extras /s
 rmdir Plugin /s
 rmdir Save /s
-cd MarioEverything-Project64Netplay-master
+cd MarioEverything-Project64Netplay-release
 move Config ..\
 move Extras ..\
 move Plugin ..\
@@ -31,8 +31,8 @@ move Project64.exe ..\
 move README.md ..\
 move Replace.bat ..\
 cd ..\
-rmdir MarioEverything-Project64Netplay-master /s
-DEL master.zip
+rmdir MarioEverything-Project64Netplay-release /s
+DEL release.zip
 move GlideN64.ini Plugin\GFX
 move NRage.ini Config
 move Project64.cfg Config
