@@ -8,8 +8,8 @@ goto :Exit
 
 :Start
 TASKKILL /IM Project64.exe /F
-wget.exe https://github.com/CindyLouWho03/MarioEverything-Project64Netplay/archive/master.zip
-7z x master.zip
+wget.exe https://github.com/NailNatail64/project64-mpn/archive/release.zip
+7z x release.zip
 cd Config
 move Project64.cfg ..\
 move NRage.ini ..\
