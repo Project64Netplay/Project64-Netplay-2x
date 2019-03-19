@@ -65,13 +65,13 @@ Compatible=006600
 Compatible.Sel=006600
 Compatible.Seltext=FFFFFF
 
-MPN Game=0058F8
-MPN Game.Sel=5F26A0
-MPN Game.Seltext=FFFFFF
+Mario Everything Game=0058F8
+Mario Everything Game.Sel=5F26A0
+Mario Everything Game.Seltext=FFFFFF
 
-MPN Mod=4428BC
-MPN Mod.Sel=5F26A0
-MPN Mod.Seltext=FFFFFF
+Mario Everything Mod=4428BC
+Mario Everything Mod.Sel=5F26A0
+Mario Everything Mod.Seltext=FFFFFF
 
 Issues (mixed)=827B00
 Issues (mixed).Sel=827B00
@@ -3308,7 +3308,7 @@ Counter Factor=1
 [2829657E-A0621877-C:45]
 Good Name=Mario Party (U)
 Internal Name=MarioParty
-Status=MPN Game
+Status=Mario Everything Game
 Counter Factor=1
 
 [82380387-DFC744D9-C:50]
@@ -3326,7 +3326,7 @@ Counter Factor=1
 [9EA95858-AF72B618-C:45]
 Good Name=Mario Party 2 (U)
 Internal Name=MarioParty2
-Status=MPN Game
+Status=Mario Everything Game
 Counter Factor=1
 
 [C5674160-0F5F453C-C:50]
@@ -3346,14 +3346,14 @@ Save Type=16kbit Eeprom
 [7C3829D9-6E8247CE-C:45]
 Good Name=Mario Party 3 (U)
 Internal Name=MarioParty3
-Status=MPN Game
+Status=Mario Everything Game
 Counter Factor=1
 Save Type=16kbit Eeprom
 
 [FC800626-85C17FC3-C:45]
 Good Name=Mario Party 3: Costume Party (v1.1)
 Internal Name=MarioParty3(Costume)
-Status=MPN Mod
+Status=Mario Everything Mod
 Counter Factor=1
 Save Type=16kbit Eeprom
 
@@ -4914,7 +4914,7 @@ Status=Compatible
 [0C02B3C5-9E2511B8-C:45]
 Good Name=Rugrats - Scavenger Hunt (U)
 Internal Name=RUGRATSSCAVENGERHUNT
-Status=MPN Game
+Status=Compatible
 
 [4D3ADFDA-7598FCAE-C:50]
 Good Name=Rugrats - Treasure Hunt (E)
