@@ -321,7 +321,6 @@ void CShortCuts::Load(bool InitialValues)
     AddShortCut(ID_SYSTEM_SAVEAS, STR_SHORTCUT_SYSTEMMENU, MENU_SAVE_AS, CMenuShortCutKey::GAME_RUNNING_WINDOW);
     AddShortCut(ID_SYSTEM_RESTORE, STR_SHORTCUT_SYSTEMMENU, MENU_RESTORE, CMenuShortCutKey::GAME_RUNNING);
     AddShortCut(ID_SYSTEM_LOAD, STR_SHORTCUT_SYSTEMMENU, MENU_LOAD, CMenuShortCutKey::GAME_RUNNING_WINDOW);
-    AddShortCut(ID_SYSTEM_CHEAT, STR_SHORTCUT_SYSTEMMENU, MENU_CHEAT, CMenuShortCutKey::NOT_IN_FULLSCREEN);
     AddShortCut(ID_SYSTEM_GSBUTTON, STR_SHORTCUT_SYSTEMMENU, MENU_GS_BUTTON, CMenuShortCutKey::GAME_RUNNING);
 
     AddShortCut(ID_OPTIONS_DISPLAY_FR, STR_SHORTCUT_OPTIONS, OPTION_DISPLAY_FR, CMenuShortCutKey::GAME_RUNNING);
@@ -389,7 +388,6 @@ void CShortCuts::Load(bool InitialValues)
         m_ShortCuts.find(ID_SYSTEM_RESTORE)->second.AddShortCut(VK_F7, false, false, false, CMenuShortCutKey::GAME_RUNNING);
         m_ShortCuts.find(ID_SYSTEM_LOAD)->second.AddShortCut('L', true, false, false, CMenuShortCutKey::GAME_RUNNING_WINDOW);
         m_ShortCuts.find(ID_SYSTEM_SAVEAS)->second.AddShortCut('S', true, false, false, CMenuShortCutKey::GAME_RUNNING_WINDOW);
-        m_ShortCuts.find(ID_SYSTEM_CHEAT)->second.AddShortCut('C', true, false, false, CMenuShortCutKey::GAME_RUNNING_WINDOW);
         m_ShortCuts.find(ID_SYSTEM_GSBUTTON)->second.AddShortCut(VK_F9, false, false, false, CMenuShortCutKey::GAME_RUNNING);
         m_ShortCuts.find(ID_OPTIONS_INCREASE_SPEED)->second.AddShortCut(VK_OEM_PLUS, false, false, false, CMenuShortCutKey::GAME_RUNNING);
         m_ShortCuts.find(ID_OPTIONS_DECREASE_SPEED)->second.AddShortCut(VK_OEM_MINUS, false, false, false, CMenuShortCutKey::GAME_RUNNING);

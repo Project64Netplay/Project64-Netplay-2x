@@ -83,7 +83,6 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(MENU_RESTORE, "&Load State");
     DEF_STR(MENU_LOAD, "Load...");
     DEF_STR(MENU_CURRENT_SAVE, "Current Save S&tate");
-    DEF_STR(MENU_CHEAT, "Cheats...");
     DEF_STR(MENU_GS_BUTTON, "GS Button");
     DEF_STR(MENU_RESUME, "R&esume");
     DEF_STR(MENU_RESET_SOFT, "&Soft Reset");
@@ -164,7 +163,7 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(RB_CART_ID, "Cartridge ID");
     DEF_STR(RB_MANUFACTUER, "Manufacturer");
     DEF_STR(RB_COUNTRY, "Country");
-    DEF_STR(RB_DEVELOPER, "Developer");
+    DEF_STR(RB_DEVELOPER, "Maker");
     DEF_STR(RB_CRC1, "CRC1");
     DEF_STR(RB_CRC2, "CRC2");
     DEF_STR(RB_CICCHIP, "CIC Chip");

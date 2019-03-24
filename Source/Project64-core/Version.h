@@ -18,7 +18,7 @@
 
 #define VER_FILE_DESCRIPTION_STR    "Mario Everything Project 64"
 #define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_REVISION, VERSION_BUILD
-#define VER_FILE_VERSION_STR        "for Mario Everything - 2.0.0"
+#define VER_FILE_VERSION_STR        "for Mario Everything - 2.2.0"
 
 
 #define VER_PRODUCTNAME_STR         "Mario Everything Project 64"
