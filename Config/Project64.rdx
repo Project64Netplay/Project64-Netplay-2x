@@ -1,4 +1,4 @@
-﻿// PJ64 v2.2 Official RDX (Rom Database eXtension)
+ï»¿// PJ64 v2.2 Official RDX (Rom Database eXtension)
 // Not for use with PJ64 v1.6 or previous
 // ----------------------------------------------------
 
@@ -3390,7 +3390,7 @@ ForceFeedback=No
 
 [9C663069-80F24A80-C:50]
 Good Name=Mario Party (E) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=1999/02/08
 Genre=Party
 Players=4
@@ -3398,7 +3398,7 @@ ForceFeedback=Yes
 
 [ADA815BE-6028622F-C:4A]
 Good Name=Mario Party (J) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=1999/02/08
 Genre=Party
 Players=4
@@ -3406,7 +3406,7 @@ ForceFeedback=Yes
 
 [2829657E-A0621877-C:45]
 Good Name=Mario Party (U) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=1999/02/08
 Genre=Party
 Players=4
@@ -3414,7 +3414,7 @@ ForceFeedback=Yes
 
 [82380387-DFC744D9-C:50]
 Good Name=Mario Party 2 (E) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=2000/01/24
 Genre=Party
 Players=4
@@ -3422,7 +3422,7 @@ ForceFeedback=Yes
 
 [ED567D0F-38B08915-C:4A]
 Good Name=Mario Party 2 (J) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=2000/01/24
 Genre=Party
 Players=4
@@ -3430,7 +3430,7 @@ ForceFeedback=Yes
 
 [9EA95858-AF72B618-C:45]
 Good Name=Mario Party 2 (U) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=2000/01/24
 Genre=Party
 Players=4
@@ -3438,7 +3438,7 @@ ForceFeedback=Yes
 
 [C5674160-0F5F453C-C:50]
 Good Name=Mario Party 3 (E) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=2001/05/07
 Genre=Party
 Players=4
@@ -3446,7 +3446,7 @@ ForceFeedback=Yes
 
 [0B0AB4CD-7B158937-C:4A]
 Good Name=Mario Party 3 (J) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=2001/05/07
 Genre=Party
 Players=4
@@ -3454,7 +3454,7 @@ ForceFeedback=Yes
 
 [7C3829D9-6E8247CE-C:45]
 Good Name=Mario Party 3 (U) [!]
-Developer=Hudson Soft
+Developer=Nintendo
 ReleaseDate=2001/05/07
 Genre=Party
 Players=4
@@ -5208,7 +5208,7 @@ Players=4
 ForceFeedback=Yes
 
 [451ACA0F-7863BC8A-C:44]
-Good Name=Rugrats - Die gro�e Schatzsuche (G)
+Good Name=Rugrats - Die große Schatzsuche (G)
 Developer=Infogrammes
 ReleaseDate=1999/06/01
 Genre=Party
