@@ -1,2 +1,2 @@
-2.4.1
-https://raw.githubusercontent.com/CrankySupertoon/MarioEverything-Project64Netplay/release/setup.exe
+2.5.0
+https://github.com/CrankySupertoon/MarioEverything-Project64Netplay/releases/download/2.5.0/2.5.0.zip
