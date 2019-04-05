@@ -18,7 +18,7 @@
 
 #define VER_FILE_DESCRIPTION_STR    "Mario Everything Project 64"
 #define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_REVISION, VERSION_BUILD
-#define VER_FILE_VERSION_STR        "for Mario Everything - 2.2.0"
+#define VER_FILE_VERSION_STR        "(04/05/19)"
 
 
 #define VER_PRODUCTNAME_STR         "Mario Everything Project 64"
@@ -26,7 +26,7 @@
 #define VER_PRODUCT_VERSION_STR     VER_FILE_VERSION_STR
 #define VER_ORIGINAL_FILENAME_STR   VER_PRODUCTNAME_STR ".exe"
 #define VER_INTERNAL_NAME_STR       VER_PRODUCTNAME_STR
-#define VER_COPYRIGHT_STR           "Copyright (C) 2013"
+#define VER_COPYRIGHT_STR           "Copyright (C) 2018-2019"
 
 #ifdef _DEBUG
 #define VER_VER_DEBUG             VS_FF_DEBUG

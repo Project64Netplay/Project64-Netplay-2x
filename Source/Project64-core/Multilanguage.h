@@ -106,6 +106,12 @@ enum LanguageStringID
     MENU_FORUM = 183,
     MENU_HOMEPAGE = 184,
 
+	//Netplay Menu
+	MENU_NETPLAY = 4000,
+	MENU_REPLACESAVES = 4001,
+	MENU_ME = 4002,
+	MENU_UPDATE_EMU = 4003,
+
     //Current Save Slot menu
     MENU_SLOT_DEFAULT = 190,
     MENU_SLOT_1 = 191,

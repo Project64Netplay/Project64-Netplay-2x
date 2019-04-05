@@ -531,6 +531,10 @@ bool CMainMenu::ProcessMessage(HWND hWnd, DWORD /*FromAccelerator*/, DWORD MenuI
     case ID_HELP_HOMEPAGE: ShellExecute(NULL, "open", "http://www.pj64-emu.com", NULL, NULL, SW_SHOWMAXIMIZED); break;
     case ID_HELP_ABOUT: m_Gui->AboutBox(); break;
     case ID_HELP_ABOUTSETTINGFILES: m_Gui->AboutIniBox(); break;
+	case ID_NETPLAY_REPLACESAVES: ShellExecute(NULL, "open", "Replace.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
+	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "http://discord.gg/zJTxSKU", NULL, NULL, SW_SHOWMAXIMIZED); break;
+	case ID_NETPLAY_UPDATE_EMU: ShellExecute(NULL, "open", "Updater.exe", NULL, NULL, SW_SHOWMINIMIZED); break;
+
     default:
         if (MenuID >= ID_RECENT_ROM_START && MenuID < ID_RECENT_ROM_END)
         {
@@ -1220,6 +1224,16 @@ void CMainMenu::FillOutMenu(HMENU hMenu)
     }
     HelpMenu.push_back(MENU_ITEM(ID_HELP_ABOUT, MENU_ABOUT_PJ64));
 
+	/* Netplay Menu
+	****************/
+
+	MenuItemList NetplayMenu;
+
+	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_ME, MENU_ME));
+	NetplayMenu.push_back(MENU_ITEM(SPLITER));
+	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_REPLACESAVES, MENU_REPLACESAVES));
+	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_UPDATE_EMU, MENU_UPDATE_EMU));
+
     /* Main Title bar Menu
     ***********************/
     MenuItemList MainTitleMenu;
@@ -1247,6 +1261,10 @@ void CMainMenu::FillOutMenu(HMENU hMenu)
     Item.Reset(SUB_MENU, MENU_HELP, EMPTY_STDSTR, &HelpMenu);
     if (RomLoading) { Item.SetItemEnabled(false); }
     MainTitleMenu.push_back(Item);
+
+	Item.Reset(SUB_MENU, MENU_NETPLAY, EMPTY_STDSTR, &NetplayMenu);
+	if (RomLoading) { Item.SetItemEnabled(false); }
+	MainTitleMenu.push_back(Item);
 
     AddMenu(hMenu, MainTitleMenu);
 }
