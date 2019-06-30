@@ -16,12 +16,12 @@
 #define VERSION_REVISION            2
 #define VERSION_BUILD               9999
 
-#define VER_FILE_DESCRIPTION_STR    "Mario Everything Project 64"
+#define VER_FILE_DESCRIPTION_STR    "Project64 Netplay"
 #define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_REVISION, VERSION_BUILD
-#define VER_FILE_VERSION_STR        "(04/05/19)"
+#define VER_FILE_VERSION_STR        "(6/30/19)"
 
 
-#define VER_PRODUCTNAME_STR         "Mario Everything Project 64"
+#define VER_PRODUCTNAME_STR         "Project64 Netplay"
 #define VER_PRODUCT_VERSION         VER_FILE_VERSION
 #define VER_PRODUCT_VERSION_STR     VER_FILE_VERSION_STR
 #define VER_ORIGINAL_FILENAME_STR   VER_PRODUCTNAME_STR ".exe"

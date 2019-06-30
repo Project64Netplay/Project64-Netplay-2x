@@ -532,7 +532,7 @@ bool CMainMenu::ProcessMessage(HWND hWnd, DWORD /*FromAccelerator*/, DWORD MenuI
     case ID_HELP_ABOUT: m_Gui->AboutBox(); break;
     case ID_HELP_ABOUTSETTINGFILES: m_Gui->AboutIniBox(); break;
 	case ID_NETPLAY_REPLACESAVES: ShellExecute(NULL, "open", "Replace.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
-	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "http://discord.gg/zJTxSKU", NULL, NULL, SW_SHOWMAXIMIZED); break;
+	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "https://discord.gg/sZ8FXcP", NULL, NULL, SW_SHOWMAXIMIZED); break;
 	case ID_NETPLAY_UPDATE_EMU: ShellExecute(NULL, "open", "Updater.exe", NULL, NULL, SW_SHOWMINIMIZED); break;
 
     default:

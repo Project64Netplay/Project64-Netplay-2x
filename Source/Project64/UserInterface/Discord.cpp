@@ -5,7 +5,7 @@
 
 #define UNIX_TIME_START    0x019DB1DED53E8000
 #define TICKS_PER_SECOND   10000000
-#define PJ64_DISCORD_APPID "359086208862650378"
+#define PJ64_DISCORD_APPID "594909275583807556"
 
 // void CDiscord::OnReady(const DiscordUser* /*request*/) {}
 // void CDiscord::OnError(int /*errorCode*/, const char* /*message*/) {}
@@ -37,18 +37,54 @@ void CDiscord::Update(bool bHaveGame)
 {
     DiscordRichPresence discordPresence = {};
 
-    if (bHaveGame && g_Settings->LoadStringVal(Game_File).length() != 0)
-    {
+	if (strstr(g_Settings->LoadStringVal(Game_GameName).c_str(), "MarioParty3") != NULL)
+	{
+		char szState[256];
+		sprintf(szState, "Playing %s", g_Settings->LoadStringVal(Rdb_GoodName).c_str());
+		discordPresence.state = szState;
+		discordPresence.startTimestamp = Timestamp();
+		discordPresence.largeImageKey = "mp3";
+		discordPresence.largeImageText = "Mario Party 3";
+		discordPresence.smallImageKey = "icon";
+		discordPresence.smallImageText = "Project64 Netplay";
+		discordPresence.instance = 1;
+	}
+
+	else if (strstr(g_Settings->LoadStringVal(Game_GameName).c_str(), "MarioParty2") != NULL)
+	{
+		char szState[256];
+		sprintf(szState, "Playing %s", g_Settings->LoadStringVal(Rdb_GoodName).c_str());
+		discordPresence.state = szState;
+		discordPresence.startTimestamp = Timestamp();
+		discordPresence.largeImageKey = "mp2";
+		discordPresence.largeImageText = "Mario Party 2";
+		discordPresence.smallImageKey = "icon";
+		discordPresence.smallImageText = "Project64 Netplay";
+		discordPresence.instance = 1;
+	}
+
+	else if (strstr(g_Settings->LoadStringVal(Game_GameName).c_str(), "MarioParty") != NULL)
+	{
+		char szState[256];
+		sprintf(szState, "Playing %s", g_Settings->LoadStringVal(Rdb_GoodName).c_str());
+		discordPresence.state = szState;
+		discordPresence.startTimestamp = Timestamp();
+		discordPresence.largeImageKey = "mp1";
+		discordPresence.largeImageText = "Mario Party 1",
+		discordPresence.smallImageKey = "icon";
+		discordPresence.smallImageText = "Project64 Netplay";
+		discordPresence.instance = 1;
+	}
+
+	else
+	{
         char szState[256];
         sprintf(szState, "Playing %s", g_Settings->LoadStringVal(Rdb_GoodName).c_str());
-
         discordPresence.state = szState;
         discordPresence.startTimestamp = Timestamp();
-    }
-
-    discordPresence.largeImageKey = "icon";
-    discordPresence.instance = 1;
-
+		discordPresence.largeImageKey = "icon";
+		discordPresence.instance = 1;
+	}
     Discord_UpdatePresence(&discordPresence);
 }
 
