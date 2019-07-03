@@ -181,4 +181,26 @@ private:
 
     //list of function that have been called .. used in profiling
     FUNC_CALLS m_FunctionCalls;
+
+	//Mario Party Netplay
+	//Has a state already been auto-saved?
+	bool m_HasAutosaved;
+
+	//Discord RPS functions and variables
+#ifdef USE_DISCORD
+	char*   m_DiscordApplicationId;
+	uint8_t m_DiscordCurrentPlayers;
+	int64_t m_DiscordNextPost;
+	bool    m_DiscordSendPresence;
+	int64_t m_DiscordStartTime;
+
+	void    discordInit();
+	void    discordUpdate();
+	void    getMk64Rps(uint8_t* Rdram, DiscordRichPresence& discordPresence);
+	void    getMp1Rps(uint8_t* Rdram, DiscordRichPresence& discordPresence);
+	void    getMp2Rps(uint8_t* Rdram, DiscordRichPresence& discordPresence);
+	void    getMp3Rps(uint8_t* Rdram, DiscordRichPresence& discordPresence);
+	void    getSsbRps(uint8_t* Rdram, DiscordRichPresence& discordPresence);
+	void    getNumberControllers();
+#endif
 };
