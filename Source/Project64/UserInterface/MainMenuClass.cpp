@@ -527,10 +527,13 @@ bool CMainMenu::ProcessMessage(HWND hWnd, DWORD /*FromAccelerator*/, DWORD MenuI
         g_Notify->DisplayMessage(3, stdstr_f(GS(MENU_SLOT_SAVE), GetSaveSlotString((MenuID - ID_CURRENT_SAVE_1) + 1).c_str()).c_str());
         g_Settings->SaveDword(Game_CurrentSaveState, (DWORD)((MenuID - ID_CURRENT_SAVE_1) + 1));
         break;
+    case ID_HELP_SUPPORTFORUM: ShellExecute(NULL, "open", "http://forum.pj64-emu.com/", NULL, NULL, SW_SHOWMAXIMIZED); break;
+    case ID_HELP_HOMEPAGE: ShellExecute(NULL, "open", "http://www.pj64-emu.com", NULL, NULL, SW_SHOWMAXIMIZED); break;
+    case ID_HELP_ABOUT: m_Gui->AboutBox(); break;
+    case ID_HELP_ABOUTSETTINGFILES: m_Gui->AboutIniBox(); break;
 	case ID_NETPLAY_REPLACESAVES: ShellExecute(NULL, "open", "Replace.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
 	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "https://discord.gg/sZ8FXcP", NULL, NULL, SW_SHOWMAXIMIZED); break;
 	case ID_NETPLAY_UPDATE_EMU: ShellExecute(NULL, "open", "Updater.exe", NULL, NULL, SW_SHOWMINIMIZED); break;
-	case ID_HELP_ABOUT: m_Gui->AboutBox(); break;
 
     default:
         if (MenuID >= ID_RECENT_ROM_START && MenuID < ID_RECENT_ROM_END)
@@ -1208,6 +1211,19 @@ void CMainMenu::FillOutMenu(HMENU hMenu)
         DebugMenu.push_back(Item);
     }
 
+    /* Help Menu
+    ****************/
+    MenuItemList HelpMenu;
+
+    HelpMenu.push_back(MENU_ITEM(ID_HELP_SUPPORTFORUM, MENU_FORUM));
+    HelpMenu.push_back(MENU_ITEM(ID_HELP_HOMEPAGE, MENU_HOMEPAGE));
+    HelpMenu.push_back(MENU_ITEM(SPLITER));
+    if (!inBasicMode)
+    {
+        HelpMenu.push_back(MENU_ITEM(ID_HELP_ABOUTSETTINGFILES, MENU_ABOUT_INI));
+    }
+    HelpMenu.push_back(MENU_ITEM(ID_HELP_ABOUT, MENU_ABOUT_PJ64));
+
 	/* Netplay Menu
 	****************/
 
@@ -1217,8 +1233,7 @@ void CMainMenu::FillOutMenu(HMENU hMenu)
 	NetplayMenu.push_back(MENU_ITEM(SPLITER));
 	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_REPLACESAVES, MENU_REPLACESAVES));
 	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_UPDATE_EMU, MENU_UPDATE_EMU));
-	NetplayMenu.push_back(MENU_ITEM(SPLITER));
-	NetplayMenu.push_back(MENU_ITEM(ID_HELP_ABOUT, MENU_ABOUT_PJ64));
+
     /* Main Title bar Menu
     ***********************/
     MenuItemList MainTitleMenu;
@@ -1243,6 +1258,7 @@ void CMainMenu::FillOutMenu(HMENU hMenu)
             MainTitleMenu.push_back(Item);
         }
     }
+    Item.Reset(SUB_MENU, MENU_HELP, EMPTY_STDSTR, &HelpMenu);
     if (RomLoading) { Item.SetItemEnabled(false); }
     MainTitleMenu.push_back(Item);
 

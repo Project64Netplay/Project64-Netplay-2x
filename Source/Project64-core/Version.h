@@ -11,11 +11,14 @@
 #define STRINGIZE2(s) #s
 #define STRINGIZE(s) STRINGIZE2(s)
 
-#define VERSION_MAJOR               Netplay
+#define VERSION_MAJOR               2
+#define VERSION_MINOR               3
+#define VERSION_REVISION            2
+#define VERSION_BUILD               9999
 
 #define VER_FILE_DESCRIPTION_STR    "Project64 Netplay"
-#define VER_FILE_VERSION            VERSION_MAJOR
-#define VER_FILE_VERSION_STR        "(7/3/19)"
+#define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_REVISION, VERSION_BUILD
+#define VER_FILE_VERSION_STR        "(6/30/19)"
 
 
 #define VER_PRODUCTNAME_STR         "Project64 Netplay"

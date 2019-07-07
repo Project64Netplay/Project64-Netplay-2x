@@ -390,17 +390,18 @@ IDD_About DIALOGEX 0, 0, 233, 265
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    LTEXT           "Project64 Netplay Team:",IDC_TEAM,15,87,168,17
-    LTEXT           "CrankySupertoon",IDC_ZILMAR,15,108,49,11
-    LTEXT           "Main developer of Project64 Netplay.",IDC_ZILMAR_DETAILS,69,107,151,24
-    LTEXT           "CoderTim-(AQZ)",IDC_JABO,15,133,49,11
-    LTEXT           "Netplay Plugin Developer",IDC_JABO_DETAILS,69,133,151,24
-    LTEXT           "gonetz",IDC_SMIFF,15,159,49,11
-    LTEXT           "GlideN64 Plugin Developer",IDC_SMIFF_DETAILS,69,159,151,24
-    LTEXT           "Celerizer",IDC_GENT,15,188,49,11
-    LTEXT           "Cheat Codes and Inspiration for Project64 Netplay",IDC_GENT_DETAILS,69,188,151,24
+    LTEXT           "Core Project64 Team:",IDC_TEAM,15,87,168,17
+    LTEXT           "Zilmar",IDC_ZILMAR,15,108,49,11
+    LTEXT           "founder. Core and application programmer. Web site.",IDC_ZILMAR_DETAILS,69,107,151,24
+    LTEXT           "Jabo",IDC_JABO,15,133,49,11
+    LTEXT           "video, audio and input plugin programmer",IDC_JABO_DETAILS,69,133,151,24
+    LTEXT           "Smiff",IDC_SMIFF,15,159,49,11
+    LTEXT           "bug tracking, testing, suggestions, rdb.",IDC_SMIFF_DETAILS,69,159,151,24
+    LTEXT           "Gent",IDC_GENT,15,188,49,11
+    LTEXT           "cheat database, testing, end user support",IDC_GENT_DETAILS,69,188,151,24
     LTEXT           "Thanks also goes to:",IDC_THANKS,16,214,168,17
-    LTEXT           "gamemasterplc, Zilmar and LuigiBlood",IDC_THANK_LIST,17,231,203,27
+    LTEXT           "Jahra!n, Witten, RadeonUser, Trotterwatch, Pixi",IDC_THANK_LIST,17,231,203,27
+    LTEXT           "Version: 1.7.0.x",IDC_VERSION,15,72,169,11,SS_NOTIFY
 END
 
 IDD_Logging_General DIALOGEX 0, 0, 200, 154
@@ -978,6 +979,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
+ FILEVERSION        VER_FILE_VERSION
+ PRODUCTVERSION     VER_PRODUCT_VERSION
  FILEFLAGSMASK      0x3fL
  FILEFLAGS          VER_FILEFLAGS
  FILEOS             VER_FILEOS

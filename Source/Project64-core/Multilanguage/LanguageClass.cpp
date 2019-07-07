@@ -106,12 +106,18 @@ void CLanguage::LoadDefaultStrings(void)
     //Language Menu
     DEF_STR(MENU_LANGUAGE, "&Language");
 
+    //Help Menu
+    DEF_STR(MENU_HELP, "&Help");
+    DEF_STR(MENU_ABOUT_INI, "About Conf&ig Files");
+    DEF_STR(MENU_ABOUT_PJ64, "&About Project64");
+    DEF_STR(MENU_FORUM, "Support &Forum");
+    DEF_STR(MENU_HOMEPAGE, "&Homepage");
+
 	//Netplay Menu
 	DEF_STR(MENU_NETPLAY, "&Netplay");
 	DEF_STR(MENU_ME, "Netplay &Discord");
 	DEF_STR(MENU_REPLACESAVES, "&Replace Save Files");
 	DEF_STR(MENU_UPDATE_EMU, "Update &Emulator...");
-	DEF_STR(MENU_ABOUT_PJ64, "&About Project64 Netplay");
 
     //Current Save Slot menu
     DEF_STR(MENU_SLOT_DEFAULT, "Default");
