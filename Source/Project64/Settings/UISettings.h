@@ -59,9 +59,6 @@ enum UISettingID
     //Recent Game
     File_RecentGameFileCount,
     File_RecentGameFileIndex,
-
-    //Support Window
-    SupportWindows_RunCount,
 };
 
 void RegisterUISettings (void);

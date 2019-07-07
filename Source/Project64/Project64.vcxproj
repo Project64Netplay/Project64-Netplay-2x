@@ -79,8 +79,6 @@
     <ClCompile Include="UserInterface\Settings\SettingsPage-Options.cpp" />
     <ClCompile Include="UserInterface\Settings\SettingsPage-Plugin.cpp" />
     <ClCompile Include="UserInterface\Settings\SettingsPage.cpp" />
-    <ClCompile Include="UserInterface\SupportEnterCode.cpp" />
-    <ClCompile Include="UserInterface\SupportWindow.cpp" />
     <ClCompile Include="UserInterface\WTLControls\ModifiedEditBox.cpp" />
     <ClCompile Include="UserInterface\WTLControls\PartialGroupBox.cpp" />
   </ItemGroup>
@@ -124,8 +122,6 @@
     <ClInclude Include="UserInterface\Settings\SettingsPage-Options.h" />
     <ClInclude Include="UserInterface\Settings\SettingsPage-Plugin.h" />
     <ClInclude Include="UserInterface\Settings\SettingsPage.h" />
-    <ClInclude Include="UserInterface\SupportEnterCode.h" />
-    <ClInclude Include="UserInterface\SupportWindow.h" />
     <ClInclude Include="UserInterface\WTLControls\ModifiedCheckBox.h" />
     <ClInclude Include="UserInterface\WTLControls\ModifiedComboBox.h" />
     <ClInclude Include="UserInterface\WTLControls\ModifiedEditBox.h" />
@@ -156,11 +152,22 @@
   <ItemGroup>
     <None Include="res\divider.cur" />
     <None Include="res\hand.cur" />
+    <None Include="UserInterface\Icons\divider.cur" />
+    <None Include="UserInterface\Icons\hand.cur" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="res\ListItems.bmp" />
+    <Image Include="UserInterface\Bitmaps\AboutScreenLogo.bmp" />
+    <Image Include="UserInterface\Bitmaps\ListItems.bmp" />
+    <Image Include="UserInterface\Bitmaps\tri-state.bmp" />
+    <Image Include="UserInterface\Icons\left.ico" />
+    <Image Include="UserInterface\Icons\PJ64.ICO" />
+    <Image Include="UserInterface\Icons\right.ico" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="UserInterface\UIResources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Manifest Include="Project64.exe.manifest" />
   </ItemGroup>
 </Project>

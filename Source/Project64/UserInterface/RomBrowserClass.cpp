@@ -533,6 +533,10 @@ bool CRomBrowser::RomListDrawItem(int32_t idCtrl, uint32_t lParam)
     memcpy(&rcDraw, &rcItem, sizeof(RECT));
     rcDraw.right -= 3;
     std::wstring text = String;
+	if (wcscmp(L"#301#", text.c_str()) == 0)
+	{
+		text = stdstr(pRomInfo->InternalName).ToUTF16();
+	}
     if (wcscmp(L"#340#", text.c_str()) == 0)
     {
         text = wGS(RB_NOT_GOOD_FILE);
@@ -554,6 +558,10 @@ bool CRomBrowser::RomListDrawItem(int32_t idCtrl, uint32_t lParam)
         memcpy(&rcDraw, &rcItem, sizeof(RECT));
         rcDraw.right -= 3;
         text = String;
+		if (wcscmp(L"#301#", text.c_str()) == 0)
+		{
+			text = stdstr(pRomInfo->InternalName).ToUTF16();
+		}
         if (wcscmp(L"#340#", text.c_str()) == 0)
         {
             text = wGS(RB_NOT_GOOD_FILE);
@@ -636,11 +644,18 @@ int32_t CALLBACK CRomBrowser::RomList_CompareItems(uint32_t lParam1, uint32_t lP
     int32_t result;
 
     const char * GoodName1 = NULL, *GoodName2 = NULL;
-    if (SortFieldInfo->Key == RB_GoodName)
-    {
-        GoodName1 = strcmp("#340#", pRomInfo1->GoodName) != 0 ? pRomInfo1->GoodName : m_UnknownGoodName.c_str();
-        GoodName2 = strcmp("#340#", pRomInfo2->GoodName) != 0 ? pRomInfo2->GoodName : m_UnknownGoodName.c_str();
-    }
+	if (SortFieldInfo->Key == RB_GoodName)
+	{
+		GoodName1 = strcmp("#301#", pRomInfo1->GoodName) != 0 ? pRomInfo1->GoodName : pRomInfo1->InternalName;
+		GoodName2 = strcmp("#301#", pRomInfo2->GoodName) != 0 ? pRomInfo2->GoodName : pRomInfo2->InternalName;
+	}
+
+	const char * CoreNotes1 = NULL, *CoreNotes2 = NULL;
+	if (SortFieldInfo->Key == RB_CoreNotes)
+	{
+		CoreNotes1 = strcmp("#340#", pRomInfo1->CoreNotes) != 0 ? pRomInfo1->CoreNotes : m_UnknownGoodName.c_str();
+		CoreNotes2 = strcmp("#340#", pRomInfo2->CoreNotes) != 0 ? pRomInfo2->CoreNotes : m_UnknownGoodName.c_str();
+	}
 
     switch (SortFieldInfo->Key)
     {
@@ -649,8 +664,8 @@ int32_t CALLBACK CRomBrowser::RomList_CompareItems(uint32_t lParam1, uint32_t lP
     case RB_GoodName: result = (int32_t)lstrcmpi(GoodName1, GoodName2); break;
     case RB_Status: result = (int32_t)lstrcmpi(pRomInfo1->Status, pRomInfo2->Status); break;
     case RB_RomSize: result = (int32_t)pRomInfo1->RomSize - (int32_t)pRomInfo2->RomSize; break;
-    case RB_CoreNotes: result = (int32_t)lstrcmpi(pRomInfo1->CoreNotes, pRomInfo2->CoreNotes); break;
-    case RB_PluginNotes: result = (int32_t)lstrcmpi(pRomInfo1->PluginNotes, pRomInfo2->PluginNotes); break;
+	case RB_CoreNotes: result = (int32_t)lstrcmpi(CoreNotes1, CoreNotes2); break;
+	case RB_PluginNotes: result = (int32_t)lstrcmpi(pRomInfo1->PluginNotes, pRomInfo2->PluginNotes); break;
     case RB_UserNotes: result = (int32_t)lstrcmpi(pRomInfo1->UserNotes, pRomInfo2->UserNotes); break;
     case RB_CartridgeID: result = (int32_t)lstrcmpi(pRomInfo1->CartID, pRomInfo2->CartID); break;
     case RB_Manufacturer: result = (int32_t)pRomInfo1->Manufacturer - (int32_t)pRomInfo2->Manufacturer; break;
