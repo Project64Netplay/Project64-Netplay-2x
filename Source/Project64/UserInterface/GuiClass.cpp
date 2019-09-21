@@ -93,7 +93,7 @@ CMainGui::~CMainGui(void)
 
 bool CMainGui::RegisterWinClass(void)
 {
-    stdstr_f VersionDisplay("Project64 %s", VER_FILE_VERSION_STR);
+    stdstr_f VersionDisplay("Project64 Netplay %s", VER_FILE_VERSION_STR);
 
     WNDCLASS wcl;
 
@@ -483,7 +483,7 @@ void CMainGui::Caption(LPCWSTR Caption)
 
 void CMainGui::Create(const char * WindowTitle)
 {
-    stdstr_f VersionDisplay("Project64 %s", VER_FILE_VERSION_STR);
+    stdstr_f VersionDisplay("Project64 Netplay %s", VER_FILE_VERSION_STR);
     m_hMainWindow = CreateWindowExW(WS_EX_ACCEPTFILES, VersionDisplay.ToUTF16().c_str(), stdstr(WindowTitle).ToUTF16().c_str(), WS_OVERLAPPED | WS_CLIPCHILDREN |
         WS_CLIPSIBLINGS | WS_SYSMENU | WS_MINIMIZEBOX, 5, 5, 640, 480,
         NULL, NULL, GetModuleHandle(NULL), this);

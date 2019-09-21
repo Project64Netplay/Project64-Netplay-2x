@@ -32,6 +32,7 @@ Thumbs.db
 /Config/Project64.sc3
 /Config/Project64.zcache
 /ipch
+/Plugin
 /Source/3rdParty/wx/lib/vc_lib/msw/wx/setup.h
 /Source/3rdParty/wx/lib/vc_lib/mswd/wx/setup.h
 /Source/3rdParty/wx/lib/vc_lib/mswu/wx/msw/rcdefs.h
