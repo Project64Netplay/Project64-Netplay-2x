@@ -1,0 +1,321 @@
+/* Button Gradient css
+============================================================================================ */
+.gradient_bg_btn{
+    width: 200px;
+    height: 55px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 27.5px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 18px;
+    font-family: $mon;
+    position: relative;
+    z-index: 3;
+    @include transition;
+    vertical-align: middle;
+    box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.18);
+    &:before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: -moz-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+        left: 0px;
+        top: 0px;
+        border-radius: 27.5px;
+        z-index: -1;
+        @include transition;
+    }
+    &:after{
+        content: "";
+        border: 1px solid #fff;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        border-radius: 27.5px;
+        opacity: 0;
+        @include transition;
+    }
+    i{
+        font-size: 30px;
+        color: #fff;
+        padding-right: 16px;
+        @include transition;
+        position: relative;
+        top: 3px;
+    }
+    &:hover{
+        color: #fff;
+        box-shadow: none;
+        i{
+            color: #fff;
+        }
+        &:before{
+            opacity: 0;
+        }
+        &:after{
+            opacity: 1;
+        }
+    }    
+}
+.gradient_bor_btn{
+    width: 200px;
+    height: 55px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 27.5px;
+    line-height: 55px;
+    color: #fff;
+    font-size: 18px;
+    font-family: $mon;
+    position: relative;
+    z-index: 3;
+    @include transition;
+    vertical-align: middle;
+    &:before{
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgba(218,202,252,1);
+        background: -moz-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(159,204,252,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(218,202,252,1)), color-stop(100%, rgba(159,204,252,1)));
+        background: -webkit-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(159,204,252,1) 100%);
+        background: -o-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(159,204,252,1) 100%);
+        background: -ms-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(159,204,252,1) 100%);
+        background: linear-gradient(to right, rgba(218,202,252,1) 0%, rgba(159,204,252,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dacafc', endColorstr='#9fccfc', GradientType=1 );
+        left: 0px;
+        top: 0px;
+        border-radius: 27.5px;
+        z-index: -1;
+        @include transition;
+        opacity: 0;
+    }
+    &:after{
+        content: "";
+        border: 1px solid #fff;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        border-radius: 27.5px;
+        opacity: 1;
+        @include transition;
+    }
+    i{
+        font-size: 30px;
+        color: #fff;
+        padding-right: 16px;
+        @include transition;
+        top: 3px;
+        position: relative;
+    }
+    &:hover{
+        color: #fff;
+        border-color: transparent;
+        box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.18);
+        i{
+            color: #fff;
+        }
+        &:before{
+            opacity: 1;
+        }
+        &:after{
+            opacity: 0;
+        }
+    }    
+}
+
+.black_d_btn{
+    display: inline-block;
+    padding: 0px 52px;
+    background: #121921;
+    color: #fff;
+    line-height: 76px;
+    border-radius: 3px;
+    font-family: $hee;
+    font-size: 22px;
+    @include transition;
+    &:hover{
+        background: #ffcd2f;
+        color: #fff;
+    }    
+}
+.black_d_btn_r{
+    display: inline-block;
+    padding: 0px 50px;
+    background: #121921;
+    color: #fff;
+    line-height: 42px;
+    border-radius: 3px;
+    font-family: $hee;
+    font-weight: 600;
+    font-size: 14px;
+    @include transition;
+    border-radius: 21px;
+    &:hover{
+        background: #ffcd2f;
+        color: #fff;
+    }    
+}
+/* End Button Gradient css
+============================================================================================ */
+
+/* Submit Button Gradient css
+============================================================================================ */
+.submint_btn{
+    display: inline-block;
+    width: 176px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-image: -moz-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+    background-image: -webkit-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+    background-image: -ms-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+    font-size: 14px;
+    font-family: $pop;
+    box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.12);
+    color: #fff;
+    letter-spacing: 1.4px;
+    @include transition;
+    outline: none !important;
+    &:hover{
+        color: #fff;
+    }
+    &:focus{
+        background-image: -moz-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+        background-image: -webkit-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+        background-image: -ms-linear-gradient( 0deg, rgb(224,195,252) 0%, rgb(142,197,252) 100%);
+    }
+}
+
+.send_btn{
+    height: 50px;
+    width: 226px;
+    padding: 0px;
+    line-height: 50px;
+    color: #fff;
+    background: #ffcd2f;
+    border-radius: 25px;
+    box-shadow: none;
+    margin: 0px auto;
+    text-align: center;
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: $hee;
+    letter-spacing: 1.12px;
+    outline: none !important;
+    @include transition;
+    box-shadow: 0px 0px 35px 0px rgba(255, 205, 47, 0.3);
+    &:hover, &:focus{
+        background: #121921;
+        color: #fff;
+    }
+}
+
+.theme_btn{
+    background: $blue;
+    border-radius: 40px;
+    color: #fff;
+    font: 500 14px/26px $mon;
+    text-transform:capitalize;
+    padding: 6px 29px;
+    margin-top: 42px;
+    box-shadow: none;
+    transition: all 0.4s linear;
+    &:hover{
+        background: rgb(34, 164, 251);
+        color: #fff;
+    }
+}
+
+.solid_btn{
+    padding: 10px 20px;
+    font: 400 18px/31px "Montserrat", sans-serif;
+    letter-spacing: 0.36px;
+    border: 2px solid #fff;
+    border-radius: 40px;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.5s linear;
+    width: 200px;
+    margin: 0px 10px;
+    i{
+        padding-right: 20px;
+    }
+    &:hover{
+        background: #fff;
+        color: $blue;
+    }
+}
+
+.border_btn{
+	padding: 10px 20px;
+    font: 400 18px/31px "Montserrat", sans-serif;
+    letter-spacing: 0.36px;
+    border: 2px solid #fff;
+    display: inline-block;
+    color: #fff;
+    transition: all 0.5s linear;
+    margin: 0px 10px;
+	text-transform: uppercase;
+    i{
+        padding-right: 15px;
+    }
+    &:hover{
+        background: #fff;
+        color: #eb484d;
+    }
+}
+
+
+.red_btn{
+	padding: 0px 36px;
+	background: #eb484d;
+	display: inline-block;
+	width: auto;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: $hee;
+	border-radius: 4px;
+	line-height: 35px;
+	border: 1px solid #eb484d;
+	@include transition;
+	text-align: center;
+	&:hover{
+		background: transparent;
+		color: #eb484d;
+	}
+}
+
+.order_btn{
+	background: #d30039;
+	text-transform: uppercase;
+	display: inline-block;
+	text-align: center;
+	padding: 0px 50px;
+	font-family: $hee;
+	font-weight: 500;
+	color: #fff;
+	font-size: 18px;
+	line-height: 50px;
+	border: 1px solid #d30039;
+	@include transition;
+	&:hover{
+		color: #d30039;
+		background: transparent;
+	}
+}
+
+/* End Submit Button Gradient css
+============================================================================================ */

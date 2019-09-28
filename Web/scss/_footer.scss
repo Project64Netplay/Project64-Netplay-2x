@@ -1,0 +1,872 @@
+/* Footer Area css
+============================================================================================ */
+.footer_area{
+    background: #EFF1FF;
+    position: relative;
+    margin-top: 100px;
+    &:before{
+        content: "";
+        position: absolute;
+        top: -94px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: url(../img/triangle-shap-1.png) no-repeat scroll center center;
+        background-size: cover;
+        width: 100%;
+        min-height: 94px;
+    }
+}
+.footer_widget_area{
+    padding: 100px 0px;
+}
+
+.f_title{
+    padding-bottom: 30px;
+    h3{
+        font-size: 18px;
+        font-family: $mon;
+        font-weight: 300;
+        letter-spacing: .36px;
+        color: $dip;
+        position: relative;
+        padding-bottom: 10px;
+        &:before{
+            content: "";
+            width: 30px;
+            height: 1px;
+            background: $dip;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+        }
+    }
+}
+.home_widget{
+    ul{
+        li{
+            a{
+                font-size: 14px;
+                line-height: 30px;
+                font-family: $pop;
+                color: $pfont;
+                letter-spacing: .28px;
+            }
+        }
+    }
+}
+.contact_widget{
+    
+}
+
+.footer_copy_right{
+    background: #34353b;
+    padding: 32px 0px;
+    .pull-left{
+        h4{
+            font-size: 14px;
+            font-family: $pop;
+            color: #bdbdbd;
+            letter-spacing: .28px;
+            font-weight: normal;
+        }
+    }
+    .pull-right{
+        ul{
+            li{
+                display: inline-block;
+                margin-right: 32px;
+                a{
+                    font-size: 14px;
+                    font-family: $pop;
+                    color: #bdbdbd;
+                    letter-spacing: .28px;
+                    font-weight: normal;
+                }
+                &:last-child{
+                    margin-right: 0px;
+                }
+            }
+        }
+    }
+}
+/* End Footer Area css
+============================================================================================ */
+
+/* Pink Footer Area css
+============================================================================================ */
+.pink_footer{
+    background: url(../img/pink-footer-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+}
+.pink_footer_wedget_area{
+    padding: 110px 0px;
+}
+.p_f_w_title{
+    padding-bottom: 40px;
+    h3{
+        color: #fff;
+        font-size: 20px;
+        font-family: $hee;
+        font-weight: bold;
+        letter-spacing: .40px;
+    }
+}
+.p_menu_widget, .p_support_widget{
+    ul{
+        li{
+            margin-bottom: 5px;
+            a{
+                font-size: 14px;
+                color: #fff;
+                font-family: $hee;
+                letter-spacing: .28px;
+                @include transition;
+            }
+            &:last-child{
+                margin-bottom: 0px;
+            }
+            &:hover{
+                a{
+                    color: #ffcd2f;
+                }
+            }
+        }
+    }
+}
+.p_contact_widget{
+    .contact_info{
+        li{
+            font-size: 14px;
+            color: #fff;
+            font-family: $hee;
+            letter-spacing: .28px;
+            margin-bottom: 7px;
+            a{
+                font-size: 14px;
+                color: #fff;
+                font-family: $hee;
+                letter-spacing: .28px;
+                span{
+                    padding-left: 64px;
+                }
+            }
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+.pink_social{
+    padding-top: 40px;
+    li{
+        display: inline-block;
+        margin-right: 10px;
+        a{
+            height: 28px;
+            width: 28px;
+            border-radius: 50%;
+            background: #000;
+            text-align: center;
+            color: #fff;
+            font-size: 12px;
+            display: inline-block;
+            line-height: 28px;
+            @include transition;
+        }
+        &:last-child{
+            margin-right: 0px;
+        }
+        &:hover{
+            a{
+                background: #ffcd2f;
+            }
+        }
+    }
+}
+.pink_copyright{
+    border-top: 1px dashed #d655c5;
+    overflow: hidden;
+    padding: 32px 0px;
+    .pull-right{
+        h4{
+            padding-top: 13px;
+            i{
+                color: #efabff;
+                padding-right: 2px;
+            }
+            font-size: 14px;
+            font-family: $hee;
+            color: #efabff;
+            a{
+                color: #efabff;
+                font-weight: bold;
+            }
+        }
+    }
+}
+/* End Pink Footer Area css
+============================================================================================ */
+
+/* Footer Five Area css
+============================================================================================ */
+.footer_five_area{
+    
+}
+.footer_five_widget{
+    background: #1f3348;
+    position: relative;
+    padding-top: 100px;
+    z-index: 3;
+    &:before{
+        content: "";
+        background: url(../img/footer-five-bg.png) no-repeat scroll center;
+        background-size: cover;
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+    }
+}
+.footer_five_w_inner{
+    
+}
+.f_f_title{
+    padding-bottom: 45px;
+    h3{
+        color: #d7d7d7;
+        font-family: $hee;
+        font-weight: bold;
+        letter-spacing: .4px;
+        font-size: 20px;
+    }    
+}
+.f_ab_widget{
+    img{
+        
+    }
+    h5{
+        font-size: 20px;
+        font-family: $hee;
+        color: #9baebf;
+        font-weight: 500;
+        letter-spacing: .4px;
+        padding-top: 32px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 28px;
+        color: #6d89a1;
+        font-family: $hee;
+        letter-spacing: .32px;
+        padding: 20px 0px 40px 0px;
+    }
+    h6{
+        font-size: 14px;
+        font-family: $hee;
+        font-weight: bold;
+        letter-spacing: .28px;
+        color: #f6f7fa;
+        @include transition;
+        i{
+            padding-left: 4px;
+            color: #ff9600;
+        }
+        &:hover{
+            color: #ff9600;
+        }
+    }
+}
+.f_link_widget{
+    ul{
+        li{
+            margin-bottom: 12px;
+            a{
+                position: relative;
+                font-size: 16px;
+                color: #9baebf;
+                font-family: $hee;
+                letter-spacing: .32px;
+                @include transition;
+                i{
+                    position: absolute;
+                    left: 2px;
+                    top: 43%;
+                    transform: translateY(-50%);
+                    opacity: 0;
+                }
+            }
+            &:hover{
+                a{
+                    padding-left: 15px;
+                    color: #ff9600;
+                    i{
+                        opacity: 1;
+                    }
+                }
+            }
+            &:last-child{
+                margin-bottom: 0px;
+            }
+        }
+    }
+}
+.f_contact_widget{
+    h5{
+        font-size: 18px;
+        color: #9baebf;
+        font-family: $hee;
+        font-weight: bold;
+        letter-spacing: .72px;
+        padding-bottom: 22px;
+    }
+    ul{
+        li{
+            margin-bottom: 4px;
+            a{
+                font-size: 16px;
+                font-family: $hee;
+                font-weight: 500;
+                letter-spacing: .32px;
+                color: #6d89a1;
+            }    
+        }    
+    } 
+    .live_contact{
+        display: inline-block;
+        color: #fff;
+        background: #ff9600;
+        text-align: center;
+        padding: 0px 48px;
+        line-height: 42px;
+        border-radius: 21px;
+        color: #e9e9e9;
+        font-family: $hee;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: .72px;
+        margin-top: 25px;
+    }
+}
+.f_five_copy_right_text{
+    text-align: center;
+    padding: 70px 0px 45px 0px;
+    position: relative;
+    z-index: 3;
+    h5{
+        font-size: 16px;
+        color: #9baebf;
+        font-family: $hee;
+        letter-spacing: .32px;
+        a{
+            color: #9baebf;
+            font-weight: bold;
+            @include transition;
+            &:hover{
+                color: #ff9600;
+            }
+        }
+    }
+}
+.footer_five_social{
+    background: #1f3348;
+    text-align: center;
+    ul{
+        padding: 25px 0px;
+        li{
+            display: inline-block;
+            margin-right: 75px;
+            a{
+                height: 50px;
+                width: 50px;
+                text-align: center;
+                line-height: 50px;
+                font-size: 21px;
+                color: #ffffff;
+                display: inline-block;
+                background: #1d2a39;
+                border-radius: 50%;
+                @include transition;
+            }
+            &:last-child{
+                margin-right: 0px;
+            }
+            &:hover{
+                a{
+                    color: #ff9600;
+                }    
+            }
+        }    
+    }
+}
+/* End Footer Five Area css
+============================================================================================ */
+
+/*footer_area_two 
+=============================================*/
+.footer_area_two{
+    text-align: center;
+    padding: 55px 0px;
+    p{
+        color: #bdbdbd;
+    }
+    .social-icon{
+        margin-bottom: 50px;
+        ul{
+            li{
+                display: inline-block;
+                & + li{
+                    margin-left: 27px;
+                }
+                a{
+                    font-size: 30px;
+                    color: #767676;
+                    width: 70px;
+                    height: 70px;
+                    border: 1px solid $blue;
+                    border-radius: 50%;
+                    display: inline-block;
+                    text-align: center;
+                    line-height: 70px;
+                    cursor: pointer;
+                    transition: all 0.4s ease;
+                    &:hover{
+                        background: $blue;
+                        color: #fff;
+                        border-color: $blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* Footer Three Area css
+============================================================================================ */
+.footer_three_area{
+	background: #f9faff;
+	padding-top: 90px;
+	.footer_widget_inner{
+		padding-bottom: 65px;
+	}
+}
+.ft_title{
+	padding-bottom: 20px;
+	h3{
+		font-size: 18px;
+		font-family: $mon;
+		color: $dip;
+		text-transform: uppercase;
+	}
+}
+.ab_ft_widget{
+	max-width: 280px;
+	p{
+		font-size: 14px;
+		line-height: 26px;
+		font-family: $pop;
+		letter-spacing: .28px;
+		color: $pfont;
+		padding: 25px 0px;
+	}
+	ul{
+		li{
+			margin-right: 20px;
+			display: inline-block;
+			a{
+				color: $pfont;
+				font-size: 18px;
+				@include transition;
+			}
+			&:last-child{
+				margin-right: 0px;
+			}
+			&:hover{
+				a{
+					color: $red;
+				}
+			}
+		}
+	}
+	&.blue{
+		ul{
+			li{
+				&:hover{
+					a{
+						color: #7db9e8;
+					}
+				}
+			}
+		}
+	}
+	&.violet{
+		ul{
+			li{
+				&:hover{
+					a{
+						color: #857de8;
+					}
+				}
+			}
+		}
+	}
+}
+.link_ft_widget{
+	ul{
+		li{
+			margin-bottom: 5px;
+			a{
+				color: $pfont;
+				font-size: 14px;
+				line-height: 26px;
+				letter-spacing: .28px;
+				font-family: $pop;
+				@include transition;
+			}
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			&:hover{
+				a{
+					color: $red;
+				}
+			}
+		}
+	}
+	&.blue{
+		ul{
+			li{
+				&:hover{
+					a{
+						color: #7db9e8;
+					}
+				}
+			}
+		}
+	}
+	&.violet{
+		ul{
+			li{
+				&:hover{
+					a{
+						color: #857de8;
+					}
+				}
+			}
+		}
+	}
+}
+.ft_copyright{
+	text-align: center;
+	p{
+		color: $pfont;
+		font-size: 16px;
+		line-height: 26px;
+		letter-spacing: .32px;
+		border-top: 1px solid #e8e8e8;
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+}
+
+
+.nine_footer{
+	overflow: hidden;
+	background: #eb484d;
+	padding: 35px 0px;
+	.nine_copyright{
+		.pull-left{
+			font-size: 16px;
+			color: #fff;
+			h4{
+				font-size: 16px;
+				font-family: $hee;
+				font-weight: normal;
+				a{
+					color: #fff;
+					font-weight: bold;
+				}	
+			}
+		}
+		.pull-right{
+			h5{
+				font-size: 16px;
+				color: #fff;
+				font-family: $hee;
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+
+/* End Footer Three Area css
+============================================================================================ */
+
+/* Ten Footer Area css
+============================================================================================ */
+.ten_footer_area{
+	background: url(../img/ten-ft-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+}
+.ten_footer_widget{
+	padding: 100px 0px;
+}
+.t_f_widget{
+	
+}
+.ten_f_title{
+	padding-top: 20px;
+	h3{
+		font-size: 20px;
+		color: #d7d7d7;
+		font-family: $hee;
+		padding-bottom: 45px;
+	}
+}
+.t_ab_widget{
+	h4{
+		font-size: 20px;
+		color: #a5acb7;
+		font-family: $hee;
+		font-weight: 500;
+		padding-top: 45px;
+	}
+	p{
+		font-size: 16px;
+		color: #585858;
+		line-height: 28px;
+		font-family: $hee;
+		padding: 25px 0px;
+	}
+	a{
+		font-size: 14px;
+		color: #0083ff;
+		font-family: $hee;
+		text-transform: uppercase;
+	}
+}
+.t_link_widget{
+	max-width: 98px;
+	margin: auto;
+	ul{
+		li{
+			margin-bottom: 13px;
+			a{
+				font-size: 16px;
+				color: #585858;
+				font-family: $hee;
+				font-weight: normal;
+				position: relative;
+				@include transition;
+				i{
+					position: absolute;
+					left: 0px;
+					top: 48%;
+					transform: translateY(-50%);
+					@include transition;
+					opacity: 0;
+				}
+			}
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			&:hover{
+				a{
+					padding-left: 16px;
+					color: #0083ff;
+					i{
+						color: #0083ff;
+						opacity: 1;
+					}
+				}
+			}
+		}
+	}
+}
+.t_contact_widget{
+	h4{
+		font-size: 18px;
+		color: #a5acb7;
+		font-weight: bold;
+		font-family: $hee;
+		padding-bottom: 25px;
+	}
+	h5{
+		font-size: 16px;
+		font-weight: 500;
+		font-family: $hee;
+		color: #8e8e8e;
+	}
+	p{
+		font-size: 16px;
+		color: #585858;
+		font-weight: normal;
+		font-family: $hee;
+		padding-top: 10px;
+		padding-bottom: 25px;
+	}
+	.send_bent{
+		color: #e9e9e9;
+		font-family: $hee;
+		font-weight: bold;
+		text-transform: uppercase;
+		font-size: 14px;
+		background: #0083ff;
+		padding: 0px 50px;
+		display: inline-block;
+		line-height: 39px;
+		border: 1px solid #0083ff;
+		border-radius: 20px;
+		@include transition;
+		&:hover{
+			background: transparent;
+			color: #0083ff;
+			
+		}
+	}
+	h6{
+		font-size: 18px;
+		color: #a5acb7;
+		font-weight: bold;
+		font-family: $hee;
+		padding-top: 50px;
+		padding-bottom: 20px;
+	}
+	ul{
+		li{
+			display: inline-block;
+			margin-right: 10px;
+			a{
+				background: #273546;
+				height: 28px;
+				width: 28px;
+				text-align: center;
+				border-radius: 50%;
+				line-height: 28px;
+				display: inline-block;
+				color: #fff;
+				@include transition;
+			}
+			&:last-child{
+				margin-right: 0px;
+			}
+			&:hover{
+				a{
+					background: #0083ff;
+					color: #fff;
+				}
+			}
+		}
+	}
+}
+.ten_f_copyright{
+	text-align: center;
+	border-top: 1px dashed #454545;
+	padding: 45px 0px;
+	h4{
+		font-size: 16px;
+		color: #585858;
+		font-family: $hee;
+		padding-bottom: 15px;
+	}
+	h5{
+		color: #8e8e8e;
+		font-size: 16px;
+		font-family: $hee;
+	}
+}
+/* End Ten Footer Area css
+============================================================================================ */
+
+/* End Ten Footer Area css
+============================================================================================ */
+.gd_footer_area{
+	background: #0a0002;
+}
+.gd_footer_widgets{
+	padding: 100px 0px;
+}
+.gd_f_widget{
+	
+}
+.gd_ab_widget{
+	img{}
+	p{
+		font-size: 14px;
+		line-height: 24px;
+		color: #8e8e8e;
+		font-family: $hee;
+		max-width: 255px;
+		padding-top: 25px;
+	}
+}
+.gd_link_widget{
+	ul{
+		li{
+			margin-bottom: 4px;
+			&:last-child{
+				margin-bottom: 0px;
+			}
+			a{
+				font-size: 14px;
+				line-height: 24px;
+				color: #8e8e8e;
+				font-family: $hee;
+				text-transform: uppercase;
+			}
+		}
+	}
+}
+.gd_link_widget{
+	
+}
+.gd_f_title{
+	padding-bottom: 20px;
+	h3{
+		color: #fff;
+		font-size: 18px;
+		font-family: $hee;
+		font-weight: 500;
+		text-transform: uppercase;
+	}
+}
+.gd_contact_widget{
+	h5{
+		font-size: 14px;
+		color: #8e8e8e;
+		font-family: $hee;
+		padding-bottom: 8px;
+		font-weight: normal;
+		i{
+			color: #e9003f;
+			padding-right: 10px;
+		}
+	}
+	ul{
+		padding-top: 20px;
+		li{
+			display: inline-block;
+			margin-right: 10px;
+			&:last-child{
+				margin-right: 0px;
+			}
+			a{
+				font-size: 22px;
+				color: #8e8e8e;
+				
+			}
+		}
+	}
+}
+.gd_copyright{
+	text-align: center;
+	padding-bottom: 45px;
+	h5{
+		font-size: 14px;
+		color: #8e8e8e;
+		font-family: $hee;
+	}
+}
+/* End Ten Footer Area css
+============================================================================================ */

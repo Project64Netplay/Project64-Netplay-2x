@@ -1,0 +1,446 @@
+.satisfaction_area_two{
+    padding-bottom: 340px;
+    .satisfaction_item{
+        .icon-round{
+            margin-bottom: 0px;
+        }
+    }
+}
+
+
+/*testimonial ara two css
+======================================================*/
+.testimonial_area_two{
+    padding-bottom: 100px;
+    margin-top:0px;
+    .video_inner{
+        margin-bottom: 120px;
+    }
+}
+.testimonial-carousel{
+    padding: 0px 60px;
+    
+    .item{
+        margin-top: 40px;
+        margin-bottom: 105px;
+    }
+    .slider-item{
+        text-align: center;
+        background: #fff;
+        box-shadow: 0px 4px 27.55px 1.45px rgba(0, 0, 0, 0.09);
+        padding: 0px 50px;
+        i{
+            font-size: 55px;
+            color: $blue;
+            margin-top: -30px;
+        }
+        p{
+            font-size: 16px;
+            line-height: 30px;
+            padding-top: 15px;
+            padding-bottom: 25px;
+        }
+        h4{
+            font: 300 24px/36px $mon;
+            color: #424242;
+            letter-spacing: 0.20;
+        }
+        h6{
+            font: 400 14px/36px $mon;
+            letter-spacing: 0.20;
+            color: #6b6d6f;
+            margin-bottom: 25px;
+        }
+        .img{
+            img{
+                width: auto;
+                display: inline-block;
+                margin-bottom: -27px;
+            }   
+        }
+    }
+}
+.owl-dots{
+    text-align: center;
+    .owl-dot{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background: #e8e8e8;
+        display: inline-block;
+        margin: 0px 5px;
+        transition: all 0.4s linear;
+        &.active{
+            background: $blue;
+            width: 17px;
+            height: 17px;
+        }
+    }
+}
+
+
+/*screenshot_area_two
+======================================================*/
+.screenshot_area_two{
+    overflow: hidden;
+    padding: 100px 0px;
+    .screenshot_left{
+        width: 50%;
+        float: left;
+        .screenshot_tab{
+            max-width: 555px;
+            margin: 0px 0px 0px auto;
+            padding-right: 78px;
+            .nav-tabs{
+                border: 0px;
+                margin-bottom: 5px;
+                li{
+                    margin: 0px;
+                    a{
+                        border: 0px;
+                        font-size: 14px;
+                        line-height: 26px;
+                        letter-spacing: 0.20px;
+                        color: $pfont;
+                        font-family: $pop;
+                        padding: 0px 17px;
+                        transition: all 0.4s ease;
+                        border-radius: 20px;
+                        &:hover{
+                            background: transparent;
+                            color: $blue;
+                        }
+                    }
+                    &.active{
+                        a{
+                            background: $blue;
+                            color: #fff;
+                        }
+                    }
+                    & + li{
+                        margin-left: 4px;
+                    }
+                }
+            }
+            .tab-content{
+                p{
+                    padding-top: 30px;
+                }
+            }
+        }
+    }
+    .screenshot_right{
+        width: 50%;
+        float: right;
+        .screenshot_carousel{
+            position: relative;
+            padding: 70px 78px 128px 0px;
+            @media(max-width:1800px){
+                padding-right: 0px;
+            }
+            &:before{
+                content: "";
+                background: url("../img/screenshot/app-screen.png") no-repeat;
+                position: absolute;
+                left: -5px;
+                top: 0;
+                width: 100%;
+                height: 100%;
+            }
+            .item{
+                padding: 0px 14px;
+                overflow: hidden;
+                img{
+                    width: auto;
+                }
+            }
+        }
+        .owl-dots{
+            position: absolute;
+            left: 100px;
+            bottom: 0;
+        }
+    }
+}
+
+.testi_inner_area{
+	padding-top: 120px;
+}
+
+/* Testimonials Seven Slider css
+============================================================================================ */
+.testimonials_seven_area{
+	padding-bottom: 100px;
+}
+.testimonials_s_slider{
+	.item{
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 100px;
+		padding-bottom: 45px;
+	}	
+	.testi_s_inner{
+		text-align: center;
+		box-shadow: 0px 4px 27.55px 1.45px rgba(0, 0, 0, 0.09);
+		padding: 50px 95px;
+		img{
+			width: auto;
+			margin: auto;
+		}
+		h4{
+			font-size: 24px;
+			font-family: $mon;
+			font-weight: 300;
+			color: $dip;
+			padding-bottom: 10px;
+			padding-top: 20px;
+			&:hover{
+				color: #7db9e8;
+			}
+		}
+		h5{
+			font-size: 14px;
+			font-family: $pfont;
+			font-family: $mon;
+		}
+		p{
+			font-size: 16px;
+			line-height: 30px;
+			font-family: $pop;
+			font-weight: normal;
+			padding-top: 30px;
+			padding-bottom: 25px;
+		}
+	}
+	.owl-nav{
+		.owl-prev, .owl-next{
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%);
+			width: 40px;
+			height: 42px;
+			font-size: 40px;
+			color: #898989;
+			background: #e8e8e8;
+			text-align: center;
+			line-height: 42px;
+			z-index: 2;
+		}
+		.owl-prev{
+			left: 100px;
+		}
+		.owl-next{
+			right: 100px;
+		}
+	}
+}
+/* End Testimonials Seven css
+============================================================================================ */
+
+/* Testimonials Eight css
+============================================================================================ */
+.testimonials_eight_area{
+	text-align: center;
+	.testimonials_eight_inner{
+		img{
+			box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.18);
+		}
+		h4{
+			font-size: 24px;
+			color: #4f4f4f;
+			font-family: $mon;
+			font-weight: 300;
+			padding-top: 25px;
+		}
+		h5{
+			font-size: 14px;
+			color: #4f4f4f;
+			font-family: $pop;
+			padding-top: 12px;
+			padding-bottom: 25px;
+		}
+		p{
+			font-size: 16px;
+			line-height: 30px;
+			font-family: $pop;
+			color: $pfont;
+			max-width: 750px;
+			margin: auto;
+			padding-bottom: 40px;
+		}
+		ul{
+			li{
+				display: inline-block;
+				margin-right: 5px;
+				&:last-child{
+					margin-right: 0px;
+				}
+				a{
+					font-size: 24px;
+					color: #ffd060;
+				}
+			}
+		}
+	}
+}
+/* End Testimonials Eight css
+============================================================================================ */
+
+/* Ten Customer say Area css
+============================================================================================ */
+.ten_say_area{
+	background: #fafcff;
+}
+.ten_say_slider{
+	.item{
+		padding-bottom: 40px;
+		img{
+			width: auto;
+		}
+	}
+	.ten_say_item{
+		background: #fff;
+		box-shadow: 0px 21px 40px 0px rgba(0, 0, 0, 0.05);
+		padding: 30px;
+		.media{
+			.media-left{
+				padding-right: 20px;
+			}
+			.media-body{
+				vertical-align: middle;
+				h4{
+					color: #0083ff;
+					font-family: $hee;
+					font-size: 20px;
+					padding-bottom: 8px;
+				}
+				h5{
+					color: #8e8e8e;
+					font-family: $hee;
+					font-size: 16px;
+				}
+			}
+		}
+		p{
+			font-size: 16px;
+			line-height: 28px;
+			color: #8e8e8e;
+			font-family: $hee;
+			font-weight: 500;
+			padding-top: 30px;
+			padding-bottom: 20px;
+		}
+		ul{
+			text-align: right;
+			li{
+				display: inline-block;
+				a{
+					color: #0083ff;
+				}	
+			}	
+		}
+	}
+	.owl-dots{
+		margin-top: 30px;
+		.owl-dot{
+			&.active{
+				background: #0083ff;
+			}	
+		}
+	}
+}
+/* End Ten Customer say Area css
+============================================================================================ */
+
+/* Ten Question Area css
+============================================================================================ */
+.ten_question_area{
+	background: #fafcff;
+	padding: 70px 0px;
+	.ten_title{
+		max-width: 780px;
+		margin: auto;
+		text-align: left;
+		h2{
+			
+		}
+		p{
+			font-size: 16px;
+			color: #8e8e8e;
+		}
+	}
+	.tex_ques_inner{
+		max-width: 780px;
+		margin: auto;
+		.panel-group{
+			.panel.panel-default{
+				border: none;
+				border-radius: 0px;
+				background: transparent;
+				box-shadow: none;
+				margin-top: 20px;
+				&:first-child{
+					margin-top: 0px;
+				}
+				.panel-heading{
+					padding: 0px;
+					background: transparent;
+					border-radius: 0px;
+					border: none;
+					.panel-title{
+						a{
+							display: block;
+							position: relative;
+							border: 1px solid #f2f2f4;
+							padding-left: 35px;
+							padding-right: 20px;
+							padding-top: 12px;
+							padding-bottom: 10px;
+							font-size: 16px;
+							font-family: $hee;
+							color: #585858;
+							line-height: 26px;
+							text-transform: uppercase;
+							background: #fff;
+							box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.04);
+							i{
+								position: absolute;
+								right: 15px;
+								top: 50%;
+								transform: translateY(-50%);
+								display: inline-block;
+								& + i{
+									display: none;
+								}
+							}
+							&.collapsed{
+								i{
+									display: none;
+									& + i{
+										display: inline-block;
+									}
+								}
+							}
+						}
+					}
+				}
+				.panel-collapse{
+					background: transparent;
+					.panel-body{
+						border: none;
+						background: transparent;
+						font-size: 16px;
+						line-height: 28px;
+						color: #8e8e8e;
+						padding-left: 35px; 
+						font-weight: normal;
+						padding-right: 20px;
+						padding-top: 20px;
+					}
+				}
+			}
+		}
+	}
+}
+/* End Ten Question Area css
+============================================================================================ */

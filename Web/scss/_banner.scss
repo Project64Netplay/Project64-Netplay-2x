@@ -1,0 +1,393 @@
+
+/* Header Banner css
+============================================================================================ */
+.header_banner_area{
+	background: url(../img/home-3/header-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+	position: relative;
+	z-index: 3;
+	&:before{
+		content: "";
+		background: rgba(252, 90, 26, .91);
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		height: 100%;
+		width: 100%;
+		z-index: -1;
+	}
+}
+.header_banner_inner{
+	text-align: center;
+	padding-top: 210px;
+	h3{
+		font-size: 48px;
+		font-family: $mon;
+		font-weight: bold;
+		color: #fff;
+		letter-spacing: .96px;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+	}
+	p{
+		font-size: 36px;
+		font-family: $mon;
+		font-weight: 300;
+		text-transform: uppercase;
+		color: #fff;
+		letter-spacing: .72px;
+		padding-bottom: 50px;
+	}
+	.subscrib_inner{
+		max-width: 530px;
+		margin: 0px auto 75px;
+		width: 100%;
+		overflow: hidden;
+		.input-group{
+			display: block;
+			position: relative;
+			overflow: hidden;
+			input{
+				height: 68px;
+                padding: 0px 172px 0px 35px;
+                border-radius: 31px;
+                border: 1px solid #e0e0e0;
+                border-right: 0px;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                outline: none;
+                background: #fff;
+				display: block;
+                width: 100%;
+                display: block;
+                @include placeholder{
+                    font-family: $pop, FontAwesome;
+                    font-size: 18px;
+                    font-weight: normal;
+                    letter-spacing: .36px;
+                    color: $pfont;
+                }
+			}
+			.input-group-btn {
+                display: block;
+                white-space: normal;
+                position: absolute;
+                right: 2px;
+                width: 124px;
+                border-radius: 31px;
+                top: 2.5px;
+                -webkit-box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.12);
+                box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.12);
+                .btn-default {
+                    height: 63px;
+                    padding: 0px;
+                    box-shadow: none !important;
+                    outline: none !important;
+                    border-radius: 0px;
+                    border: none;
+                    position: relative;
+                    width: 124px;
+                    text-align: center;
+                    border-radius: 31px;
+                    z-index: 3;
+                    color: #fff;
+                    background: $red;
+                    font-family: "Poppins", sans-serif;
+                    letter-spacing: .48px;
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                }
+            }
+		}
+	}
+}
+/* End Header Banner css
+============================================================================================ */
+
+/* End Header Banner css
+============================================================================================ */
+.server_banner_area{
+	background: url(../img/banner/server-banner.jpg) no-repeat fixed center center;
+	background-size: cover;
+	padding-top: 275px;
+	padding-bottom: 190px;
+}
+.server_b_inner{
+	.server_text{
+		h4{
+			font-size: 50px;
+			font-family: $mon;
+			color: #fff;
+			letter-spacing: 0px;
+			text-transform: uppercase;
+			position: relative;
+			span{
+				position: relative;
+				&:before{
+					content: "Special Offer Now $10 ";
+					color: #fff;
+					background: #fc6428;
+					position: absolute;
+					left: -220px;
+					top: -125px;
+					width: 500px;
+					text-align: center;
+					font-size: 36px;
+					text-transform: capitalize;
+					font-size: 36px;
+					padding: 20px 0px;
+				}
+				&:after{
+					content: "";
+					width: 0;
+					height: 0;
+					border-style: solid;
+					border-width: 22px 14px 0 14px;
+					border-color: #fc6428 transparent transparent transparent;
+					position: absolute;
+					left: 30px;
+					top: -46px;
+				}
+			}
+		}
+		h5{
+			font-size: 36px;
+			font-family: $mon;
+			font-weight: 300;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: .72px;
+			padding: 25px 0px 25px 0px;
+		}
+		p{
+			font-size: 16px;
+			line-height: 28px;
+			font-family: $pop;
+			color: #fff;
+			letter-spacing: .32px;
+		}
+		ul{
+			max-width: 490px;
+			overflow: hidden;
+			margin-top: 25px;
+			li{
+				width: 50%;
+				float: left;
+				overflow: hidden;
+				margin-top: 15px;
+				a{
+					font-size: 16px;
+					line-height: 28px;
+					font-family: $pop;
+					color: #fff;
+					letter-spacing: .32px;
+					i{
+						padding-right: 10px;
+					}
+				}
+			}
+		}
+		.purchase-btn{
+			border-radius: 0px;
+			font-size: 18px;
+			font-family: $pop;
+			margin-top: 75px;
+		}
+	}
+	.server_shap_img{
+		margin-left: -30px;
+	}	
+}
+
+/* End Header Banner css
+============================================================================================ */
+
+/* Banner Nine css
+============================================================================================ */
+.banner_nine_area{
+	background: url(../img/banner/banner-n-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+	padding-top: 235px;
+	padding-bottom: 100px;
+	.b_nine_text{
+		padding-top: 130px;
+		h3{
+			font-size: 60px;
+			color: #fff;
+			text-transform: uppercase;
+			font-family: $hee;
+			span{
+				color: #000;
+			}
+		}
+		h5{
+			font-family: $hee;
+			color: #fff;
+			font-size: 20px;
+			text-transform: uppercase;
+			letter-spacing: 10px;
+			padding: 45px 0px 80px 0px;
+		}
+		.solid_btn{
+			
+		}
+	}
+	.b_nine_image{
+		text-align: center;
+		img{
+			max-width: 100%;
+		}	
+	}
+}
+/* End Banner Nine css
+============================================================================================ */
+
+/* Gadget Banner Area css
+============================================================================================ */
+.gadget_banner_area{
+	background: url(../img/banner/gadget-banner-bg.jpg) no-repeat scroll center center;
+	background-size: cover;
+}
+.gadget_banner_inner{
+	padding: 238px 0px;
+	.gadget_text{
+		h2{
+			color: #fff;
+			font-size: 60px;
+			font-family: $hee;
+			font-weight: 900;
+			text-transform: uppercase;
+		}
+		h6{
+			font-size: 18px;
+			text-transform: uppercase;
+			font-family: $hee;
+			font-weight: bold;
+			color: #fff;
+			padding: 30px 0px;
+		}
+		h5{
+			font-size: 28px;
+			color: #d30039;
+			font-style: italic;
+			font-family: $hee;
+			font-weight: normal;
+			padding-bottom: 35px;
+		}
+	}
+}
+/* End Gadget Banner Area css
+============================================================================================ */
+
+/* Blog ms Banner Area css
+============================================================================================ */
+.blog_banner_area{
+	background: url(../img/banner/blog-banner.jpg) no-repeat scroll center center;
+	background-size: cover;
+}
+.blog_banner_inner{
+	padding-top: 140px;
+	padding-bottom: 40px;
+	h4{
+		font-size: 60px;
+		font-family: $hee;
+		font-weight: 900;
+		color: #fff;
+		padding-bottom: 50px;
+		span{
+			font-weight: normal;
+		}
+	}
+	ul{
+		background: #e9003f;
+		padding: 0px 15px;
+		display: inline-block;
+		li{
+			display: inline-block;
+			margin-right: 5px;
+			a{
+				font-size: 14px;
+				color: #fff;
+				font-family: $hee;
+				font-weight: normal;
+				position: relative;
+				line-height: 30px;
+				&:before{
+					content: "/";
+					color: #fff;
+					font-size: 14px;
+					position: absolute;
+					left: -7px;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+			}
+			&:first-child{
+				a{
+					&:before{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+/* End Blog ms Area css
+============================================================================================ */
+
+/* Blog ms Area css
+============================================================================================ */
+.blog_banner_area_two{
+	background: url(../img/banner/blog-banner-2.jpg) no-repeat scroll center center;
+	background-size: cover;
+}
+.blog_banner_inner_two{
+	padding-top: 140px;
+	padding-bottom: 40px;
+	h4{
+		font-size: 60px;
+		font-family: $hee;
+		font-weight: 900;
+		color: #fff;
+		padding-bottom: 50px;
+		span{
+			font-weight: normal;
+		}
+	}
+	ul{
+		background: #a5acb7;
+		padding: 0px 15px;
+		display: inline-block;
+		li{
+			display: inline-block;
+			margin-right: 5px;
+			a{
+				font-size: 14px;
+				color: #fff;
+				font-family: $hee;
+				font-weight: normal;
+				position: relative;
+				line-height: 30px;
+				&:before{
+					content: "/";
+					color: #fff;
+					font-size: 14px;
+					position: absolute;
+					left: -7px;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+			}
+			&:first-child{
+				a{
+					&:before{
+						display: none;
+					}
+				}
+			}
+		}
+	}
+}
+/* End Blog ms Area css
+============================================================================================ */

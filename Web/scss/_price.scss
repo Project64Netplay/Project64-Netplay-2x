@@ -1,0 +1,827 @@
+/* Price Area css
+============================================================================================ */
+.price_table_area{
+    background: #EFF1FF;
+    padding: 100px 0px;
+    .main_title{
+        padding-bottom: 65px;
+    }
+}
+.price_table_inner{
+    max-width: 917px;
+    margin: auto;
+    .price_item{
+        width: calc(100% / 3);
+        float: left;
+        text-align: center;
+        background: #fff;
+        padding-bottom: 44px;
+        overflow: hidden;
+        .price_header{
+            background: #d8cafc;
+            padding: 44px 0px 30px 0px;
+            h3{
+                font-size: 18px;
+                text-transform: uppercase;
+                font-family: $mon;
+                font-weight: 300;
+                color: $dip;
+                background: #fff;
+                display: block;
+                max-width: 155px;
+                text-align: center;
+                margin: auto;
+                line-height: 35px;
+                letter-spacing: .36px;
+                border-radius: 17.5px;
+            }
+            h2{
+                font-size: 50px;
+                font-family: $mon;
+                font-weight: bold;
+                color: #fff;
+                letter-spacing: 1px;
+                padding-top: 8px;
+                padding-bottom: 5px;
+            }
+            h6{
+                font-size: 18px;
+                font-family: $mon;
+                color: #fff;
+                font-weight: 300;
+                letter-spacing: .36px;
+            }
+        }
+        ul{
+            padding: 50px 0px;
+            li{
+                margin-bottom: 25px;
+                a{
+                    font-size: 14px;
+                    font-family: $pop;
+                    color: $pfont;
+                }
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }    
+        }
+        &:nth-child(2){
+            box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.14);
+            transform: scale(1.0001);
+            padding-bottom: 60px;
+            .price_header{
+                background: rgba(218,202,252,1);
+                background: -moz-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(218,202,252,1)), color-stop(100%, rgba(155,204,252,1)));
+                background: -webkit-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: -o-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: -ms-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: linear-gradient(to right, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dacafc', endColorstr='#9bccfc', GradientType=1 );
+            }
+            .price_btn{
+                background: rgba(218,202,252,1);
+                background: -moz-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: -webkit-gradient(left top, right top, color-stop(0%, rgba(218,202,252,1)), color-stop(100%, rgba(155,204,252,1)));
+                background: -webkit-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: -o-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: -ms-linear-gradient(left, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                background: linear-gradient(to right, rgba(218,202,252,1) 0%, rgba(155,204,252,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dacafc', endColorstr='#9bccfc', GradientType=1 );
+            }
+        }
+    }
+}
+.price_btn{
+    display: inline-block;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .28px;
+    padding: 0px 28px;
+    background: #d9cafc;
+    line-height: 35px;
+    border-radius: 17.5px;
+    color: #fff;
+    &:hover{
+        color: #fff;
+    }
+}
+/* End Price Area css
+============================================================================================ */
+
+/* Server Price Area css
+============================================================================================ */
+.server_price_area{
+    padding: 100px 0px;
+}
+.service_price_inner{
+    
+}
+.server_price_item{
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(6, 83, 129, 0.26);
+    .pirce_head{
+        text-align: center;
+        background: #065381;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        min-height: 155px;
+        padding-top: 28px;
+        h4{
+            font-size: 24px;
+            color: #fff;
+            font-family: $hee;
+            letter-spacing: .48px;
+            margin-top: 15px;
+        }
+    }
+    .pirce_body{
+        border-bottom: 3px solid #064f7d;
+        h5{
+            font-size: 23px;
+            color: #065381;
+            font-family: $hee;
+            font-weight: 900;
+            padding: 25px 0px 40px 0px;
+        }
+        ul{
+            li{
+                margin-bottom: 15px;
+                a{
+                    font-size: 14px;
+                    font-family: $hee;
+                    color: #5f7b93;
+                    letter-spacing: .28px;
+                    span{
+                        font-weight: bold;
+                    }
+                }
+                &:last-child{
+                    margin-bottom: 0px;
+                }
+            }    
+        }
+        .pirce_footer{
+            padding: 50px 0px;
+            a{
+                font-size: 16px;
+                color: #f1f7f5;
+                font-family: $hee;
+                font-weight: bold;
+                display: inline-block;
+                padding: 0px 35px;
+                background: #6d89a1;
+                line-height: 44px;
+                letter-spacing: .32px;
+                border-radius: 22px;
+            }
+        }    
+    }
+    &.prime{
+        box-shadow: 0px 0px 5px 0px rgba(255, 150, 0, 0.26); 
+        .pirce_head{
+            background: #ff9600;
+            h6{
+                background: #26547c;
+                display: inline-block;
+                padding: 0px 15px;
+                border-radius: 7.5px;
+                color: #fff;
+                font-size: 10px;
+                font-family: $hee;
+                font-weight: 500;
+                letter-spacing: .4px;
+                line-height: 15px;
+            }
+        }
+        .price-body{
+            border-bottom: 3px solid #ff9600;
+        }
+    }  
+    &.ultimate{
+        box-shadow: 0px 0px 5px 0px rgba(47, 210, 240, 0.26);
+        .pirce_head{
+            background: #2fd2f0;
+        }
+        .pirce_body{
+            border-bottom: 3px solid #2fd2f0;
+        }
+    }
+}
+
+.price_item2{
+	h2{
+		text-align: center;
+	}
+	h3{
+		text-align: center;
+	}
+	.theme_btn{
+		border-radius: 0px;
+		text-align: center;
+		display: block;
+		width: 152px;
+		margin: 40px auto 0px;
+	}	
+	&.orange{
+		&:before{
+			content: "\f02e";
+			color: $red;
+			font: normal normal normal 14px/1 FontAwesome;
+			position: absolute;
+			top: -3px;
+			right: 30px;
+			font-size: 48px;
+		}
+		h3{
+			color: $red !important;
+		}
+		.list{
+			li{
+				i{
+					color: $red !important; 
+				}
+			}
+		}
+		.theme_btn{
+			background: $red !important;
+		}
+	}
+}
+
+/* End Server Price Area css
+============================================================================================ */
+
+/*pricing-area-two 
+================================================*/
+.pricing-area-two{
+    padding: 100px 0px;
+    .main_title{
+        margin-bottom: 63px;
+    }
+    .pricing-item{
+        background: #fff;
+        padding: 50px 30px;
+        transition: all 0.4s linear;
+        h2{
+            font: 300 24px/26px $mon;
+            color: $dip;
+            text-transform: uppercase;
+            letter-spacing: 0.48px;
+            margin-bottom: 28px;
+        }
+        h3{
+            font-family: $mon;
+            color: $blue;
+            font-size: 28px;
+            line-height: 26px;
+            font-weight: 700;
+            sub{
+                font-weight: 400;
+                font-size: 14px;
+            }
+        }
+        .list{
+            margin-top: 40px;
+            li{
+                font: 400 14px/28px $pop;
+                color: $pfont;
+                i{
+                    color: $blue;
+                    padding-right: 15px;
+                }
+            }
+        }
+        &:hover{
+            box-shadow: 0px 6px 11.83px 1.17px rgba(0, 0, 0, 0.08);
+        }
+    }
+}
+
+
+.price_seven{
+	background: url(../img/domain-bg.jpg) no-repeat fixed center center;
+	background-size: cover;
+	position: relative; 
+	z-index: 3;
+	&:before{
+		content: "";
+		background: rgba(125, 185, 232, 0.9);
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+		display: block;
+	}
+}
+.pricing-item.price_item3{
+	padding: 0px;
+	.price_header{
+		text-align: center;
+		background: url(../img/price-head-1.jpg) no-repeat scroll center center;
+		background-size: cover;
+		position: relative;
+		z-index: 2;
+		color: #fff;
+		padding-top: 32px;
+		padding-bottom: 32px;
+		box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.1);
+		&:before{
+			content: "";
+			background: rgba(63, 63, 63, .95);
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			width: 100%;
+			height: 100%;
+			z-index: -1;
+			@include transition;
+		}
+		&:after{
+			content: "\f02e";
+			color: #fff;
+			font: normal normal normal 14px/1 FontAwesome;
+			position: absolute;
+			top: -3px;
+			right: 20px;
+			font-size: 48px;
+			opacity: 0;
+			@include transition;
+		}
+		h2{
+			color: #fff;
+		}
+		h3{
+			color: #fff;
+		}
+	}
+	.price_body{
+		padding: 35px 30px;
+		text-align: center;
+		.list{
+			margin-top: 0px;
+			text-align: left;
+		}
+		.theme_btn{
+			background: #3f3f3f;
+		}
+	}
+	&:hover, &.active{
+		.price_header{
+			&:before{
+				background: rgba(125, 185, 232, 0.9);
+			}
+			&:after{
+				opacity: 1;
+			}
+		}
+		.price_body{
+			.theme_btn{
+				background: #3498db;
+			}
+		}
+	}
+}
+
+/*============== chose_us_area css ============*/
+.chose_us_area{
+    padding: 100px 0px;
+    .chose_content{
+        p{
+            & + p{
+                padding-top: 27px;
+            }
+        }
+        .theme_btn{
+            padding: 14px 49px;
+            font-size: 18px;
+            margin-top: 65px;
+        }
+    }
+}
+/*============== chose_us_area css ============*/
+
+
+/*============== download_area css ============*/
+.download_area{
+    text-align: center;
+    background: $blue;
+    padding: 100px 0px;
+    .main_title{
+        margin-bottom: 60px;
+    }
+}
+/*============== download_area css ============*/
+
+/*============== subcribe_area_two css ============*/
+.subcribe_area_two{
+    padding: 100px 0px;
+    .subscrib_inner{
+        .input-group{
+            max-width: 615px;
+            margin: 75px auto auto;
+            display: block;
+            position: relative;
+            width: 100%;
+            input {
+                height: 66px;
+                padding: 0px 172px 0px 35px;
+                border-radius: 31px;
+                border: 1px solid #e0e0e0;
+                border-right: 0px;
+                -webkit-box-shadow: none;
+                box-shadow: none;
+                outline: none;
+                background: transparent;
+                width: 100%;
+                display: block;
+                @include placeholder{
+                    font-family: $pop, FontAwesome;
+                    font-size: 18px;
+                    font-weight: normal;
+                    letter-spacing: .36px;
+                    color: $pfont;
+                }
+            }
+            .input-group-btn {
+                display: block;
+                white-space: normal;
+                position: absolute;
+                right: 0px;
+                width: 180px;
+                border-radius: 31px;
+                top: 0px;
+                -webkit-box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.12);
+                box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.12);
+                .btn-default {
+                    height: 66px;
+                    padding: 0px;
+                    box-shadow: none !important;
+                    outline: none !important;
+                    border-radius: 0px;
+                    border: none;
+                    background: transparent;
+                    position: relative;
+                    width: 180px;
+                    text-align: center;
+                    border-radius: 31px;
+                    z-index: 3;
+                    color: #fff;
+                    background: $blue;
+                    font-family: "Poppins", sans-serif;
+                    letter-spacing: .48px;
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                }
+            }
+        }
+    }
+}
+/*============== subcribe_area_two css ============*/
+
+/*============== download_area css ============*/
+.download_area{
+    text-align: center;
+    background: $blue;
+    padding: 100px 0px;
+    .main_title{
+        margin-bottom: 60px;
+    }
+}
+/*============== download_area css ============*/
+
+/* Nine Price Area css
+============================================================================================ */
+.nine_price_area{
+	margin-top: 250px;
+	padding-bottom: 130px;
+	.nine_title{
+		padding-bottom: 130px;
+	}
+}
+.nine_price_inner{
+	
+}
+.nine_price_item{
+	text-align: center;
+	background: #f8f8f8;
+	border-bottom: 2px solid #000;
+	padding: 55px 25px;
+	h2{
+		text-transform: uppercase;
+		color: #272727;
+		font-family: $hee;
+		font-weight: bold;
+		font-size: 28px;
+		margin-bottom: 30px;
+		padding-bottom: 10px;
+		border-bottom: 1px solid #d7d7d7;
+		display: inline-block;
+		span{
+			font-size: 18px;
+		}
+	}
+	ul{
+		text-align: left;
+		background: #fff;
+		padding: 40px 35px 50px 35px;
+		border-bottom: 1px solid #000;
+		li{
+			margin-bottom: 10px;
+			a{
+				font-size: 15px;
+				color: #585858;
+				font-family: "sans-serif";
+				font-style: italic;
+				i{
+					padding-right: 10px;
+				}
+			}
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+	h4{
+		font-size: 30px;
+		color: #272727;
+		font-family: "sans-serif";
+		font-weight: bold;
+		font-style: italic;
+		padding: 30px 0px;
+		span{
+			font-family: $hee;
+			color: #8e8e8e;
+			font-style: normal;
+			font-weight: normal;
+			font-size: 14px;
+		}
+	}
+	.get_btn{
+		background: #d7d7d7;
+		text-transform: uppercase;
+		font-size: 14px;
+		color: #272727;
+		border-radius: 4px;
+		padding: 0px 35px;
+		line-height: 37px;
+		display: inline-block;
+		font-family: $hee;
+		@include transition;
+		&:hover{
+			background: #eb484d;
+			color: #fff;
+		}
+	}
+	&:hover{
+		border-color: #eb484d;
+		ul{
+			border-color: #eb484d;
+		}
+	}	
+}
+/* End Nine Price Area css
+============================================================================================ */
+
+/* Ten Price Area css
+============================================================================================ */
+.ten_price_item_box{
+	
+}
+.ten_price_item{
+	padding: 0px 10px;
+	margin-top: 160px;
+	position: relative;
+	border-radius: 15px;
+	.ten_price_item_box{
+		background: #fafcff;
+		position: relative;
+		top: -160px;
+		margin-bottom: -120px;
+		border-radius: 15px;
+		padding-bottom: 60px;
+		overflow: hidden;
+		box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.16);
+		&:before{
+			content: "Exclusive";
+			color: #fff;
+			position: absolute;
+			right: -27px;
+			top: 22px;
+			font-size: 12px;
+			font-family: $hee;
+			text-transform: uppercase;
+			padding: 0px 30px;
+			transform: rotate(45deg);
+		}
+		.ten_p_head{
+			text-align: center;
+			padding-top: 60px;
+			padding-bottom: 55px;
+			h3{
+				font-size: 22px;
+				font-family: $hee;
+				padding-bottom: 10px;
+			}
+			h2{
+				color: #272727;
+				font-family: $hee;
+				font-weight: bold;
+				font-size: 45px;
+				span{
+					color: #8e8e8e;
+					font-size: 15px;
+					font-weight: normal;
+				}
+			}
+		}
+		ul{
+			margin-left: 32px;
+			padding-left: 15px;
+			li{
+				margin-bottom: 13px;
+				a{
+					font-size: 16px;
+					color: #8e8e8e;
+					font-family: $hee;
+					font-weight: normal;
+				}
+				&:last-child{
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+	.ten_p_btn{
+		text-align: center;
+		display: block;
+		font-size: 22px;
+		color: #fff;
+		font-family: $hee;
+		font-weight: bold;
+		padding-bottom: 30px;
+	}	
+}
+.red{
+	background: #ff6767;
+	.ten_p_head{
+		h3{
+			color: #ff6767;
+		}
+	}
+	.ten_price_item_box{
+		&:before{
+			background: #ff6767;
+		}
+		ul{
+			border-left: 1px dashed #ff6767;
+		}
+	}
+}
+.blue{
+	background: #0083ff;
+	.ten_p_head{
+		h3{
+			color: #0083ff;
+		}
+	}
+	.ten_price_item_box{
+		&:before{
+			background: #0083ff;
+		}
+		ul{
+			border-left: 1px dashed #0083ff;
+		}
+	}
+}
+.green{
+	background: #2cc990;
+	.ten_p_head{
+		h3{
+			color: #2cc990;
+		}
+	}
+	.ten_price_item_box{
+		&:before{
+			background: #2cc990;
+		}
+		ul{
+			border-left: 1px dashed #2cc990;
+		}
+	}
+}
+/* End Ten Price Area css
+============================================================================================ */
+
+/* Gadget Product Area css
+============================================================================================ */
+.g_product_area{
+	.g_p_slider{
+		margin-top: -30px;
+		.owl-stage-outer{
+			padding: 30px 0px;
+		}
+		.item{
+			
+		}
+		.owl-item{
+			opacity: .35;
+			&.center{
+				opacity: 1;
+				box-shadow: 0px 0px 68px 0px rgba(0, 0, 1, 0.08);
+			}	
+		}
+		.owl-dots{
+			margin-top: 35px;
+			.owl-dot{
+				width: 18px;
+				height: 8px;
+				background: #d7d7d7;
+				border-radius: 4px;
+				&.active{
+					background: #e9003f;
+					width: 36px;
+				}
+			}
+		}
+	}
+}
+
+.review_gadget_area{
+	
+}
+.review_img_inner{
+	position: relative;
+	text-align: center;
+	padding-top: 60px;
+	.g_br_img{
+		position: relative;
+		display: inline-block;
+		ul{
+			li{
+				position: absolute;
+				font-size: 14px;
+				color: #8e8e8e;
+				font-family: $hee;
+				@include transition;
+				span{
+					height: 16px;
+					width: 20px;
+					border-radius: 50%; 
+					border: 4px solid #eff0f2;
+					display: inline-block;
+					background: #a5acb7;
+					position: relative;
+					right: -7.5px;
+					top: 3px;
+					@include transition;
+				}	
+				&:first-child{
+					left: -75px;
+					top: 50%;
+					transform: translateY(-50%);
+				}
+				&:nth-child(2){
+					right: -75px;
+					top: 50%;
+					transform: translateY(-50%);
+					span{
+						left: -7px;
+					}	
+				}
+				&:last-child{
+					left: 0px;
+					bottom: -40px;
+					width: 100%;
+					text-align: center;
+					span{
+						left: 35px;
+						top: -26px;
+					}	
+				}
+				&:hover{
+					color: #e9003f;
+					cursor: pointer;
+					span{
+						background: #e9003f;
+						border-color: #f8ced9;
+					}
+				}	
+			}
+		}
+	}
+	.main_img{
+		position: absolute;
+		top: 0px;
+		left: 51.5%;
+		transform: translateX(-50%);
+	}
+}
+
+/* End Gadget Product Area css
+============================================================================================ */

@@ -1,0 +1,1584 @@
+/* Subscrib Area css
+============================================================================================ */
+.subscrib_area{
+    .subscrib_inner{
+        border-bottom: 1px solid #e0e2e6;
+        padding-bottom: 100px;
+        .main_title{
+            padding-bottom: 60px;
+            p{
+                max-width: 520px; 
+            }
+        }
+        .input-group{
+            max-width: 525px;
+            margin: auto;
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 62px;
+            input{
+                height: 62px;
+                padding: 0px 172px 0px 35px;
+                border-radius: 31px;
+                border: 1px solid #e0e2e6;
+                border-right: 0px;
+                box-shadow: none;
+                outline: none;
+                background: transparent;
+                width: 100%;
+                display: block;
+                @include placeholder{
+                    font-family: $pop, FontAwesome;
+                    font-size: 18px;
+                    font-weight: normal;
+                    letter-spacing: .36px;
+                    color: $pfont;
+                }
+            }
+            .input-group-btn{
+                display: block;
+                white-space: normal;
+                position: absolute;
+                right: 0px;
+                width: 172px;
+                border-radius: 31px;
+                top: 0px;
+                box-shadow: 0px 4px 12.35px 0.65px rgba(0, 0, 0, 0.12);
+                .btn-default{
+                    height: 62px;
+                    padding: 0px;
+                    box-shadow: none !important;
+                    outline: none !important;
+                    border-radius: 0px;
+                    border: none;
+                    background: transparent;
+                    position: relative;
+                    width: 172px;
+                    text-align: center;
+                    border-radius: 31px;
+                    z-index: 3;
+                    color: #fff;
+                    font-family: $pop;
+                    letter-spacing: .48px;
+                    font-size: 24px;
+                    text-transform: uppercase;
+                    font-weight: normal;
+                    &:before{
+                        content: "";
+                        height: 100%;
+                        width: 100%;
+                        background: rgba(227,204,252,1);
+                        background: -moz-linear-gradient(left, rgba(227,204,252,1) 0%, rgba(143,205,252,1) 100%);
+                        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(227,204,252,1)), color-stop(100%, rgba(143,205,252,1)));
+                        background: -webkit-linear-gradient(left, rgba(227,204,252,1) 0%, rgba(143,205,252,1) 100%);
+                        background: -o-linear-gradient(left, rgba(227,204,252,1) 0%, rgba(143,205,252,1) 100%);
+                        background: -ms-linear-gradient(left, rgba(227,204,252,1) 0%, rgba(143,205,252,1) 100%);
+                        background: linear-gradient(to right, rgba(227,204,252,1) 0%, rgba(143,205,252,1) 100%);
+                        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e3ccfc', endColorstr='#8fcdfc', GradientType=1 );
+                        position: absolute;
+                        left: 0px;
+                        top: 0px;
+                        border-radius: 31px;
+                        z-index: -1;
+                    }
+                }
+            }
+        }    
+    }    
+}
+/* End Subscrib Area css
+============================================================================================ */
+
+/* Contact Form Widget Area css
+============================================================================================ */
+.contact_widget_form{
+    .form-group{
+        margin-bottom: 20px;
+        input{
+            border-radius: 0px;
+            box-shadow: none;
+            outline: none;
+            height: 40px;
+            border: 1px solid #e6e8ec;
+            background: transparent;
+            padding: 0px 20px;
+            font-size: 14px;
+            font-family: $pop;
+            letter-spacing: 1.4px;
+            color: $pfont;
+            @include placeholder{
+                font-size: 14px;
+                font-family: $pop;
+                letter-spacing: 1.4px;
+                color: $pfont;
+            }
+            &:focus{
+                border-color: $dip;
+            }
+        }
+        textarea{
+            height: 220px;
+            border: 1px solid #e6e8ec;
+            background: transparent;
+            padding: 18px 20px;
+            font-size: 14px;
+            font-family: $pop;
+            letter-spacing: 1.4px;
+            color: $pfont;
+            resize: none;
+            box-shadow: none;
+            outline: none;
+            @include placeholder{
+                font-size: 14px;
+                font-family: $pop;
+                letter-spacing: 1.4px;
+                color: $pfont;
+            }
+            &:focus{
+                border-color: $dip;
+            }
+        }
+        .submint_btn{
+            margin-top: 10px;
+        }
+    }
+}
+/* End Contact Form Widget Area css
+============================================================================================ */
+
+/* Subscribe Area css
+============================================================================================ */
+.subscrib_area2{
+    background: #f6f7fa;
+    padding: 110px 0px;
+    .input-group{
+        max-width: 1010px;
+        margin: auto;
+        display: block;
+        position: relative;
+        height: 100px;
+        width: 100%;
+        input{
+            height: 100px;
+            display: block;
+            background: #fff;
+            border-radius: 50px !important;
+            padding: 0px 200px 0px 50px;
+            outline: none;
+            box-shadow: none;
+            border-color: #fff;
+            font-size: 20px;
+            font-family: $hee;
+            color: #d7d7d7;
+            letter-spacing: .40px;
+            font-weight: 400;
+            @include placeholder{
+                font-size: 20px;
+                font-family: $hee;
+                color: #d7d7d7;
+                letter-spacing: .40px;
+                font-weight: 400;
+            }
+            &:focus{
+                border-color: $baseColor;
+            }
+        }
+        .input-group-btn{
+            position: absolute;
+            right: 7px;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 22;
+            width: auto;
+            white-space: normal;
+            .btn-default{
+                padding: 0px;
+                border: none;
+                width: 186px;
+                border: 4px solid #f8f8f8;
+                background: $baseColor;
+                height: 85px;
+                border-radius: 42.5px;
+                font-size: 42px;
+                outline: none !important;
+                box-shadow: none !important;
+            }
+        }
+    }
+}
+/* End Subscribe Area css
+============================================================================================ */
+
+/* Get Contact Form Area css
+============================================================================================ */
+.get_form_area{
+    background: #f1f5f8;
+    padding: 110px 0px;
+}
+.contact_us_form{
+    background: #fff;
+    padding: 60px 60px 80px 60px;
+    border-radius: 15px;
+    .form-group{
+        input{
+            border: none;
+            border-bottom: 1px solid #d7d7d7;
+            border-radius: 0px;
+            box-shadow: none;
+            height: 40px;
+            padding: 0px;
+            font-size: 14px;
+            color: #9d9d9d;
+            font-family: $hee;
+            letter-spacing: .28px;
+            color: #121921;
+            font-size: 14px;
+            font-family: $hee;
+            letter-spacing: .28px;
+            @include placeholder{
+                font-size: 14px;
+                color: #9d9d9d;
+                font-family: $hee;
+                letter-spacing: .28px;
+            }
+            &:focus{
+                border-color: #121921;
+                @include placeholder{
+                    color: #121921;
+                }
+            }
+        }
+        textarea{
+            border: none;
+            border-bottom: 1px solid #d7d7d7;
+            border-radius: 0px;
+            box-shadow: none;
+            padding: 45px 0px 0px 0px;
+            font-size: 14px;
+            color: #9d9d9d;
+            font-family: $hee;
+            letter-spacing: .28px;
+            color: #121921;
+            font-size: 14px;
+            font-family: $hee;
+            letter-spacing: .28px;
+            resize: none;
+            height: 220px;
+            @include placeholder{
+                font-size: 14px;
+                color: #9d9d9d;
+                font-family: $hee;
+                letter-spacing: .28px;
+            }
+            &:focus{
+                border-color: #121921;
+                @include placeholder{
+                    color: #121921;
+                }
+            }
+        }
+        .send_btn{
+            margin-top: 65px;
+        }
+    }
+}
+/* End Get Contact Form Area css
+============================================================================================ */
+
+/* Time Newsletter Area css
+============================================================================================ */
+.time_newsletter{
+    background: url(../img/time-newsletter-bg.png) no-repeat scroll center center;
+    background-size: cover;
+    z-index: 3;
+    position: relative;
+    padding: 100px 0px;
+    &:before{
+        content: "";
+        background: rgba(38, 84, 124, .94);
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        z-index: -1;
+        height: 100%;
+    }
+    .hosting_search_area{
+        position: relative;
+        top: 0px;
+        transform: translateY(-0%);
+        .hostinge_s_inner{
+            h5{
+                font-size: 30px;
+                font-family: $hee;
+                font-weight: bold;
+                color: #fff;
+                letter-spacing: .60px;
+                padding-bottom: 45px;
+            }
+            .input-group{
+                max-width: 740px;
+                input{
+                    font-size: 16px;
+                    color: #9baebf;
+                    font-family: $hee;
+                    letter-spacing: .32px;
+                    @include placeholder{
+                        font-size: 16px;
+                        color: #9baebf;
+                        font-family: $hee;
+                        letter-spacing: .32px;
+                    }
+                }
+                .input-group-btn{
+                    .btn-default{
+                        background: #9baebf;
+                        box-shadow: 0px 0px 20px 0px rgba(0, 0, 1, 0.2);
+                        @include transition;
+                        font-size: 22px;
+                        font-family: $hee;
+                        font-weight: bold;
+                        letter-spacing: 1.32;
+                        width: 200px;
+                        &:hover{
+                            color: #ff9600;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+/* End Time Newsletter Area css
+============================================================================================ */
+
+/* Touch Contact Five Area css
+============================================================================================ */
+.touch_five_contact_area{
+    background: #f6f7fa;
+    padding: 100px 0px 90px 0px;
+    .great_title{
+        padding-bottom: 60px;
+    }
+}
+.contact_form{
+    .form-group{
+        margin-bottom: 45px;
+        input{
+            border: none;
+            border-top: 1px solid #a5acb7;
+            border-bottom: 1px solid #a5acb7;
+            box-shadow: none;
+            background: transparent;
+            border-radius: 0px;
+            height: 54px;
+            padding: 0px 20px;
+            font-size: 18px;
+            color: #9baebf;
+            font-family: $hee;
+            letter-spacing: .36px;
+            @include placeholder{
+                font-size: 18px;
+                color: #9baebf;
+                font-family: $hee;
+                letter-spacing: .36px;
+            }
+        }
+        textarea{
+            border: none;
+            border-top: 1px solid #a5acb7;
+            border-bottom: 1px solid #a5acb7;
+            box-shadow: none;
+            background: transparent;
+            border-radius: 0px;
+            height: 150px;
+            padding: 15px 20px;
+            font-size: 18px;
+            color: #9baebf;
+            font-family: $hee;
+            letter-spacing: .36px;
+            resize: none;
+            @include placeholder{
+                font-size: 18px;
+                color: #9baebf;
+                font-family: $hee;
+                letter-spacing: .36px;
+            }
+        }
+        .send_btn{
+            background: #ff9600;
+            font-size: 16px;
+            color: #fff;
+            font-family: $hee;
+            font-weight: bold;
+            letter-spacing: .96px;
+            width: 190px;
+            box-shadow: 0px 5px 24px 0px rgba(255, 150, 0, 0.16);
+            @include transition;
+            margin-top: 5px;
+            &:hover{
+                background: #9baebf;
+            }
+        }
+        &:last-child{
+            margin-bottom: 0px;
+        }
+    }
+}
+/* End Touch Contact Five Area css
+============================================================================================ */
+
+/*map area css
+======================================================================*/
+.mapBox {
+    min-height: 358px;
+    width: 100%;
+}
+.gm-style > div:first-child >div:nth-child(4) > div:nth-child(4) > div > div:first-child > div{
+  display: none !important;
+}
+.gm-style .gm-style-iw{
+    width: 315px !important;
+    height: auto !important;
+    top: 108px !important;
+    left: 60px !important;
+    right: 0 !important;
+    overflow: visible !important;
+    background-color: rgb(247, 250, 255);
+    box-shadow: 0px 4px 9.3px 0.7px rgba(0, 0, 0, 0.18);
+    border: none !important;
+    padding: 25px 25px 25px 25px;
+    color: $dip;
+    font-size: 18px;
+    font-family: $mon;
+    line-height: 28px;
+    transform: translateX(calc(50% - 28px));
+    padding-left: 78px;
+    &:before{
+        content: "\f041";
+        position: absolute;
+        display: inline-block !important;
+        font: normal normal normal 14px/1 FontAwesome;
+        z-index: 10000 !important;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 45px;
+        color: $blue;;
+        padding: 0px 30px;
+    }
+    &:after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 0;
+        border-top: 14px solid rgb(247, 250, 255);;
+        border-right: 14px solid transparent;
+        border-left: 14px solid transparent;
+        position: absolute;
+        top: 50%;
+        left: -21px;
+        transform: rotate(91deg);
+    }
+}
+
+
+/* Domain Search Area css
+============================================================================================ */
+.domain_search_area{
+	background: url(../img/domain-bg.jpg) no-repeat fixed center center;
+	background-size: cover;
+	position: relative;
+	z-index: 3;
+	&:before{
+		content: "";
+		background: rgba(125, 185, 232, .90);
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+	.main_title{
+		padding-bottom: 60px;
+	}
+}
+.domain_s2{
+	padding-top: 280px;
+	padding-bottom: 170px;
+}
+.domain_inner{
+	width: 100%;
+	.d_search_text{
+		text-align: center;
+		color: #fff;
+		padding-bottom: 55px;
+		h3{
+			font-size: 66px;
+			font-family: $mon;
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+		h4{
+			font-size: 36px;
+			font-family: $mon;
+			font-weight: 300;
+			padding-top: 10px;
+		}
+	}
+}
+.domain_search_box{
+	max-width: 850px;
+	margin: auto;
+	background: rgba(255, 255, 255, .60);
+	padding: 15px 15px;
+	display: flex;
+	input{
+		width: 66%;
+		margin-right: 15px;
+		height: 74px;
+		border: none;
+		box-shadow: none;
+		background: #fff;
+		border-radius: 0px;
+		padding: 0px 20px;
+		font-size: 16px;
+		color: $pfont;
+		font-family: $pop;
+		box-shadow: 0px 4px 6.65px 0.35px rgba(0, 0, 0, 0.1);
+		@include placeholder{
+			font-size: 16px;
+			color: $pfont;
+			font-family: $pop;
+		}
+	}
+	.select_dropdown{
+		width: 16%;
+		margin-right: 15px;
+		border-radius: 0px;
+		border: none;
+		height: 74px;
+		text-align: center !important;
+		box-shadow: 0px 4px 6.65px 0.35px rgba(0, 0, 0, 0.1);
+		.current{
+			line-height: 74px;
+			text-transform: lowercase;
+			font-size: 16px;
+			color: $pfont;
+			font-family: $pop;
+			text-align: center;
+		}
+		&:after{
+			right: 35px;
+		}
+		.list{
+			width: 100%;
+			border-radius: 0px;
+			li{
+				font-weight: normal;
+				font-size: 16px;
+				color: $pfont;
+				font-family: $pop;
+			}
+		}
+	}
+	.btn.btn-default{
+		width: 18%;
+		height: 74px;
+		border: none;
+		border-radius: 0px;
+		box-shadow: 0px 4px 6.65px 0.35px rgba(0, 0, 0, 0.1);
+		font-size: 16px;
+		color: $pfont;
+		font-family: $pop;
+		outline: none !important;
+		background: #fff;
+	}
+}
+.domain_price_list{
+	max-width: 780px;
+	margin: auto;
+	margin-top: 50px;
+	ul{
+		overflow: hidden;
+		li{
+			float: left;
+			height: 98px;
+			width: 98px;
+			background: rgba(255, 255, 255, .5);
+			border-radius: 50%;
+			margin-right: 28px;
+			padding: 9px;
+			a{
+				text-align: center;
+				display: block;
+				font-size: 16px;
+				font-family: $pop;
+				color: #fff;
+				height: 80px;
+				width: 80px;
+				border-radius: 50%;
+				span{
+					display: block;
+					padding-top: 14px;
+				}
+				&.red{
+					background: #fc5a1a;
+				}
+				&.pest{
+					background: #32bdab;
+				}
+				&.yellow{
+					background: #ffb21a;
+				}
+				&.blue{
+					background: #3498db;
+				}
+				&.green{
+					background: #3cdb34;
+				}
+				&.pink{
+					background: #fb67f2;
+				}
+			}
+			&:nth-child(even){
+				margin-right: 50px;
+			}
+			&:last-child{
+				margin-right: 0px;
+			}
+		}
+	}
+}
+/* End Domain Search Area css
+============================================================================================ */
+
+/* Subscribe Six Area css
+============================================================================================ */
+.subcribe_area6{
+	background: #7db9e8;
+	position: relative;
+	overflow: hidden;
+	&:before{
+		content: "";
+		background: url(../img/subscribe-6.png) no-repeat scroll center center;
+		width: 997px;
+		height: 406px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		transform: translateX(-50%) translateY(-50%);
+		z-index: 1;
+	}
+	.main_title{
+		padding-bottom: 65px;
+		position: relative;
+		z-index: 2;
+	}
+	.header_banner_inner{
+		padding-top: 0px;
+		position: relative;
+		z-index: 2;
+		.subscrib_inner{
+			max-width: 685px;
+			margin-bottom: 0px;
+			.input-group{
+				input{
+					background: transparent;
+					border: 1px solid rgba(255, 255, 255, .5);
+					border-radius: 0px;
+					height: 68px;
+					color: #fff;
+					@include placeholder{
+						color: #fff;
+					}
+				}
+				.input-group-btn{
+					top: 4.5px;
+					right: 6px;
+					.btn.btn-default{
+						border-radius: 0px;
+						height: 58px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+.contact_form_six{
+	display: flex;
+    flex-wrap: wrap;
+	.main_title{
+		width: 100%;
+		display: block;
+		padding-bottom: 60px;
+	}
+	.left_side{
+		flex: 0 0 50%;
+		max-width: 50%;
+		.contact_six_inner{
+			overflow: hidden;
+			max-width: 570px;
+			float: right;
+			padding-right: 15px;
+		}	
+	}
+	.right_side{
+		flex: 0 0 50%;
+		max-width: 50%;
+		padding-left: 45px;
+		position: relative;
+		.mapBox{
+			height: 100%;
+		}
+		.main_location{
+			position: absolute;
+			left: 55%;
+			top: 40%;
+			transform: translateX(-50%) translateY(-50%);
+			z-index: 4;
+			max-width: 300px;
+			background: #fff;
+			padding: 30px;
+			&:before{
+				content: "";
+				width: 0;
+				height: 0;
+				border-style: solid;
+				border-width: 25px 40px 5px 0;
+				border-color: transparent #fafcf6 transparent transparent;
+				position: absolute;
+				left: -40px;
+				top: 50px;
+			}
+			&:after{
+				content: "\f041";
+				color: $red;
+				font: normal normal normal 60px/1 FontAwesome;
+				position: absolute;
+				left: -85px;
+				top: 55px;
+			}
+			h5{
+				font-size: 24px;
+				font-family: $mon;
+				color: $dip;
+				font-weight: normal;
+				padding-bottom: 10px;
+			}
+			p{
+				font-size: 18px;
+				line-height: 28px;
+				color: $pfont;
+				font-family: $pop;
+				font-weight: normal;
+			}
+		}
+	}
+}
+
+.contact_six_form{
+	.form-group{
+		margin-bottom: 20px;
+		input{
+			border-radius: 0px;
+			height: 54px;
+			box-shadow: none;
+			padding: 0px 30px;
+			font-size: 16px;
+			font-family: $pop;
+			color: $pfont;
+			@include placeholder{
+				font-size: 16px;
+				font-family: $pop;
+				color: $pfont;
+			}
+		}
+		textarea{
+			font-size: 16px;
+			font-family: $pop;
+			color: $pfont;
+			height: 170px;
+			border-radius: 0px;
+			padding: 15px 30px;
+			resize: none;
+			box-shadow: none;
+			@include placeholder{
+				font-size: 16px;
+				font-family: $pop;
+				color: $pfont;
+			}
+		}
+		.purchase-btn{
+			border-radius: 0px;
+			line-height: 48px;
+			height: 46px;
+			padding: 0px;
+			width: 170px;
+			box-shadow: none;
+			outline: none !important;
+			border: none;
+			font-size: 24px;
+			text-transform: uppercase;
+			font-family: $pop;
+			font-weight: normal;
+		}
+		&:last-child{
+			margin-bottom: 0px;
+			margin-top: 20px;
+		}
+	}
+}
+
+/* End Subscribe Six Area css
+============================================================================================ */
+
+/* Subscribe Seven Area css
+============================================================================================ */
+.subscribe_seven{
+	background: #7db9e8;
+	.subscribe_s_inner{
+		text-align: center;
+		color: #fff;
+		h4{
+			font-size: 36px;
+			font-family: $mon;
+			font-weight: 300;
+			padding-bottom: 30px;
+		}
+		p{
+			font-size: 14px;
+			line-height: 27px;
+			font-family: $pop;
+			max-width: 745px;
+			margin: auto;
+			padding-bottom: 50px;
+		}
+		.input-group{
+			max-width: 620px;
+			margin: auto;
+			input{
+				border: none;
+				border-bottom: 1px solid #fff;
+				background: transparent;
+				border-radius: 0px;
+				box-shadow: none;
+				height: 45px;
+				font-size: 18px;
+				font-family: $pop;
+				color: #fff;
+				padding: 0px;
+				@include placeholder{
+					font-size: 18px;
+					font-family: $pop;
+					color: #fff;
+				}
+			}
+			.input-group-btn{
+				margin-left: 0px;
+				.btn.btn-default{
+					margin-left: 25px;
+					border: none;
+					width: 145px;
+					padding: 0px;
+					text-align: center;
+					height: 45px;
+					border-radius: 22px;
+					color: #898989;
+					font-size: 18px;
+					font-family: $pop;
+					@include transition;
+					background: #fff;
+					outline: none !important;
+					box-shadow: none !important;
+					&:hover{
+						color: #7db9e8;
+					}	
+				}
+			}	
+		}
+	}
+	&.violet{
+		background: #857de8;
+		.subscribe_s_inner{
+			.input-group{
+				.input-group-btn{
+					.btn-default{
+						border-radius: 0px;
+						&:hover{
+							color: #857de8;
+						}	
+					}
+				}
+			}
+		}
+	}
+}
+.or_subs_text{
+	padding-top: 50px;
+}
+
+.contact_seven_area{
+	padding-top: 100px;
+	&.violet{
+		.contact_seven_box{
+			.contact_us_form{
+				.form-group{
+					.theme_btn{
+						background: #857de8;
+					}	
+					&:last-child{
+						margin-bottom: 0px;
+					}
+				}
+			}
+		}
+		.contact_details_seven{
+			background: #857de8;
+			.media{
+				.media-left{
+					i{
+						color: #857de8;
+					}
+				}
+			}
+			ul{
+				li{
+					a{
+						color: #857de8;
+					}
+				}
+			}
+		}
+	}
+}
+
+.contact_seven_box{
+	box-shadow: 0px 4px 27.55px 1.45px rgba(0, 0, 0, 0.09);
+	max-width: 1420px;
+	margin: auto;
+	padding: 65px 0px;
+	margin-bottom: -255px;
+	position: relative;
+	z-index: 20;
+	background: #fff;
+	.contact_us_form{
+		padding: 0px;
+		.form-group{
+			.theme_btn{
+				line-height: 45px;
+				display: inline-block;
+				width: 170px;
+				padding: 0px;
+				height: 45px;
+			}	
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.contact_details_seven{
+	background: #7db9e8;
+	padding: 55px 0px 55px 30px;
+	.media{
+		margin-top: 20px;
+		&:first-child{
+			margin-top: 0px;
+		}
+		.media-left{
+			padding-right: 15px;
+			i{
+				height: 32px;
+				width: 32px;
+				border-radius: 50%;
+				background: #fff;
+				display: inline-block;
+				text-align: center;
+				line-height: 32px;
+				color: #7db9e8;
+				font-size: 20px;
+			}
+		}
+		.media-body{
+			vertical-align: middle;
+			p{
+				font-size: 16px;
+				color: #fff;
+				font-family: $pop;
+				line-height: 28px;
+			}
+		}
+	}
+	ul{
+		margin-top: 40px;
+		li{
+			display: inline-block;
+			margin-right: 25px;
+			&:last-child{
+				margin-right: 0px;
+			}
+			a{
+				height: 32px;
+				width: 32px;
+				border-radius: 50%;
+				background: #fff;
+				text-align: center;
+				line-height: 32px;
+				font-size: 20px;
+				color: #7db9e8;
+				display: block;
+			}
+		}
+	}
+}
+.contact_seven_map{
+	.mapBox{
+		min-height: 800px;
+	}
+}
+
+/* End Subscribe Six Area css
+============================================================================================ */
+
+/* Contact Question Area css
+============================================================================================ */
+.question_eight_area{
+	background: #857de8;
+	padding: 110px 0px;
+	.question8_inner{
+		.question_box{
+			border-radius: 0px;
+			background: #857de8;
+			max-width: 360px;
+			margin: auto;
+			box-shadow: 0px 10px 66.5px 3.5px rgba(0, 0, 0, 0.14);
+			padding: 40px 30px;
+			h3{
+				color: #fff;
+				font-size: 24px;
+				font-family: $mon;
+				font-weight: normal;
+				padding-bottom: 25px;
+			}
+			.contact_us_form{
+				background: transparent;
+				border-radius: 0px;
+				padding: 0px;
+				.form-group{
+					input{
+						padding: 0px 15px;
+						border-radius: 3px;
+						border: none;
+						color: #6b6d6f;
+						@include placeholder{
+							color: #6b6d6f;
+						}	
+					}
+					textarea{
+						padding: 10px 15px;
+						border-radius: 3px;
+						border: none;
+						color: #6b6d6f;
+						height: 86px;
+						@include placeholder{
+							color: #6b6d6f;
+						}	
+					}
+					.theme_btn{
+						margin-top: 10px;
+						width: 95px;
+						border-radius: 3px;
+						height: 40px;
+						padding: 0px;
+						background: #fff;
+						color: #857de8;
+						font-size: 18px;
+					}
+					&:last-child{
+						
+					}
+				}
+			}
+		}
+	}
+}
+.question_list{
+	padding-top: 45px;
+	h3{
+		font-size: 36px;
+		color: #fff;
+		font-family: $mon;
+		font-weight: normal;
+		padding-bottom: 40px;
+	}
+	.panel-group{
+		.panel.panel-default{
+			border-radius: 0px;
+			background: transparent;
+			border: 0px;
+			box-shadow: none;
+			margin-top: 25px;
+			&:first-child{
+				margin-top: 0px;
+			}
+			.panel-heading{
+				background: transparent;
+				padding: 0px;
+				.panel-title{
+					border: none;
+					a{
+						border: none;
+						color: #fff;
+						font-size: 20px;
+						font-family: $pop;
+						font-weight: normal;
+						position: relative;
+						padding: 0px;
+						padding-left: 66px;
+						line-height: 35px;
+						i{
+							font-style: normal;
+							display: none;
+							height: 30px;
+							width: 36px;
+							border-radius: 3px;
+							background: #fff;
+							text-align: center;
+							color: #857de8;
+							line-height: 30px;
+							position: absolute;
+							left: 0px;
+							top: 50%;
+							transform: translateY(-50%);
+							& + i{
+								display: inline-block;
+							}
+						}
+						&.collapsed{
+							i{
+								display: inline-block;
+								& + i{
+									display: none;
+								}
+							}
+						}
+					}
+				}
+			}
+			.panel-collapse{
+				.panel-body{
+					border: none;
+					font-size: 14px;
+					line-height: 26px;
+					color: #fff;
+					font-family: $pop;
+					padding-left: 66px;
+				}
+			}
+		}
+	}
+}
+/* End Contact Question Area css
+============================================================================================ */
+
+/* End Contact Question Area css
+============================================================================================ */
+.get_form_nine_area{
+	background: #f8f8f8;
+	.contact_us_form_nine{
+		.form-group{
+			margin-bottom: 30px;
+			input{
+				height: 50px;
+				border-radius: 4px;
+				background: #fff;
+				border-color: #d7d7d7;
+				box-shadow: none;
+				font-size: 14px;
+				color: #8e8e8e;
+				font-family: $hee;
+				padding: 0px 15px;
+				@include placeholder{
+					font-size: 14px;
+					color: #8e8e8e;
+					font-family: $hee;
+				}
+			}
+			textarea{
+				height: 165px;
+				resize: none;
+				padding: 5px 5px;
+				box-shadow: none;
+				font-size: 14px;
+				color: #8e8e8e;
+				font-family: $hee;
+				@include placeholder{
+					box-shadow: none;
+					font-size: 14px;
+					color: #8e8e8e;
+					font-family: $hee;
+					padding: 5px 5px;
+				}
+			}
+			&:last-child{
+				margin-bottom: 0px;
+			}
+		}
+	}
+}
+.contact_nine_details{
+	background: #fff;
+	margin-left: 65px;
+	padding-left: 60px;
+	padding-top: 55px;
+	padding-bottom: 55px;
+	h4{
+		font-size: 18px;
+		font-family: $hee;
+		font-weight: bold;
+		text-transform: uppercase;
+		padding-bottom: 30px;
+	}
+	.media{
+		margin-top: 20px;
+		&:nth-child(2){
+			margin-top: 0px;
+		}
+		.media-left{
+			h5{
+				width: 80px;
+				font-size: 14px;
+				color: #585858;
+				font-family: $hee;
+				span{
+					text-align: right;
+					float: right;
+					line-height: 20px;
+				}
+			}
+		}
+		.media-body{
+			vertical-align: middle;
+			align-self: center;
+			p{
+				font-size: 14px;
+				color: #585858;
+				font-family: $hee;
+			}
+		}
+	}
+	.nine_social_area{
+		padding-top: 60px;
+		ul{
+			li{
+				display: inline-block;
+				margin-right: 15px;
+				a{
+					color: #fff;
+					height: 40px;
+					width: 40px;
+					border-radius: 50%;
+					text-align: center;
+					border-radius: 50%;
+					background: #d7d7d7;
+					display: inline-block;
+					line-height: 40px;
+					font-size: 17px;
+					@include transition;
+				}
+				&:last-child{
+					margin-right: 0px;
+				}
+				&:hover{
+					a{
+						background: #eb484d;
+					}
+				}
+			}
+		}
+	}
+}
+.nine_map_area{
+	position: relative;
+	.mapBox{
+		min-height: 430px;
+	}
+	.location_d{
+		max-width: 415px;
+		background: rgba(255, 255, 255, .9);
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 0px;
+		width: 100%;
+		text-align: center;
+		padding: 30px 0px;
+		border-top-left-radius: 8px;
+		border-top-right-radius: 8px;
+		h3{
+			color: #272727;
+			font-family: $hee;
+			font-weight: bold;
+			font-size: 20px;
+			text-transform: uppercase;
+			padding-bottom: 10px;
+		}
+		h2{
+			font-size: 41px;
+			color: #eb484d;
+			font-family: $hee;
+			font-weight: bold;
+		}
+	}
+	.subs_nine{
+		position: absolute;
+		right: 0px;
+		top: 20px;
+		width: 100%;
+		.input-group{
+			max-width: 470px;
+			float: right;
+			background: #eb484d;
+			border-radius: 5px;
+			padding: 20px 40px;
+			input{
+				height: 42px;
+				width: 255px;
+				border-radius: 21px;
+				border: none;
+			}
+			.input-group-btn{
+				.btn-default{
+					border-radius: 0px;
+					background: transparent;
+					border: none;
+					padding: 0px;
+					font-size: 16px;
+					color: #fff;
+					font-family: $hee;
+					font-weight: normal;
+					letter-spacing: 1.6px;
+					text-transform: uppercase;
+					box-shadow: none !important;
+					outline: none !important;
+				}
+			}
+		}
+	}	
+}
+
+
+/* End Contact Question Area css
+============================================================================================ */
+
+/* End Contact Question Area css
+============================================================================================ */
+.ten_registration{
+	background: #0083ff;
+	overflow: hidden;
+	padding: 40px 0px;
+	display: block;
+	.pull-left{
+		h4{
+			color: #fff;
+			font-family: $hee;
+			font-size: 24px;
+			font-weight: 500;
+			padding-top: 12px;
+		}
+	}
+	.pull-right{
+		.theme_btn{
+			background: #ffffff;
+			height: 45px;
+			padding: 0px 30px;
+			line-height: 45px;
+			display: inline-block;
+			margin-top: 0px;
+			color: #0083ff;
+			font-size: 20px;
+		}
+	}
+}
+/* End Contact Question Area css
+============================================================================================ */
+
+/* Ten Newsletter Area css
+============================================================================================ */
+.ten_newsletter_area{
+	background: url(../img/ten-ms-img.jpg) no-repeat scroll center center;
+	background-size: cover;
+	padding: 150px 0px;
+	position: relative;
+	z-index: 2;
+	&:before{
+		content: "";
+		background: url(../img/res-img.png) no-repeat scroll center center;
+		width: 509px;
+		height: 252px;
+		position: absolute;
+		left: 0px;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.left_ns_text{
+		margin-left: 100px;
+		h3{
+			font-size: 40px;
+			color: #fff;
+			font-family: $hee;
+			font-weight: bold;
+			padding-right: 50px;
+			padding-bottom: 20px;
+			line-height: 50px;
+		}
+		a{
+			color: #fff;
+			font-family: $hee;
+			color: #fff;
+		}
+		.store_link{
+			padding-top:50px;
+			a{
+				border-radius: 8px;
+				overflow: hidden;
+				display: inline-block;
+				margin-right: 15px;
+				& + a{
+					padding-right: 0px;
+				}
+			}
+		}
+	}
+}
+.right_ns_text{
+	max-width: 375px;
+	float: right;
+	h3{
+		font-size: 28px;
+		color: #fff;
+		font-family: $hee;
+		font-weight: bold;
+		padding-right: 30px;
+		line-height: 36px;
+		span{
+			color: #000;
+		}
+	}
+	p{
+		font-size: 16px;
+		line-height: 28px;
+		color: #fff;
+		font-family: $hee;
+		padding-top: 30px;
+		padding-bottom: 50px;
+	}
+	.input-group{
+		input{
+			border: none;
+			background: #fff;
+			height: 50px;
+			border-top-left-radius: 25px;
+			border-bottom-left-radius: 25px;
+			box-shadow: none;
+			outline: none;
+			font-size: 16px;
+			color: #d7d7d7;
+			font-family: $hee;
+			padding-left: 20px;
+			@include placeholder{
+				font-size: 16px;
+				color: #d7d7d7;
+				font-family: $hee;
+			}
+		}
+		.input-group-btn{
+			.btn-default{
+				font-size: 16px;
+				background: #272727;
+				border-bottom-right-radius: 25px;
+				border-top-right-radius: 25px;
+				border: none;
+				height: 50px;
+				width: 64px;
+				text-align: center;
+				padding: 0px;
+				color: #fff;
+				margin-left: 0px;
+			}
+		}
+	}
+}
+
+.gd_newsleter_area{
+	background: #f6f7fa;
+	padding: 45px 0px;
+	.media{
+		.media-left{
+			padding-right: 25px;
+		}
+		.media-body{
+			vertical-align: middle;
+			align-self: center;
+			h4{
+				font-size: 38px;
+				font-family: $hee;
+				font-weight: bold;
+				color: #e9003f;
+				span{
+					font-weight: normal;
+					color: #272727;
+				}
+			}
+		}
+	}
+}
+
+.gd_news_inner{
+	margin-top: 12px;
+	.input-group{
+		input{
+			border: 1px solid #f0f0f0;
+			height: 52px;
+			border-bottom-left-radius: 26px;
+			border-top-left-radius: 26px;
+			box-shadow: none;
+			font-size: 14px;
+			font-family: $hee;
+			color: #d7d7d7;
+			outline: none;
+			@include placeholder{
+				font-size: 14px;
+				font-family: $hee;
+				color: #d7d7d7;
+			}
+		}
+		.input-group-btn{
+			.pre_or_btn{
+				border: none;
+				background: #e9003f;
+				margin-left: 0px;
+				color: #fff;
+				width: 130px;
+				height: 52px;
+				padding: 0px;
+				outline: none !important;
+				box-shadow: none !important;
+				border-bottom-right-radius: 26px; 
+				border-top-right-radius: 26px; 
+			}
+		}
+	}
+}
+
+/* End Ten Newsletter Area css
+============================================================================================ */
+
+
+
+

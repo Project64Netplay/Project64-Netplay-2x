@@ -1,0 +1,89 @@
+/* End Reparing Center Area css
+============================================================================================ */
+.shop_now_area{
+}
+.shop_now_slider{
+	.item{
+		
+	}	
+	.owl-prev, .owl-next{
+		height: 48px;
+		width: 48px;
+		text-align: center;
+		border: 1px solid #d2d2d2;
+		font-size: 55px;
+		color: #d2d2d2;
+		position: absolute;
+		top: 45%;
+		transform: translateY(-50%);
+		@include transition;
+		cursor: pointer;
+		i{
+			position: relative;
+			left: -5px;
+			top: -4px;
+		}
+		&:hover{
+			border-color: #857de8;
+			background: #857de8;
+			color: #fff;
+		}
+	}
+	.owl-prev{
+		left: -230px;
+	}
+	.owl-next{
+		right: -230px;
+	}
+}
+.product_item{
+	text-align: center;
+	.product_img{
+		text-align: center;
+		border: 1px solid #ecebeb;
+		display: block;
+		min-height: 330px;
+		display: flex;
+		position: relative;
+		img{
+			width: auto;
+			align-self: center;
+			margin: auto;
+			vertical-align: middle;
+		}
+		.discount_price{
+			position: absolute;
+			top: 15px;
+			left: 0px;
+			background: #857de8;
+			color: #fff;
+			padding: 0px 15px;
+			h6{
+				font-family: $mon;
+				font-size: 20px;
+				font-weight: normal;
+				line-height: 30px;
+			}
+		}
+	}
+	.product_text{
+		background: #857de8;
+		text-align: center;
+		color: #fff;
+		padding: 18px 0px;
+		h5{
+			font-size: 18px;
+			font-family: $mon;
+			font-weight: normal;
+			padding-bottom: 15px;
+		}
+		h4{
+			font-size: 24px;
+			color: #fff;
+			font-weight: 500;
+			font-family: $mon;
+		}
+	}
+}
+/* End Reparing Center Area css
+============================================================================================ */
