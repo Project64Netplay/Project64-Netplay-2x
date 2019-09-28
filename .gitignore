@@ -40,3 +40,4 @@ Thumbs.db
 /Source/3rdParty/wx/lib/vc_lib/mswud/wx/msw/rcdefs.h
 /Source/3rdParty/wx/lib/vc_lib/mswud/wx/setup.h
 /Save
+*.log

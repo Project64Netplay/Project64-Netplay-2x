@@ -29,6 +29,9 @@ fc /b "Save\Backup\MarioParty2.eep" "Save\MarioParty2.eep" > nul
 if errorlevel 1 (
 	set MP2="n"
 	set /p MP2=Your Mario Party 2 save has been changed. Replace? [Y or N] = )
+	if /I "%MP2%"=="yes" goto ReplaceMp2
+	if /I "%MP2%"=="y" goto ReplaceMp2
+	if /I "%MP2%"=="no" goto CheckMp3	
 	if /I "%MP2%"=="n" goto CheckMp3	
 ) else (
 	goto CheckMp3
@@ -126,8 +129,8 @@ fc /b "Save\Backup\Diddy Kong Racing.eep" "Save\Diddy Kong Racing.eep" > nul
 if errorlevel 1 (
 	set DKR="n"
 	set /p DKR=Your Diddy Kong Racing save has been changed. Replace? [Y or N] = )
-	if /I "%DKR%"=="yes" goto ReplaceMkDD
-	if /I "%DKR%"=="y" goto ReplaceMkDD
+	if /I "%DKR%"=="yes" goto ReplaceDKR
+	if /I "%DKR%"=="y" goto ReplaceDKR
 	if /I "%DKR%"=="no" goto CheckDK64
 	if /I "%DKR%"=="n" goto CheckDK64
 ) else (
@@ -203,10 +206,10 @@ if errorlevel 1 (
 	set /p MGOL=Your Mario Golf save has been changed. Replace? [Y or N] = )
 	if /I "%MGOL%"=="yes" goto ReplaceMGOL
 	if /I "%MGOL%"=="y" goto ReplaceMGOL
-	if /I "%MGOL%"=="no" goto CheckMTNS
-	if /I "%MGOL%"=="n" goto CheckMTNS
+	if /I "%MGOL%"=="no" goto CheckMT
+	if /I "%MGOL%"=="n" goto CheckMT
 ) else (
-	goto CheckMTNS
+	goto CheckMT
 )
 
 :ReplaceMGOL
@@ -221,20 +224,21 @@ if not errorlevel 1 (
 )
 )
 
-:CheckMTNS
+
+:CheckMT
 fc /b "Save\Backup\MarioTennis.eep" "Save\MarioTennis.eep" > nul
 if errorlevel 1 (
-	set MTNS="n"
-	set /p MTNS=Your Mario Tennis save has been changed. Replace? [Y or N] = )
-	if /I "%MTNS%"=="yes" goto ReplaceMPTS
-	if /I "%MTNS%"=="y" goto ReplaceMPTS
-	if /I "%MTNS%"=="no" goto CheckSSB
-	if /I "%MTNS%"=="n" goto CheckSSB
+	set MT="n"
+	set /p MT=Your Mario Teenis save has been changed. Replace? [Y or N] = )
+	if /I "%MT%"=="yes" goto ReplaceMT
+	if /I "%MT%"=="y" goto ReplaceMT
+	if /I "%MT%"=="no" goto CheckSSB
+	if /I "%MT%"=="n" goto CheckSSB
 ) else (
 	goto CheckSSB
 )
 
-:ReplaceMTNS
+:ReplaceMT
 copy /y "Save\Backup\MarioTennis.eep" "Save\MarioTennis.eep"
 fc /b "Save\Backup\MarioTennis.eep" "Save\MarioTennis.eep" > nul
 if not errorlevel 1 (

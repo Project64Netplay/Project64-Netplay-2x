@@ -325,6 +325,7 @@ enum LanguageStringID
     ROM_COUNTPERBYTE = 537,
     ROM_32BIT = 538,
     ROM_DELAY_DP = 539,
+	//ROM_OVER_CLOCK_MODIFIER = 5400,
 
     //Core Styles
     CORE_INTERPTER = 540,
@@ -348,6 +349,7 @@ enum LanguageStringID
     //RDRAM Size
     RDRAM_4MB = 580,
     RDRAM_8MB = 581,
+	RDRAM_16MB = 582,
 
     //Advanced Block Linking
     ABL_ON = 600,
