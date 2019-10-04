@@ -8,7 +8,7 @@ goto :Exit
 
 :Start
 TASKKILL /IM Project64.exe /F
-wget.exe https://github.com/CrankySupertoon/Project64-Netplay/raw/source/master.zip
+wget.exe https://github.com/Project64Netplay/Project64-Netplay/raw/source/master.zip
 7z x master.zip -y
 cd Config
 move Project64.cfg ..\
