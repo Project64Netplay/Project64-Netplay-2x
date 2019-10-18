@@ -1,5 +1,5 @@
 @echo off
-title Project64 Netplay Save Replacer
+title Project64 Save Replacer
 fc /b "Save\Backup\MarioParty.eep" "Save\MarioParty.eep" > nul
 if errorlevel 1 (
 	set MP1="n"

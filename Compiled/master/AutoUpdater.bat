@@ -1,5 +1,5 @@
 @echo off
-title Project 64 Netplay Updater
+title Project 64 Updater
 :choice
 set /P c=Are you sure you want to continue [Y or N] = 
 if /I "%c%" EQU "Y" goto :Start
@@ -8,7 +8,7 @@ goto :Exit
 
 :Start
 TASKKILL /IM Project64.exe /F
-wget.exe https://github.com/Project64Netplay/Project64-Netplay/raw/source/master.zip
+wget.exe https://github.com/Retro-Nintendo-Online/Project64-Netplay/raw/source/master.zip
 7z x master.zip -y
 cd Config
 move Project64.cfg ..\
