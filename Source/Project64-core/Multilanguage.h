@@ -90,6 +90,7 @@ enum LanguageStringID
     MENU_CONFG_AUDIO = 144,
     MENU_CONFG_CTRL = 145,
     MENU_CONFG_RSP = 146,
+	MENU_CHEAT = 130,
     MENU_SHOW_CPU = 147,
     MENU_SETTINGS = 148,
 

@@ -93,10 +93,11 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(MENU_OPTIONS, "&Options");
     DEF_STR(MENU_FULL_SCREEN, "&Full Screen");
     DEF_STR(MENU_ON_TOP, "&Always on &Top");
-    DEF_STR(MENU_CONFG_GFX, "Configure Graphics Plugin...");
-    DEF_STR(MENU_CONFG_AUDIO, "Configure Audio Plugin...");
-    DEF_STR(MENU_CONFG_CTRL, "Configure Controller Plugin...");
-    DEF_STR(MENU_CONFG_RSP, "Configure RSP Plugin...");
+    DEF_STR(MENU_CONFG_GFX, "Video");
+    DEF_STR(MENU_CONFG_AUDIO, "Audio");
+    DEF_STR(MENU_CONFG_CTRL, "Input");
+    DEF_STR(MENU_CONFG_RSP, "RSP");
+	DEF_STR(MENU_CHEAT, "Cheats");
     DEF_STR(MENU_SHOW_CPU, "Show CPU Usage");
     DEF_STR(MENU_SETTINGS, "&Settings...");
 
