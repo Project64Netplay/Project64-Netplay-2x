@@ -23,7 +23,7 @@ Linux:
 TBA
 
 ##### Notes
-To set the Version of the emulator edit `Source/Project64-core/Version.h`
+To set the Version of the emulator edit [Version.h](Source/Project64-core/Version.h) 
 
 ## License
 Project64 Netplay is licensed under the same license as Project64, the [GNU General Public License v2.0](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
