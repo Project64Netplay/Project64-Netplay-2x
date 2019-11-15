@@ -1,4 +1,4 @@
-# Project 64 Netplay
+# Project64 Netplay
 
 Project64 Netplay is an N64 emulator for Windows and Linux (Wine).
 
