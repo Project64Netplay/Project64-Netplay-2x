@@ -1,0 +1,5 @@
+Welcome to the Project64 Netplay Setup Wizard!
+
+This wizard will guide you through the install of Project64 Netplay.
+
+Project64 Netplay is a fork of Project64 maintained sepertly for Netplay Support.

@@ -312,7 +312,6 @@
     <ClInclude Include="N64System\SpeedLimiterClass.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="TraceModulesProject64.h" />
-    <ClInclude Include="Version.h" />
     <ClInclude Include="3rdParty\7zip.h">
       <Filter>3rd Party</Filter>
     </ClInclude>

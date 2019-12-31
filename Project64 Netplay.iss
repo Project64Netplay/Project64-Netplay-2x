@@ -2,15 +2,15 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Project64 Netplay"
-#define MyAppVersion "11.9.19"
-#define MyAppPublisher "Retro Nintendo Onlin"
-#define MyAppURL "http://www.retronintendoonline.ml"
-#define MyAppExeName "Project64.exe"
+#define MyAppVersion "12/31/19"
+#define MyAppPublisher "Retro Nintendo Online Inc."
+#define MyAppURL "http://pj64netplay-emu.ml"
+#define MyAppExeName "Project64 Netplay.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{FCFFDDCE-8AA5-4E80-B79F-2D0AA438E8A7}
+AppId={{231280AD-85CF-42F4-BCAA-5EDB6DFDFF7E}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -22,12 +22,14 @@ DefaultDirName={autopf}\{#MyAppName}
 DisableProgramGroupPage=yes
 ; The [Icons] "quicklaunchicon" entry uses {userappdata} but its [Tasks] entry has a proper IsAdminInstallMode Check.
 UsedUserAreasWarning=no
-LicenseFile=D:\Git\Retro Nintendo Online\Project64-Netplay\licence.md
+LicenseFile=E:\Git\Retro Nintendo Online\Project64-Netplay\licence.md
+InfoBeforeFile=E:\Git\Retro Nintendo Online\Project64-Netplay\Installer\before.txt
+InfoAfterFile=E:\Git\Retro Nintendo Online\Project64-Netplay\Installer\after.txt
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=D:\Git\Retro Nintendo Online\Project64-Netplay\Installer
-OutputBaseFilename=mysetup
-SetupIconFile=D:\Git\Retro Nintendo Online\Project64-Netplay\Source\Project64\UserInterface\Icons\pj64.ico
+OutputDir=E:\Git\Retro Nintendo Online\Project64-Netplay\Installer
+OutputBaseFilename=Project64 Netplay Setup
+SetupIconFile=E:\Git\Retro Nintendo Online\Project64-Netplay\Source\Project64\UserInterface\Icons\pj64.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -40,18 +42,14 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 6.1; Check: not IsAdminInstallMode
 
 [Files]
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\Project64.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\Config\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\7z.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\7z.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\AutoUpdater.bat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\Project64.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\Replace.bat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\wget.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\Lang\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\Plugin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\Save\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "D:\Git\Retro Nintendo Online\Project64-Netplay\Compiled\master\MemPaks\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\Project64 Netplay.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\Replace.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\Config\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\Games\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\Lang\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\MemPaks\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\Plugin\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\Git\Retro Nintendo Online\Project64-Netplay\bin\Release\Save\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

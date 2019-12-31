@@ -1,13 +1,13 @@
-﻿// ============ RDB for PJ64 v2.2. GoodN64 v321 =====================================
-// PJ64 v2.2 Official RDB
+﻿// ============ RDB for PJ64Netplay =====================================
+// PJ64Netplay Official RDB
 // Not for use with PJ64 v1.6 or previous
 //---- START OF RDB FILE HEADER ---------------------------------------------------------
 
 [Meta]
-Author=Project64 team
-Version=2.2.4
-Date=2015/03/28
-Homepage=www.pj64-emu.com
+Author=CrankySupertoon
+Version=12.31.19
+Date=2019/12/31
+Homepage=www.pj64netplay-emu.ml
 
 [Microcode Identifiers]
 //38221D7F=0 //SD Hiryuu no Ken Densetsu (J), near start (Smiff)
@@ -515,6 +515,7 @@ Plugin Note=[Glide64] need per-frame FB for puzzle pieces
 Culling=1
 Self Texture=1
 RDRAM Size=8
+RPC-Key=banjo-kazooie
 
 [514B6900-B4B19881-C:4A]
 Good Name=Banjo to Kazooie no Daibouken 2 (J)
@@ -523,6 +524,7 @@ Status=Compatible
 Plugin Note=[Glide64] need per-frame FB for puzzle pieces
 Save Type=16kbit Eeprom
 RDRAM Size=8
+RPC-Key=banjo-tootie
 
 [733FCCB1-444892F9-C:50]
 Good Name=Banjo-Kazooie (E) (M3)
@@ -532,6 +534,8 @@ Plugin Note=[Glide64] need per-frame FB for puzzle pieces
 Culling=1
 Self Texture=1
 RDRAM Size=8
+RPC-Key=banjo-kazooie
+
 
 [A4BF9306-BF0CDFD1-C:45]
 Good Name=Banjo-Kazooie (U) (V1.0)
@@ -542,6 +546,7 @@ Culling=1
 Primary Frame Buffer=1
 Self Texture=1
 RDRAM Size=8
+RPC-Key=banjo-kazooie
 
 [CD7559AC-B26CF5AE-C:45]
 Good Name=Banjo-Kazooie (U) (V1.1)
@@ -552,6 +557,7 @@ Culling=1
 Primary Frame Buffer=1
 Self Texture=1
 RDRAM Size=8
+RPC-Key=banjo-kazooie
 
 [155B7CDF-F0DA7325-C:55]
 Good Name=Banjo-Tooie (A)
@@ -560,6 +566,7 @@ Status=Compatible
 Plugin Note=[Glide64] need per-frame FB for puzzle pieces
 Save Type=16kbit Eeprom
 RDRAM Size=8
+RPC-Key=banjo-tootie
 
 [C9176D39-EA4779D1-C:50]
 Good Name=Banjo-Tooie (E) (M4)
@@ -570,6 +577,7 @@ Culling=1
 Save Type=16kbit Eeprom
 Self Texture=1
 RDRAM Size=8
+RPC-Key=banjo-tootie
 
 [C2E9AA9A-475D70AA-C:45]
 Good Name=Banjo-Tooie (U)
@@ -580,6 +588,7 @@ Culling=1
 Save Type=16kbit Eeprom
 Self Texture=1
 RDRAM Size=8
+RPC-Key=banjo-tootie
 
 [B088FBB4-441E4B1D-C:50]
 Good Name=Bass Hunter 64 (E)
@@ -767,12 +776,14 @@ Good Name=Bomberman 64 (E)
 Internal Name=BOMBERMAN64E
 Status=Compatible
 Clear Frame=1
+RPC Key=bomberman
 
 [DF6FF0F4-29D14238-C:4A]
 Good Name=Bomberman 64 (J)
 Internal Name=BOMBERMAN64
 Status=Compatible
 Culling=1
+RPC Key=bomberman
 
 [F568D51E-7E49BA1E-C:45]
 Good Name=Bomberman 64 (U)
@@ -780,6 +791,7 @@ Internal Name=BOMBERMAN64U
 Status=Compatible
 Clear Frame=1
 Culling=1
+RPC Key=bomberman
 
 [237E73B4-D63B6B37-C:45]
 Good Name=Bomberman 64 - The Second Attack! (U)
@@ -1442,6 +1454,7 @@ Counter Factor=1
 Culling=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
+RPC Key=dk64
 
 [053C89A7-A5064302-C:4A]
 Good Name=Donkey Kong 64 (J)
@@ -1453,6 +1466,7 @@ Plugin Note=[Glide64] fairy bug; transitions
 Counter Factor=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
+RPC Key=dk64
 
 [EC58EABF-AD7C7169-C:45]
 Good Name=Donkey Kong 64 (U)
@@ -1467,6 +1481,7 @@ Emulate Clear=1
 Primary Frame Buffer=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
+RPC Key=dk64
 
 [0DD4ABAB-B5A2A91E-C:45]
 Good Name=Donkey Kong 64 (U) (Kiosk Demo)
@@ -1477,6 +1492,7 @@ Core Note=Polygon tearing
 Counter Factor=1
 RDRAM Size=8
 Save Type=16kbit Eeprom
+RPC Key=dk64
 
 [2C739EAC-9EF77726-C:50]
 Good Name=Doom 64 (E)
@@ -1806,6 +1822,7 @@ Status=Compatible
 Plugin Note=[Glide64] missing menu effects.
 32bit=No
 Clear Frame=2
+RPC Key=fzero
 
 [4D3E622E-9B828B4E-C:4A]
 Good Name=F-ZERO X (J)
@@ -1816,6 +1833,7 @@ Plugin Note=[Glide64] missing menu effects
 32bit=No
 Culling=1
 Fixed Audio=0
+RPC Key=fzero
 
 [B30ED978-3003C9F9-C:45]
 Good Name=F-ZERO X (U)
@@ -1825,6 +1843,7 @@ Plugin Note=[Glide64] missing effects
 32bit=No
 Clear Frame=2
 Culling=1
+RPC Key=fzero
 
 [BBFDEC37-D93B9EC0-C:4A]
 Good Name=F-ZERO X + Expansion Kit (J) [CART HACK]
@@ -1834,6 +1853,7 @@ Plugin Note=[Glide64] missing effects
 RDRAM Size=8
 Culling=1
 AllowROMWrites=Yes
+RPC Key=fzero
 
 [C6E39C0A-D2726676-C:45]
 Good Name=F-ZERO X + Expansion Kit (U) [CART HACK]
@@ -1843,6 +1863,7 @@ Plugin Note=[Glide64] missing effects
 RDRAM Size=8
 Culling=1
 AllowROMWrites=Yes
+RPC Key=fzero
 
 [3CECBCB8-6126BF07-C:50]
 Good Name=F1 Racing Championship (E) (M5)
@@ -2158,6 +2179,7 @@ SMM-Cache=0
 SMM-FUNC=0
 SMM-PI DMA=0
 SMM-TLB=0
+RPC Key=goldeneye
 
 [A24F4CF1-A82327BA-C:4A]
 Good Name=GoldenEye 007 (J)
@@ -2172,6 +2194,7 @@ SMM-Cache=0
 SMM-FUNC=0
 SMM-PI DMA=0
 SMM-TLB=0
+RPC Key=goldeneye
 
 [DCBC50D1-09FD1AA3-C:45]
 Good Name=GoldenEye 007 (U)
@@ -2191,6 +2214,7 @@ SMM-TLB=0
 TLB: PAddr Start=268651312
 TLB: Vaddr Len=16777216
 TLB: Vaddr Start=2130706432
+RPC Key=goldeneye
 
 [FF42BE66-91CA9B1D-C:45]
 Good Name=GoldenEye X 5d
@@ -3244,6 +3268,7 @@ Cheat0=81001A38 2409,81001A3A 0002,81001A3C 2409,81001A3E 0002,81001C90 240A,810
 Plugin Note=[Glide64] missing TVs
 Culling=1
 Primary Frame Buffer=1
+RPC Key=mk64
 
 [2577C7D4-D18FAAAE-C:50]
 Good Name=Mario Kart 64 (E) (V1.1)
@@ -3253,6 +3278,7 @@ Cheat0=81001A38 2409,81001A3A 0002,81001A3C 2409,81001A3E 0002,81001C90 240A,810
 Plugin Note=[Glide64] missing TVs
 Culling=1
 Primary Frame Buffer=1
+RPC Key=mk64
 
 [6BFF4758-E5FF5D5E-C:4A]
 Good Name=Mario Kart 64 (J) (V1.0)
@@ -3262,6 +3288,7 @@ Cheat0=81001A38 2409,81001A3A 0002,81001A3C 2409,81001A3E 0002,81001C90 240A,810
 Plugin Note=[Glide64] missing TVs
 Culling=1
 Primary Frame Buffer=1
+RPC Key=mk64
 
 [C9C3A987-5810344C-C:4A]
 Good Name=Mario Kart 64 (J) (V1.1)
@@ -3271,6 +3298,7 @@ Cheat0=81001A38 2409,81001A3A 0002,81001A3C 2409,81001A3E 0002,81001C90 240A,810
 Plugin Note=[Glide64] missing TVs
 Culling=1
 Primary Frame Buffer=1
+RPC Key=mk64
 
 [3E5055B6-2E92DA52-C:45]
 Good Name=Mario Kart 64 (U)
@@ -3280,6 +3308,7 @@ Cheat0=81001A38 2409,81001A3A 0002,81001A3C 2409,81001A3E 0002,81001C90 240A,810
 Plugin Note=[Glide64] missing TVs
 Culling=1
 Primary Frame Buffer=1
+RPC Key=mk64
 
 [9A9890AC-F0C313DF-C:4A]
 Good Name=Mario no Photopi (J)
@@ -3294,36 +3323,43 @@ Good Name=Mario Party (E) (M3)
 Internal Name=MarioParty
 Status=Unsupported
 Counter Factor=1
+RPC Key=mp1
+
 
 [ADA815BE-6028622F-C:4A]
 Good Name=Mario Party (J)
 Internal Name=MarioParty
 Status=Unsupported
 Counter Factor=1
+RPC Key=mp1
 
 [2829657E-A0621877-C:45]
 Good Name=Mario Party (U)
 Internal Name=MarioParty
 Status=Netplay Compatible
 Counter Factor=1
+RPC Key=mp1
 
 [82380387-DFC744D9-C:50]
 Good Name=Mario Party 2 (E) (M5)
 Internal Name=MarioParty2
 Status=Unsupported
 Counter Factor=1
+RPC Key=mp2
 
 [ED567D0F-38B08915-C:4A]
 Good Name=Mario Party 2 (J)
 Internal Name=MarioParty2
 Status=Unsupported
 Counter Factor=1
+RPC Key=mp2
 
 [9EA95858-AF72B618-C:45]
 Good Name=Mario Party 2 (U)
 Internal Name=MarioParty2
 Status=Netplay Compatible
 Counter Factor=1
+RPC Key=mp2
 
 [C5674160-0F5F453C-C:50]
 Good Name=Mario Party 3 (E) (M4)
@@ -3331,6 +3367,7 @@ Internal Name=MarioParty3
 Status=Unsupported
 Counter Factor=1
 Save Type=16kbit Eeprom
+RPC Key=mp3
 
 [0B0AB4CD-7B158937-C:4A]
 Good Name=Mario Party 3 (J)
@@ -3338,6 +3375,7 @@ Internal Name=MarioParty3
 Status=Unsupported
 Counter Factor=1
 Save Type=16kbit Eeprom
+RPC Key=mp3
 
 [7C3829D9-6E8247CE-C:45]
 Good Name=Mario Party 3 (U)
@@ -3345,6 +3383,7 @@ Internal Name=MarioParty3
 Status=Netplay Compatible
 Counter Factor=1
 Save Type=16kbit Eeprom
+RPC Key=mp3
 
 [4523DB39-CD4C819D-C:45]
 Good Name=Newer Mario Party
@@ -3352,6 +3391,7 @@ Internal Name=NewerMarioParty
 Status=Netplay Compatible
 Counter Factor=1
 Save Type=16kbit Eeprom
+RPC Key=nmp
 
 [FC800626-85C17FC3-C:45]
 Good Name=Mario Party 3: Costume Party (v1.1)
@@ -3359,6 +3399,7 @@ Internal Name=MarioParty3(Costume)
 Status=Netplay Compatible
 Counter Factor=1
 Save Type=16kbit Eeprom
+RPC Key=mp3
 
 [3BA7CDDC-464E52A0-C:4A]
 Good Name=Mario Story (J)
@@ -3369,6 +3410,7 @@ Save Type=FlashRam
 Clear Frame=1
 Counter Factor=1
 Culling=1
+RPC Key=papermario
 
 [839F3AD5-406D15FA-C:50]
 Good Name=Mario Tennis (E)
@@ -4092,6 +4134,7 @@ Save Type=FlashRam
 Clear Frame=1
 Counter Factor=1
 Culling=1
+RPC Key=papermario
 
 [65EEE53A-ED7D733C-C:45]
 Good Name=Paper Mario (U)
@@ -4102,6 +4145,7 @@ Save Type=FlashRam
 Clear Frame=1
 Counter Factor=1
 Culling=1
+RPC Key=papermario
 
 [AC976B38-C3A9C97A-C:50]
 Good Name=Paperboy (E)
@@ -4151,6 +4195,7 @@ SMM-PI DMA=0
 SMM-Protect=1
 SMM-TLB=0
 Save Type=16kbit Eeprom
+RPC Key=perfect-dark
 
 [96747EB4-104BB243-C:4A]
 Good Name=Perfect Dark (J)
@@ -4166,6 +4211,7 @@ SMM-PI DMA=0
 SMM-Protect=1
 SMM-TLB=0
 Save Type=16kbit Eeprom
+RPC Key=perfect-dark
 
 [DDF460CC-3CA634C0-C:45]
 Good Name=Perfect Dark (U) (V1.0)
@@ -4182,6 +4228,7 @@ SMM-FUNC=0
 SMM-PI DMA=0
 SMM-TLB=0
 Save Type=16kbit Eeprom
+RPC Key=perfect-dark
 
 [41F2B98F-B458B466-C:45]
 Good Name=Perfect Dark (U) (V1.1)
@@ -4198,6 +4245,7 @@ SMM-FUNC=0
 SMM-PI DMA=0
 SMM-TLB=0
 Save Type=16kbit Eeprom
+RPC Key=perfect-dark
 
 [766309EA-3F64A369-C:45]
 Good Name=Perfect Dark XBLA Mp3 (1.0)
@@ -4214,6 +4262,7 @@ SMM-FUNC=0
 SMM-PI DMA=0
 SMM-TLB=0
 Save Type=16kbit Eeprom
+RPC Key=perfect-dark
 
 [EE08C602-6BC2D5A6-C:50]
 Good Name=PGA European Tour (E) (M5)
@@ -4240,6 +4289,7 @@ Plugin Note=[Glide64] broken shadows
 Cheat0=D0264361 0012,80264361 00FF,D0264BE1 0012,80264BE1 00FF,D0264DA1 0012,80264DA1 00FF,D02647E1 0012,802647E1 00FF,D02646A1 0012,802646A1 00FF,D0264661 0012,80264661 00FF,D02649A1 0012,802649A1 00FF,D0264BA1 0012,80264BA1 00FF,D0264AA1 0012,80264AA1 00FF,D02641E1 0020,802641E1 00FF,D02648E1 0020,802648E1 00FF,D0264D61 0020,80264D61 00FF,D0264A21 0020,80264A21 00FF,D02645A1 0020,802645A1 00FF,D02647A1 0020,802647A1 00FF,D02642A1 0029,802642A1 00FF,D0264921 0029,80264921 00FF,D0264621 0029,80264621 00FF,D0264A21 0029,80264A21 00FF,D0264C61 0029,80264C61 00FF,D02647A1 0029,802647A1 00FF,D0264FE1 0029,80264FE1 00FF,D0265161 0029,80265161 00FF,D0264AA1 0029,80264AA1 00FF,D02641E1 003D,802641E1 00FF,D02649E1 003D,802649E1 00FF,D0264561 003D,80264561 00FF,D02646E1 003D,802646E1 00FF,D0264721 003D,80264721 00FF //Land Shadow Fix
 CheatPlugin0=Jabo's Direct3D8,Glide64 For PJ64
 Counter Factor=3
+RPC Key=pilotwings
 
 [09CC4801-E42EE491-C:4A]
 Good Name=Pilotwings 64 (J)
@@ -4249,6 +4299,7 @@ Plugin Note=[Glide64] broken shadows
 Cheat0=D02639B1 0012,802639B1 00FF,D0264231 0012,80264231 00FF,D02643F1 0012,802643F1 00FF,D0263E31 0012,80263E31 00FF,D0263CF1 0012,80263CF1 00FF,D0263CB1 0012,80263CB1 00FF,D0263FF1 0012,80263FF1 00FF,D02641F1 0012,802641F1 00FF,D02640F1 0012,802640F1 00FF,D0263831 0020,80263831 00FF,D0263F31 0020,80263F31 00FF,D02643B1 0020,802643B1 00FF,D0264071 0020,80264071 00FF,D0263BF1 0020,80263BF1 00FF,D0263DF1 0020,80263DF1 00FF,D02638F1 0029,802638F1 00FF,D0263F71 0029,80263F71 00FF,D0263C71 0029,80263C71 00FF,D0264071 0029,80264071 00FF,D02642B1 0029,802642B1 00FF,D0263DF1 0029,80263DF1 00FF,D0264631 0029,80264631 00FF,D02647B1 0029,802647B1 00FF,D02640F1 0029,802640F1 00FF,D0263831 003D,80263831 00FF,D0264031 003D,80264031 00FF,D0263BB1 003D,80263BB1 00FF,D0263D31 003D,80263D31 00FF,D0263D71 003D,80263D71 00FF //Land Shadow Fix
 CheatPlugin0=Jabo's Direct3D8,Glide64 For PJ64
 Counter Factor=3
+RPC Key=pilotwings
 
 [C851961C-78FCAAFA-C:45]
 Good Name=Pilotwings 64 (U)
@@ -4259,6 +4310,7 @@ Cheat0=D0263B41 0012,80263B41 00FF,D02643C1 0012,802643C1 00FF,D0264581 0012,802
 CheatPlugin0=Jabo's Direct3D8,Glide64 For PJ64
 Counter Factor=3
 Culling=1
+RPC Key=pilotwings
 
 [4A1CD153-D830AEF8-C:50]
 Good Name=Pokemon Puzzle League (E)
@@ -4388,6 +4440,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [91C9E05D-AD3AAFB9-C:50]
 Good Name=Pokemon Stadium (E) (V1.1)
@@ -4397,6 +4450,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [A23553A3-42BF2D39-C:46]
 Good Name=Pokemon Stadium (F)
@@ -4406,6 +4460,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [42011E1B-E3552DB5-C:44]
 Good Name=Pokemon Stadium (G)
@@ -4415,6 +4470,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [A53FA82D-DAE2C15D-C:49]
 Good Name=Pokemon Stadium (I)
@@ -4424,6 +4480,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [665E8259-D098BD1D-C:4A]
 Good Name=Pokemon Stadium (J)
@@ -4434,6 +4491,7 @@ Culling=1
 Emulate Clear=1
 Linking=Off
 Save Type=Sram
+RPC Key=pokemon-stadium
 
 [B6E549CE-DC8134C0-C:53]
 Good Name=Pokemon Stadium (S)
@@ -4443,6 +4501,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [90F5D9B3-9D0EDCF0-C:45]
 Good Name=Pokemon Stadium (U) (V1.0)
@@ -4452,6 +4511,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [1A122D43-C17DAF0F-C:45]
 Good Name=Pokemon Stadium - Kiosk (U) (V1.1)
@@ -4461,6 +4521,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [9C8FB2FA-9B84A09B-C:45]
 Good Name=Pokemon Stadium (U) (V1.2)
@@ -4470,6 +4531,7 @@ Plugin Note=[Glide64] various issues
 Culling=1
 Emulate Clear=1
 Linking=Off
+RPC Key=pokemon-stadium
 
 [2952369C-B6E4C3A8-C:50]
 Good Name=Pokemon Stadium 2 (E)
@@ -4481,6 +4543,7 @@ Emulate Clear=1
 Linking=Off
 RDRAM Size=8
 RSP-Mfc0Count=10
+RPC Key=pokemon-stadium-2
 
 [AC5AA5C7-A9B0CDC3-C:46]
 Good Name=Pokemon Stadium 2 (F)
@@ -4492,6 +4555,7 @@ Emulate Clear=1
 Linking=Off
 RDRAM Size=8
 RSP-Mfc0Count=10
+RPC Key=pokemon-stadium-2
 
 [439B7E7E-C1A1495D-C:44]
 Good Name=Pokemon Stadium 2 (G)
@@ -4503,6 +4567,7 @@ Emulate Clear=1
 Linking=Off
 RDRAM Size=8
 RSP-Mfc0Count=10
+RPC Key=pokemon-stadium-2
 
 [EFCEAF00-22094848-C:49]
 Good Name=Pokemon Stadium 2 (I)
@@ -4514,6 +4579,7 @@ Emulate Clear=1
 Linking=Off
 RDRAM Size=8
 RSP-Mfc0Count=10
+RPC Key=pokemon-stadium-2
 
 [63775886-5FB80E7B-C:4A]
 Good Name=Pokemon Stadium 2 (J)
@@ -4524,6 +4590,7 @@ Culling=1
 Emulate Clear=1
 Linking=Off
 RDRAM Size=8
+RPC Key=pokemon-stadium-2
 
 [D0A1FC5B-2FB8074B-C:53]
 Good Name=Pokemon Stadium 2 (S)
@@ -4535,6 +4602,7 @@ Emulate Clear=1
 Linking=Off
 RDRAM Size=8
 RSP-Mfc0Count=10
+RPC Key=pokemon-stadium-2
 
 [03571182-892FD06D-C:45]
 Good Name=Pokemon Stadium 2 (U)
@@ -4546,6 +4614,7 @@ Emulate Clear=1
 Linking=Off
 RDRAM Size=8
 RSP-Mfc0Count=10
+RPC Key=pokemon-stadium-2
 
 [EE4FD7C2-9CF1D938-C:4A]
 Good Name=Pokemon Stadium Kin Gin (J)
@@ -5266,24 +5335,28 @@ Good Name=Star Fox 64 (J) (V1.0)
 Internal Name=STARFOX64
 Status=Compatible
 Linking=Off
+RPC Key=starfox
 
 [65AEDEEF-3857C728-C:4A]
 Good Name=Star Fox 64 (J) (V1.1)
 Internal Name=STARFOX64
 Status=Compatible
 Linking=Off
+RPC Key=starfox
 
 [A7D015F8-2289AA43-C:45]
 Good Name=Star Fox 64 (U) (V1.0)
 Internal Name=STARFOX64
 Status=Compatible
 Linking=Off
+RPC Key=starfox
 
 [BA780BA0-0F21DB34-C:45]
 Good Name=Star Fox 64 (U) (V1.1)
 Internal Name=STARFOX64
 Status=Compatible
 Linking=Off
+RPC Key=starfox
 
 [B703EB23-28AAE53A-C:4A]
 Good Name=Star Soldier - Vanishing Earth (J)
@@ -5556,24 +5629,31 @@ Good Name=Super Mario 64 (E) (M3)
 Internal Name=SUPER MARIO 64
 Status=Compatible
 Culling=1
+RPC Key=sm64
+
 
 [4EAA3D0E-74757C24-C:4A]
 Good Name=Super Mario 64 (J)
 Internal Name=SUPER MARIO 64
 Status=Compatible
 Culling=1
+RPC Key=sm64
+
 
 [635A2BFF-8B022326-C:45]
 Good Name=Super Mario 64 (U)
 Internal Name=SUPER MARIO 64
 Status=Compatible
 Culling=1
+RPC Key=sm64
+
 
 [D6FBA4A8-6326AA2C-C:4A]
 Good Name=Super Mario 64 - Shindou Edition (J)
 Internal Name=SUPERMARIO64
 Status=Compatible
 Culling=1
+RPC Key=sm64
 
 [66572080-28E348E1-C:4A]
 Good Name=Super Robot Spirits (J)
@@ -5596,6 +5676,7 @@ SMM-Cache=0
 SMM-FUNC=0
 SMM-TLB=0
 ViRefresh=2200
+RPC Key=ssb
 
 [93945F48-5C0F2E30-C:50]
 Good Name=Super Smash Bros. (E) (M3)
@@ -5607,6 +5688,7 @@ SMM-Cache=0
 SMM-FUNC=0
 SMM-TLB=0
 ViRefresh=2200
+RPC Key=ssb
 
 [916B8B5B-780B85A4-C:45]
 Good Name=Super Smash Bros. (U)
@@ -5617,6 +5699,7 @@ SMM-Cache=0
 SMM-FUNC=0
 SMM-TLB=0
 ViRefresh=2200
+RPC Key=ssb
 
 [8E88330C-84E39D42-C:45]
 Good Name=Super Smash Bros.: 199XTE v0.11
@@ -5627,6 +5710,7 @@ SMM-Cache=0
 SMM-FUNC=0
 SMM-TLB=0
 ViRefresh=2200
+RPC Key=ssb
 
 [9CE02E22-206EF1B0-C:4A]
 Good Name=Super Speed Race 64 (J)
@@ -5735,6 +5819,7 @@ Clear Frame=2
 Good Name=The Legend of Zelda - Majora's Mask (E) (M4) (Debug Version)
 Internal Name=ZELDA MAJORA'S MASK
 Status=Compatible
+RPC-Key=loz-majora
 
 [E97955C6-BC338D38-C:50]
 Good Name=The Legend of Zelda - Majora's Mask (E) (M4) (V1.0)
@@ -5744,6 +5829,7 @@ Culling=1
 Emulate Clear=1
 RDRAM Size=8
 Self Texture=1
+RPC-Key=loz-majora
 
 [0A5D8F83-98C5371A-C:50]
 Good Name=The Legend of Zelda - Majora's Mask (E) (M4) (V1.1)
@@ -5753,6 +5839,7 @@ Culling=1
 Emulate Clear=1
 RDRAM Size=8
 Self Texture=1
+RPC-Key=loz-majora
 
 [5354631C-03A2DEF0-C:45]
 Good Name=The Legend of Zelda - Majora's Mask (U)
@@ -5762,6 +5849,7 @@ Culling=1
 Emulate Clear=1
 RDRAM Size=8
 Self Texture=1
+RPC-Key=loz-majora
 
 [6AECEC4F-F0924814-C:50]
 Good Name=The Legend of Zelda - Majora's Mask - Collector's Edition (E) (M4) (GC)
@@ -5771,6 +5859,7 @@ Culling=1
 Emulate Clear=1
 RDRAM Size=8
 Self Texture=1
+RPC-Key=loz-majora
 
 [B443EB08-4DB31193-C:45]
 Good Name=The Legend of Zelda - Majora's Mask - Collector's Edition (U) (GC)
@@ -5780,6 +5869,7 @@ Culling=1
 Emulate Clear=1
 RDRAM Size=8
 Self Texture=1
+RPC-Key=loz-majora
 
 [BF799345-39FF7A02-C:45]
 Good Name=The Legend of Zelda - Majora's Mask - Preview Demo (U)
@@ -5789,6 +5879,7 @@ Culling=1
 Emulate Clear=1
 RDRAM Size=8
 Self Texture=1
+RPC-Key=loz-majora
 
 [09465AC3-F8CB501B-C:50]
 Good Name=The Legend of Zelda - Ocarina of Time (E) (GC)
@@ -5803,6 +5894,7 @@ SMM-PI DMA=0
 SMM-TLB=0
 Self Texture=1
 RDRAM Size=8
+RPC-Key=loz-ocarina
 
 [B044B569-373C1985-C:50]
 Good Name=The Legend of Zelda - Ocarina of Time (E) (M3) (V1.0)
@@ -5816,6 +5908,7 @@ SMM-PI DMA=0
 SMM-TLB=0
 Self Texture=1
 RDRAM Size=8
+RPC-Key=loz-ocarina
 
 [B2055FBD-0BAB4E0C-C:50]
 Good Name=The Legend of Zelda - Ocarina of Time (E) (M3) (V1.1)
@@ -5829,6 +5922,7 @@ SMM-PI DMA=0
 SMM-TLB=0
 Self Texture=1
 RDRAM Size=8
+RPC-Key=loz-ocarina
 
 [F3DD35BA-4152E075-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time (U) (GC)
@@ -5843,6 +5937,7 @@ SMM-PI DMA=0
 SMM-TLB=0
 Self Texture=1
 RDRAM Size=8
+RPC-Key=loz-ocarina
 
 [EC7011B7-7616D72B-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time (U) (V1.0)
@@ -5861,6 +5956,7 @@ SMM-Protect=1
 SMM-TLB=0
 Self Texture=1
 RDRAM Size=8
+RPC-Key=loz-ocarina
 
 [D43DA81F-021E1E19-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time (U) (V1.1)
@@ -5878,6 +5974,7 @@ SMM-Protect=1
 SMM-TLB=0
 Self Texture=1
 RDRAM Size=8
+RPC-Key=loz-ocarina
 
 [693BA2AE-B7F14E9F-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time (U) (V1.2)
@@ -5895,6 +5992,7 @@ SMM-Protect=1
 SMM-TLB=0
 Self Texture=1
 RDRAM Size=8
+RPC-Key=loz-ocarina
 
 [1D4136F3-AF63EEA9-C:50]
 Good Name=The Legend of Zelda - Ocarina of Time - Master Quest (E) (GC)
@@ -5906,6 +6004,7 @@ CheatPlugin0=Jabo's Direct3D8,Glide64 For PJ64
 Culling=1
 Emulate Clear=1
 Self Texture=1
+RPC-Key=loz-ocarina
 
 [27A3831D-B505A533-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time - Master Quest (E) [f1] (NTSC)
@@ -5920,6 +6019,7 @@ Emulate Clear=1
 SMM-PI DMA=0
 SMM-TLB=0
 Self Texture=1
+RPC-Key=loz-ocarina
 
 [1D4136F3-AF63EEA9-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time - Master Quest (E) [h1C]
@@ -5933,6 +6033,7 @@ Emulate Clear=1
 SMM-PI DMA=0
 SMM-TLB=0
 Self Texture=1
+RPC-Key=loz-ocarina
 
 [917D18F6-69BC5453-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time - Master Quest (U) (Debug Version)
@@ -5941,6 +6042,7 @@ Status=Compatible
 RDRAM Size=8
 SMM-PI DMA=0
 SMM-TLB=0
+RPC-Key=loz-ocarina
 
 [F034001A-AE47ED06-C:45]
 Good Name=The Legend of Zelda - Ocarina of Time - Master Quest (U) (GC)
@@ -5954,6 +6056,7 @@ Emulate Clear=1
 SMM-PI DMA=0
 SMM-TLB=0
 Self Texture=1
+RPC-Key=loz-ocarina
 
 [E61CFF0A-CE1C0D71-C:50]
 Good Name=The New Tetris (E)
@@ -6627,32 +6730,39 @@ Good Name=Wave Race 64 (E) (M2)
 Internal Name=WAVE RACE 64
 Status=Compatible
 Culling=1
+RPC-Key=waverace
+
 
 [5C9191D6-B30AC306-C:4A]
 Good Name=Wave Race 64 (J) (V1.0)
 Internal Name=WAVE RACE 64
 Status=Compatible
+RPC-Key=waverace
 
 [44995484-20A5FC5E-C:4A]
 Good Name=Wave Race 64 (J) (V1.1)
 Internal Name=WAVE RACE 64
 Status=Compatible
+RPC-Key=waverace
 
 [7DE11F53-74872F9D-C:45]
 Good Name=Wave Race 64 (U) (V1.0)
 Internal Name=WAVE RACE 64
 Status=Compatible
+RPC-Key=waverace
 
 [492F4B61-04E5146A-C:45]
 Good Name=Wave Race 64 (U) (V1.1)
 Internal Name=WAVE RACE 64
 Status=Compatible
+RPC-Key=waverace
 
 [535DF3E2-609789F1-C:4A]
 Good Name=Wave Race 64 - Shindou Edition (J) (V1.2)
 Internal Name=WAVE RACE 64
 Status=Compatible
 Counter Factor=3
+RPC-Key=waverace
 
 [661B45F3-9ED6266D-C:50]
 Good Name=Wayne Gretzky's 3D Hockey '98 (E) (M4)

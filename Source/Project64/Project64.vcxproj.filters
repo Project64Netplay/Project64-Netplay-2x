@@ -266,6 +266,7 @@
     <ClInclude Include="UserInterface\Settings\SettingsPage-Plugin.h">
       <Filter>UI\Settings</Filter>
     </ClInclude>
+    <ClInclude Include="..\Project64-core\Version.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="res\divider.cur">
