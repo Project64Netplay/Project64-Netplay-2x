@@ -845,7 +845,7 @@ Status=Compatible
 
 [8AFB2D9A-9F186C02-C:45]
 Good Name=Bust-A-Move '99 (U)
-Internal Name=Bust-A-Move '99 
+Internal Name=Bust-A-Move '99
 Status=Compatible
 
 [F23CA406-EC2ACE78-C:45]
@@ -3346,7 +3346,7 @@ Status=Netplay Compatible
 Counter Factor=1
 Save Type=16kbit Eeprom
 
-[453C0B6F-3CAFB67F-C:45]
+[4523DB39-CD4C819D-C:45]
 Good Name=Newer Mario Party
 Internal Name=NewerMarioParty
 Status=Netplay Compatible
