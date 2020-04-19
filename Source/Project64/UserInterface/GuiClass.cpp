@@ -1224,24 +1224,8 @@ DWORD CALLBACK AboutBoxProc(HWND hWnd, DWORD uMsg, DWORD wParam, DWORD /*lParam*
 
             hPageHeadingFont = ::CreateFont(24, 0, 0, 0, FW_BOLD, 0, FALSE, 0, DEFAULT_CHARSET, OUT_DEFAULT_PRECIS, CLIP_DEFAULT_PRECIS, PROOF_QUALITY, DEFAULT_PITCH | FF_DONTCARE, "Arial Bold");
 
-            SendDlgItemMessage(hWnd, IDC_VERSION, WM_SETFONT, (WPARAM)hTextFont, TRUE);
             SendDlgItemMessage(hWnd, IDC_TEAM, WM_SETFONT, (WPARAM)hPageHeadingFont, TRUE);
-            SendDlgItemMessage(hWnd, IDC_THANKS, WM_SETFONT, (WPARAM)hPageHeadingFont, TRUE);
-
             SendDlgItemMessage(hWnd, IDC_ZILMAR, WM_SETFONT, (WPARAM)hAuthorFont, TRUE);
-            SendDlgItemMessage(hWnd, IDC_JABO, WM_SETFONT, (WPARAM)hAuthorFont, TRUE);
-            SendDlgItemMessage(hWnd, IDC_SMIFF, WM_SETFONT, (WPARAM)hAuthorFont, TRUE);
-            SendDlgItemMessage(hWnd, IDC_GENT, WM_SETFONT, (WPARAM)hAuthorFont, TRUE);
-
-            SendDlgItemMessage(hWnd, IDC_ZILMAR_DETAILS, WM_SETFONT, (WPARAM)hTextFont, TRUE);
-            SendDlgItemMessage(hWnd, IDC_JABO_DETAILS, WM_SETFONT, (WPARAM)hTextFont, TRUE);
-            SendDlgItemMessage(hWnd, IDC_SMIFF_DETAILS, WM_SETFONT, (WPARAM)hTextFont, TRUE);
-            SendDlgItemMessage(hWnd, IDC_GENT_DETAILS, WM_SETFONT, (WPARAM)hTextFont, TRUE);
-
-            SendDlgItemMessage(hWnd, IDC_THANK_LIST, WM_SETFONT, (WPARAM)hTextFont, TRUE);
-
-            stdstr_f VersionDisplay("Version: %s", VER_FILE_VERSION_STR);
-            SetWindowText(GetDlgItem(hWnd, IDC_VERSION), VersionDisplay.c_str());
         }
         break;
     case WM_CTLCOLORSTATIC:

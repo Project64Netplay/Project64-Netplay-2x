@@ -386,22 +386,12 @@ BEGIN
     PUSHBUTTON      "OK",IDOK,134,230,47,13
 END
 
-IDD_About DIALOGEX 0, 0, 233, 265
+IDD_About DIALOGEX 0, 0, 150, 80
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    LTEXT           "Core Project64 Team:",IDC_TEAM,15,87,168,17
-    LTEXT           "Zilmar",IDC_ZILMAR,15,108,49,11
-    LTEXT           "founder. Core and application programmer. Web site.",IDC_ZILMAR_DETAILS,69,107,151,24
-    LTEXT           "Jabo",IDC_JABO,15,133,49,11
-    LTEXT           "video, audio and input plugin programmer",IDC_JABO_DETAILS,69,133,151,24
-    LTEXT           "Smiff",IDC_SMIFF,15,159,49,11
-    LTEXT           "bug tracking, testing, suggestions, rdb.",IDC_SMIFF_DETAILS,69,159,151,24
-    LTEXT           "Gent",IDC_GENT,15,188,49,11
-    LTEXT           "cheat database, testing, end user support",IDC_GENT_DETAILS,69,188,151,24
-    LTEXT           "Thanks also goes to:",IDC_THANKS,16,214,168,17
-    LTEXT           "Jahra!n, Witten, RadeonUser, Trotterwatch, Pixi",IDC_THANK_LIST,17,231,203,27
-    LTEXT           "Version: 1.7.0.x",IDC_VERSION,15,72,169,11,SS_NOTIFY
+    LTEXT           "Project64 Netplay",IDC_TEAM,20,40,140,20
+    LTEXT           "© 2018 - 2020",IDC_ZILMAR,43,60,70,20
 END
 
 IDD_Logging_General DIALOGEX 0, 0, 200, 154
@@ -623,10 +613,10 @@ BEGIN
     PUSHBUTTON      "About",RSP_ABOUT,166,105,44,13,WS_DISABLED
     CONTROL         "Use High Level GFX",IDC_HLE_GFX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,127,193,10
     CONTROL         "Use High Level Audio",IDC_HLE_AUDIO,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,9,140,188,10
-    GROUPBOX        "Graphics:",IDC_GFX_NAME,6,6,208,29
+    GROUPBOX        "Video:",IDC_GFX_NAME,6,6,208,29
     GROUPBOX        "Audio:",IDC_AUDIO_NAME,6,38,208,29
-    GROUPBOX        "Controller:",IDC_CONT_NAME,6,66,208,29
-    GROUPBOX        "Reality Signal Processor: ",IDC_RSP_NAME,6,96,208,29
+    GROUPBOX        "Input:",IDC_CONT_NAME,6,66,208,29
+    GROUPBOX        "RSP: ",IDC_RSP_NAME,6,96,208,29
 END
 
 IDD_Settings_GameStatus DIALOGEX 0, 0, 218, 158

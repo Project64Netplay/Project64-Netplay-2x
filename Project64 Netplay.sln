@@ -49,6 +49,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLideN64", "Source\GlideN64
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PJ64 NRage", "Source\nragev20\NRage_Input_V2.vcxproj", "{FD617E80-9E40-4138-85DA-B94633972E6A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AziAudio", "Source\AziAudio\AziAudio\AziAudio.vcxproj", "{835979AC-BC6A-45B7-A513-8EEE79B443DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -183,6 +185,12 @@ Global
 		{FD617E80-9E40-4138-85DA-B94633972E6A}.Release|Win32.ActiveCfg = Release|Win32
 		{FD617E80-9E40-4138-85DA-B94633972E6A}.Release|Win32.Build.0 = Release|Win32
 		{FD617E80-9E40-4138-85DA-B94633972E6A}.Release|x64.ActiveCfg = Release|Win32
+		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Debug|Win32.Build.0 = Debug|Win32
+		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Debug|x64.ActiveCfg = Debug|Win32
+		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|Win32.ActiveCfg = Release|Win32
+		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|Win32.Build.0 = Release|Win32
+		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -199,6 +207,7 @@ Global
 		{79951F1F-E8F1-4147-A2C3-582A58C70D24} = {D3462CF5-B0A8-458E-88D9-9C4FF509A18F}
 		{37D31D7F-C4E7-45B0-AEF6-D6824A243CF7} = {79951F1F-E8F1-4147-A2C3-582A58C70D24}
 		{FD617E80-9E40-4138-85DA-B94633972E6A} = {D3462CF5-B0A8-458E-88D9-9C4FF509A18F}
+		{835979AC-BC6A-45B7-A513-8EEE79B443DE} = {D3462CF5-B0A8-458E-88D9-9C4FF509A18F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB7814D5-E1A1-4CFE-96B6-D4F08208A52B}
