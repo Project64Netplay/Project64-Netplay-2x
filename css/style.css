@@ -3638,14 +3638,13 @@ iframe {
 }
 
 .provide_feature_area .p_feature_left {
-  width: calc(50% + 146px);
-  float: left;
+
   overflow: hidden;
 }
 
 .provide_feature_area .p_feature_left .p_f_left_content {
   max-width: 715px;
-  float: right;
+  float: center;
 }
 
 .provide_feature_area .p_feature_left .p_f_left_content .single_title {
@@ -3655,7 +3654,7 @@ iframe {
 
 .provide_feature_area .p_feature_right {
   width: calc(50% - 146px);
-  float: right;
+  float: center;
   overflow: hidden;
 }
 
