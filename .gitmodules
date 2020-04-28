@@ -1,6 +1,3 @@
-[submodule "Plugins/PJ64GCAdapter"]
-	path = Plugins/PJ64GCAdapter
-	url = https://github.com/r52/op64.git
 [submodule "Source/GlideN64"]
 	path = Source/GlideN64
 	url = https://github.com/Project64Netplay/GLideN64
