@@ -44,11 +44,7 @@
       <EnableDPIAwareness>true</EnableDPIAwareness>
     </Manifest>
     <PostBuildEvent>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo ------ Build started: Project: UserFiles, Configuration: Release Win32 ------
-copy /Y "$(SolutionDir)Source\Userfiles" "$(TargetDir)
-copy /Y "$(SolutionDir)Source\Userfiles\Config" "$(TargetDir)\Config\"
-copy /Y "$(SolutionDir)Source\Userfiles\Save" "$(TargetDir)\Save\"
-copy /Y "$(SolutionDir)Source\Userfiles\Save\Backup" "$(TargetDir)\Save\Backup"</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo ------ Build started: Project: UserFiles, Configuration: Release Win32 ------</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

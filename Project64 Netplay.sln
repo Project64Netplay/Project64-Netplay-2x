@@ -37,8 +37,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "osal", "Source\GlideN64\pro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libGLideNHQ", "Source\GlideN64\projects\msvc\libGLideNHQ.vcxproj", "{DA965BCF-2219-47AF-ACE7-EAF76D5D4756}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetplayCore", "Source\NetplayPlugin\NetplayInputPlugin\NetplayInputPlugin.vcxproj", "{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}"
-EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GLideNUI-wtl", "Source\GlideN64\projects\msvc\GLideNUI-wtl.vcxproj", "{9E05B70F-A294-44A9-A151-B2CC95AA884E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{D3462CF5-B0A8-458E-88D9-9C4FF509A18F}"
@@ -50,6 +48,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PJ64 NRage", "Source\nragev20\NRage_Input_V2.vcxproj", "{FD617E80-9E40-4138-85DA-B94633972E6A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AziAudio", "Source\AziAudio\AziAudio\AziAudio.vcxproj", "{835979AC-BC6A-45B7-A513-8EEE79B443DE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetplayCore", "Source\Netplay\NetplayInputPlugin\NetplayInputPlugin.vcxproj", "{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -155,14 +155,6 @@ Global
 		{DA965BCF-2219-47AF-ACE7-EAF76D5D4756}.Release|Win32.Build.0 = Release|Win32
 		{DA965BCF-2219-47AF-ACE7-EAF76D5D4756}.Release|x64.ActiveCfg = Release|x64
 		{DA965BCF-2219-47AF-ACE7-EAF76D5D4756}.Release|x64.Build.0 = Release|x64
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|Win32.Build.0 = Debug|Win32
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|x64.ActiveCfg = Debug|x64
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|x64.Build.0 = Debug|x64
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|Win32.ActiveCfg = Release|Win32
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|Win32.Build.0 = Release|Win32
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|x64.ActiveCfg = Release|x64
-		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|x64.Build.0 = Release|x64
 		{9E05B70F-A294-44A9-A151-B2CC95AA884E}.Debug|Win32.ActiveCfg = Debug|Win32
 		{9E05B70F-A294-44A9-A151-B2CC95AA884E}.Debug|Win32.Build.0 = Debug|Win32
 		{9E05B70F-A294-44A9-A151-B2CC95AA884E}.Debug|x64.ActiveCfg = Debug|x64
@@ -191,6 +183,14 @@ Global
 		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|Win32.ActiveCfg = Release|Win32
 		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|Win32.Build.0 = Release|Win32
 		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|x64.ActiveCfg = Release|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|Win32.Build.0 = Debug|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|x64.ActiveCfg = Debug|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|x64.Build.0 = Debug|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|Win32.ActiveCfg = Release|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|Win32.Build.0 = Release|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|x64.ActiveCfg = Release|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
