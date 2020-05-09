@@ -97,7 +97,7 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(MENU_CONFG_AUDIO, "Audio Settings");
     DEF_STR(MENU_CONFG_CTRL, "Input Settings");
     DEF_STR(MENU_CONFG_RSP, "RSP Settings");
-	DEF_STR(MENU_CHEAT, "Enhancements Settings");
+	DEF_STR(MENU_CHEAT, "Modifications Settings");
     DEF_STR(MENU_SHOW_CPU, "Show CPU Usage");
     DEF_STR(MENU_SETTINGS, "&Settings...");
 
@@ -138,7 +138,7 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(POPUP_PLAY, "Play Game");
     DEF_STR(POPUP_INFO, "ROM Information");
     DEF_STR(POPUP_SETTINGS, "Edit Game Settings");
-    DEF_STR(POPUP_CHEATS, "Select Enhancements");
+    DEF_STR(POPUP_CHEATS, "Select Modifications");
     DEF_STR(POPUP_GFX_PLUGIN, "Graphics Plugin");
     DEF_STR(POPUP_PLAYDISK, "Play Game with Disk");
 
@@ -394,8 +394,8 @@ void CLanguage::LoadDefaultStrings(void)
     * Cheats                                                                         *
     *********************************************************************************/
     //Cheat List
-    DEF_STR(CHEAT_TITLE, "Enhancements");
-    DEF_STR(CHEAT_LIST_FRAME, "Enhancements:");
+    DEF_STR(CHEAT_TITLE, "Modifications");
+    DEF_STR(CHEAT_LIST_FRAME, "Modifications:");
     DEF_STR(CHEAT_NOTES_FRAME, "Notes: ");
     DEF_STR(CHEAT_MARK_ALL, "Mark All");
     DEF_STR(CHEAT_MARK_NONE, "Unmark All");

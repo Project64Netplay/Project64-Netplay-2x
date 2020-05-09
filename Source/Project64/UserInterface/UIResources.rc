@@ -256,7 +256,7 @@ END
 
 IDD_Cheats_Select DIALOGEX 0, 0, 500, 440
 STYLE DS_SETFONT | DS_MODALFRAME | DS_SETFOREGROUND | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
-CAPTION "Enhancements"
+CAPTION "Modifications"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
 END
@@ -266,7 +266,7 @@ STYLE DS_SETFONT | DS_FIXEDSYS | DS_CONTROL | WS_CHILD
 EXSTYLE WS_EX_CONTROLPARENT
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    GROUPBOX        "Game Enhancements",IDC_CHEATSFRAME,0,0,400,302
+    GROUPBOX        "Game Modifications",IDC_CHEATSFRAME,0,0,400,302
     PUSHBUTTON      "Unmark All",IDC_UNMARK,398,300,0,0
     
     GROUPBOX        "Description:",IDC_NOTESFRAME,0,310,400,45
@@ -939,7 +939,7 @@ BEGIN
         MENUITEM "GFX Plugin",                  65535
         MENUITEM SEPARATOR
         MENUITEM "Edit Game Settings",          ID_POPUPMENU_EDITSETTINGS
-        MENUITEM "Select Enhancements",                 ID_POPUPMENU_EDITCHEATS
+        MENUITEM "Choose Modifications",        ID_POPUPMENU_EDITCHEATS
     END
 END
 
