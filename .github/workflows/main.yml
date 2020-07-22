@@ -1,0 +1,16 @@
+steps:
+name: PJ64-Netplay CI
+on: [push]
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@master
+
+    - name: Setup MSBuild.exe
+      uses: warrenbuckley/Setup-MSBuild@v1
+
+    - name: MSBuild
+      working-directory: src
+      run: msbuild "Project64 Netplay.sln"
