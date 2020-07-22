@@ -1,4 +1,3 @@
-steps:
 name: PJ64-Netplay CI
 on: [push]
 jobs:
