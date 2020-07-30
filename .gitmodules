@@ -1,9 +1,6 @@
 [submodule "Source/AziAudio"]
 	path = Source/AziAudio
 	url = https://github.com/Project64Netplay/AziAudio.git
-[submodule "Source/Netplay"]
-	path = Source/Netplay
-	url = https://github.com/Project64Netplay/PJ64-Netplay-Plugin.git
 [submodule "Source/GlideN64"]
 	path = Source/GlideN64
 	url = https://github.com/Project64Netplay/GLideN64.git
