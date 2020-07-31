@@ -27,7 +27,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PropertySheets", "PropertyS
 		PropertySheets\Release.props = PropertySheets\Release.props
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project64-core", "Source\Project64-core\Project64-core.vcxproj", "{00C7B43A-DED7-4DF0-B072-9A5783EF866D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project64 Core", "Source\Project64-core\Project64-core.vcxproj", "{00C7B43A-DED7-4DF0-B072-9A5783EF866D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "png", "Source\3rdParty\png\png.vcxproj", "{17836496-31B0-46F2-B1B1-366D7DF6F04C}"
 EndProject
@@ -48,6 +48,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PJ64 NRage", "Source\nragev20\NRage_Input_V2.vcxproj", "{FD617E80-9E40-4138-85DA-B94633972E6A}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AziAudio", "Source\AziAudio\AziAudio\AziAudio.vcxproj", "{835979AC-BC6A-45B7-A513-8EEE79B443DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3406F41C-9DF7-46CE-A218-2B188C23FD2A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Netplay Core", "Source\NetplayCore\NetplayInputPlugin\NetplayInputPlugin.vcxproj", "{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -313,6 +317,22 @@ Global
 		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|Win32.ActiveCfg = Release|Win32
 		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|Win32.Build.0 = Release|Win32
 		{835979AC-BC6A-45B7-A513-8EEE79B443DE}.Release|x64.ActiveCfg = Release|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug (Server)|Win32.ActiveCfg = Debug (Server)|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug (Server)|Win32.Build.0 = Debug (Server)|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug (Server)|x64.ActiveCfg = Debug (Server)|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug (Server)|x64.Build.0 = Debug (Server)|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|Win32.Build.0 = Debug|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|x64.ActiveCfg = Debug|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Debug|x64.Build.0 = Debug|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release (Server)|Win32.ActiveCfg = Release (Server)|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release (Server)|Win32.Build.0 = Release (Server)|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release (Server)|x64.ActiveCfg = Release (Server)|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release (Server)|x64.Build.0 = Release (Server)|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|Win32.ActiveCfg = Release|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|Win32.Build.0 = Release|Win32
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|x64.ActiveCfg = Release|x64
+		{2A8BF4EB-CC43-4E52-AC79-792B2039EE9C}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
