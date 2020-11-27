@@ -528,12 +528,12 @@ bool CMainMenu::ProcessMessage(HWND hWnd, DWORD /*FromAccelerator*/, DWORD MenuI
         g_Notify->DisplayMessage(3, stdstr_f(GS(MENU_SLOT_SAVE), GetSaveSlotString((MenuID - ID_CURRENT_SAVE_1) + 1).c_str()).c_str());
         g_Settings->SaveDword(Game_CurrentSaveState, (DWORD)((MenuID - ID_CURRENT_SAVE_1) + 1));
         break;
-    case ID_HELP_SUPPORTFORUM: ShellExecute(NULL, "open", "http://forum.pj64-emu.com/", NULL, NULL, SW_SHOWMAXIMIZED); break;
-    case ID_HELP_HOMEPAGE: ShellExecute(NULL, "open", "http://www.pj64-emu.com", NULL, NULL, SW_SHOWMAXIMIZED); break;
+    case ID_HELP_STOCKHOMEPAGE: ShellExecute(NULL, "open", "https://www.pj64-emu.com/", NULL, NULL, SW_SHOWMAXIMIZED); break;
+    case ID_HELP_HOMEPAGE: ShellExecute(NULL, "open", "https://pj64netplay.crankysupertoon.com/", NULL, NULL, SW_SHOWMAXIMIZED); break;
     case ID_HELP_ABOUT: m_Gui->AboutBox(); break;
     case ID_HELP_ABOUTSETTINGFILES: m_Gui->AboutIniBox(); break;
 	case ID_NETPLAY_REPLACESAVES: ShellExecute(NULL, "open", "Replace.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
-	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "https://discord.gg/sZ8FXcP", NULL, NULL, SW_SHOWMAXIMIZED); break;
+	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "https://discord.com/invite/F55qYKm", NULL, NULL, SW_SHOWMAXIMIZED); break;
 	case ID_NETPLAY_UPDATE_EMU: ShellExecute(NULL, NULL, "AutoUpdater.exe", "/A", NULL, SW_SHOWNORMAL); break;
 
     default:
@@ -1217,7 +1217,7 @@ void CMainMenu::FillOutMenu(HMENU hMenu)
     ****************/
     MenuItemList HelpMenu;
 
-    HelpMenu.push_back(MENU_ITEM(ID_HELP_SUPPORTFORUM, MENU_FORUM));
+    HelpMenu.push_back(MENU_ITEM(ID_HELP_STOCKHOMEPAGE, MENU_STOCKHOMEPAGE));
     HelpMenu.push_back(MENU_ITEM(ID_HELP_HOMEPAGE, MENU_HOMEPAGE));
     HelpMenu.push_back(MENU_ITEM(SPLITER));
     if (!inBasicMode)

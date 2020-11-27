@@ -48,12 +48,14 @@
       <MapFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)build/$(ProjectName)\map\$(TargetName).map</MapFileName>
       <GenerateMapFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateMapFile>
       <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateDebugInformation>
+      <AdditionalDependencies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Manifest Condition="'$(PlatformToolset)'!='v90'">
       <EnableDPIAwareness>true</EnableDPIAwareness>
     </Manifest>
     <PostBuildEvent>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">echo ------ Build started: Project: UserFiles, Configuration: Release Win32 ------</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">xcopy "$(SolutionDir)Source\UserFiles\"  "$(SolutionDir)bin/$(Configuration)\" /E /H /C /I /K /D /Y
+</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>

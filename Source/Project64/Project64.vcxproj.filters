@@ -5,9 +5,6 @@
       <UniqueIdentifier>{1e3eb4f7-a0b1-4d09-9e50-b5c699f24050}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
-    <Filter Include="Multilanguage">
-      <UniqueIdentifier>{94e87bf5-3b11-4f61-8a4a-333690ecf588}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Plugin">
       <UniqueIdentifier>{242ae4a5-b150-44e6-b31c-027acd6d38b0}</UniqueIdentifier>
     </Filter>
@@ -85,9 +82,6 @@
     <ClCompile Include="Settings\NotificationSettings.cpp">
       <Filter>Settings</Filter>
     </ClCompile>
-    <ClCompile Include="Multilanguage\LanguageSelector.cpp">
-      <Filter>Multilanguage</Filter>
-    </ClCompile>
     <ClCompile Include="UserInterface\RomInformationClass.cpp">
       <Filter>UI</Filter>
     </ClCompile>
@@ -131,6 +125,12 @@
     </ClCompile>
     <ClCompile Include="UserInterface\Settings\SettingsPage-Plugin.cpp">
       <Filter>UI\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="WelcomeScreen.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GetCWindowText.cpp">
+      <Filter>UI\WTL Controls</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -267,6 +267,15 @@
       <Filter>UI\Settings</Filter>
     </ClInclude>
     <ClInclude Include="..\Project64-core\Version.h" />
+    <ClInclude Include="WelcomeScreen.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="wtl-BitmapPicture.h">
+      <Filter>UI\WTL Controls</Filter>
+    </ClInclude>
+    <ClInclude Include="GetCWindowsText.h">
+      <Filter>UI\WTL Controls</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\divider.cur">

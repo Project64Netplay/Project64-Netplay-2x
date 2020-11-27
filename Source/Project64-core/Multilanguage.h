@@ -104,7 +104,7 @@ enum LanguageStringID
     MENU_HELP = 180,
     MENU_ABOUT_INI = 181,
     MENU_ABOUT_PJ64 = 182,
-    MENU_FORUM = 183,
+    MENU_STOCKHOMEPAGE = 183,
     MENU_HOMEPAGE = 184,
 
 	//Netplay Menu
