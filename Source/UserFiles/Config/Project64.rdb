@@ -5,8 +5,8 @@
 
 [Meta]
 Author=CrankySupertoon
-Version=12.31.19
-Date=2019/12/31
+Version=11.30.20
+Date=2020/11/30
 Homepage=www.pj64netplay-emu.ml
 
 [Microcode Identifiers]
@@ -3239,7 +3239,7 @@ Self Texture=1
 [664BA3D4-678A80B7-C:45]
 Good Name=Mario Golf (U)
 Internal Name=MarioGolf64
-Status=Compatible
+Status=Netplay Compatible
 Plugin Note=[Glide64] various issues
 Culling=1
 Self Texture=1
@@ -3303,7 +3303,7 @@ RPC Key=mk64
 [3E5055B6-2E92DA52-C:45]
 Good Name=Mario Kart 64 (U)
 Internal Name=MARIOKART64
-Status=Compatible
+Status=Netplay Compatible
 Cheat0=81001A38 2409,81001A3A 0002,81001A3C 2409,81001A3E 0002,81001C90 240A,81001C92 0002,81001C94 240A,81001C96 0002 //Multiplayer timing fix
 Plugin Note=[Glide64] missing TVs
 Culling=1
