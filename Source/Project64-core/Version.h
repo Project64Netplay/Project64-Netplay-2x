@@ -16,7 +16,7 @@
 
 #define VER_FILE_DESCRIPTION_STR    "Project64 Netplay"
 #define VER_FILE_VERSION            VERSION_MAJOR, VERSION_MINOR, VERSION_REVISION, VERSION_BUILD
-#define VER_FILE_VERSION_STR        "December 1, 2020"
+#define VER_FILE_VERSION_STR        "January 17, 2021"
 
 
 #define VER_PRODUCTNAME_STR         "Project64 Netplay"
