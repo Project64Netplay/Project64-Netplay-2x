@@ -1,0 +1,24 @@
+#DivDwnldSec {
+  background-color: rgba(51,51,51,0.04);
+  min-height: 300px;
+  margin-top: 25px;
+  padding: 20px;
+}
+
+.dwnldApp {
+  text-align: center;
+}
+
+.dwnldicon {
+  font-size: 100px;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.page-footer {
+  background: linear-gradient(20deg, pink, purple);
+}
+
