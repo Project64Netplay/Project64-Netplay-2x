@@ -983,7 +983,6 @@ BEGIN
             VALUE "FileVersion",      VER_FILE_VERSION_STR "\0"
             VALUE "InternalName",     VER_INTERNAL_NAME_STR "\0"
             VALUE "LegalCopyright",   VER_COPYRIGHT_STR "\0"
-            VALUE "OriginalFilename", VER_ORIGINAL_FILENAME_STR "\0"
             VALUE "ProductName",      VER_PRODUCTNAME_STR
             VALUE "ProductVersion",   VER_PRODUCT_VERSION_STR "\0"
         END
