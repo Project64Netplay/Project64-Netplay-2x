@@ -4,6 +4,3 @@
 [submodule "Source/NetplayCore"]
 	path = Source/NetplayCore
 	url = https://github.com/Project64Netplay/NetplayInputPlugin
-[submodule "Source/WinSparkle"]
-	path = Source/WinSparkle
-	url = https://github.com/Project64Netplay/winsparkle
