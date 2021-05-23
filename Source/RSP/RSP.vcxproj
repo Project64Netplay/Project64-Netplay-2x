@@ -58,7 +58,7 @@
       </MapFileName>
       <GenerateDebugInformation Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateDebugInformation>
       <GenerateMapFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</GenerateMapFile>
-      <ImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(OutDir)$(TargetName).lib</ImportLibrary>
+      <ImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)build/Plugin/RSP</ImportLibrary>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

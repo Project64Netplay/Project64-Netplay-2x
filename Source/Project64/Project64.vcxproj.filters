@@ -126,12 +126,7 @@
     <ClCompile Include="UserInterface\Settings\SettingsPage-Plugin.cpp">
       <Filter>UI\Settings</Filter>
     </ClCompile>
-    <ClCompile Include="WelcomeScreen.cpp">
-      <Filter>UI</Filter>
-    </ClCompile>
-    <ClCompile Include="GetCWindowText.cpp">
-      <Filter>UI\WTL Controls</Filter>
-    </ClCompile>
+    <ClCompile Include="Multilanguage\LanguageSelector.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="UserInterface\resource.h">
@@ -267,15 +262,6 @@
       <Filter>UI\Settings</Filter>
     </ClInclude>
     <ClInclude Include="..\Project64-core\Version.h" />
-    <ClInclude Include="WelcomeScreen.h">
-      <Filter>UI</Filter>
-    </ClInclude>
-    <ClInclude Include="wtl-BitmapPicture.h">
-      <Filter>UI\WTL Controls</Filter>
-    </ClInclude>
-    <ClInclude Include="GetCWindowsText.h">
-      <Filter>UI\WTL Controls</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="res\divider.cur">
