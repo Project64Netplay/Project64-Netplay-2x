@@ -3325,7 +3325,6 @@ Status=Unsupported
 Counter Factor=1
 RPC Key=mp1
 
-
 [ADA815BE-6028622F-C:4A]
 Good Name=Mario Party (J)
 Internal Name=MarioParty
@@ -3385,9 +3384,33 @@ Counter Factor=1
 Save Type=16kbit Eeprom
 RPC Key=mp3
 
-[4523DB39-CD4C819D-C:45]
-Good Name=Newer Mario Party
-Internal Name=NewerMarioParty
+[45273CD7-9E783101-C:45]
+Good Name=Newer Mario Party - Pack 1
+Internal Name=MarioParty3
+Status=Netplay Compatible
+Counter Factor=1
+Save Type=16kbit Eeprom
+RPC Key=nmp
+
+[4520A1AF-D513BD4D-C:45]
+Good Name=Newer Mario Party - Pack 2
+Internal Name=MarioParty3
+Status=Netplay Compatible
+Counter Factor=1
+Save Type=16kbit Eeprom
+RPC Key=nmp
+
+[45220719-B1D316DD-C:45]
+Good Name=Newer Mario Party - Pack 3
+Internal Name=MarioParty3
+Status=Netplay Compatible
+Counter Factor=1
+Save Type=16kbit Eeprom
+RPC Key=nmp
+
+[453C9FCD-B3AB05D9-C:45]
+Good Name=Newer Mario Party - Pack 4
+Internal Name=MarioParty3
 Status=Netplay Compatible
 Counter Factor=1
 Save Type=16kbit Eeprom
