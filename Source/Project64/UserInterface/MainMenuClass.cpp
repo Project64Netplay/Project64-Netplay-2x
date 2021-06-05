@@ -14,7 +14,6 @@ m_ResetAccelerators(true),
 m_Gui(hMainWindow)
 {
     ResetMenu();
-	ShellExecute(NULL, NULL, "AutoUpdater.exe", "/A", NULL, SW_SHOWNORMAL);
     hMainWindow->SetWindowMenu(this);
 
     m_ChangeUISettingList.push_back(Info_ShortCutsChanged);
@@ -534,7 +533,7 @@ bool CMainMenu::ProcessMessage(HWND hWnd, DWORD /*FromAccelerator*/, DWORD MenuI
     case ID_HELP_ABOUTSETTINGFILES: m_Gui->AboutIniBox(); break;
 	case ID_NETPLAY_REPLACESAVES: ShellExecute(NULL, "open", "Replace.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
 	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "https://discord.com/invite/F55qYKm", NULL, NULL, SW_SHOWMAXIMIZED); break;
-	case ID_NETPLAY_UPDATE_EMU: ShellExecute(NULL, NULL, "AutoUpdater.exe", "/A", NULL, SW_SHOWNORMAL); break;
+	case ID_NETPLAY_UPDATE_EMU: ShellExecute(NULL, "open", "Updater.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
 
     default:
         if (MenuID >= ID_RECENT_ROM_START && MenuID < ID_RECENT_ROM_END)
