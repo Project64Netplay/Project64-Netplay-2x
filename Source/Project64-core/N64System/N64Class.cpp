@@ -483,7 +483,7 @@ bool CN64System::EmulationStarting(CThread * thread)
         }
         catch (...)
         {
-            g_Notify->DisplayError(stdstr_f("%s: Exception caught\nFile: %s\nLine: %d", __FUNCTION__, __FILE__, __LINE__).c_str());
+            //g_Notify->DisplayError(stdstr_f("%s: Exception caught\nFile: %s\nLine: %d", __FUNCTION__, __FILE__, __LINE__).c_str());
         }
     }
     else
