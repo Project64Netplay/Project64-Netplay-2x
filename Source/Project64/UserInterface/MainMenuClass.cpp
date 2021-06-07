@@ -531,7 +531,6 @@ bool CMainMenu::ProcessMessage(HWND hWnd, DWORD /*FromAccelerator*/, DWORD MenuI
     case ID_HELP_HOMEPAGE: ShellExecute(NULL, "open", "https://pj64netplay.crankysupertoon.com/", NULL, NULL, SW_SHOWMAXIMIZED); break;
     case ID_HELP_ABOUT: m_Gui->AboutBox(); break;
     case ID_HELP_ABOUTSETTINGFILES: m_Gui->AboutIniBox(); break;
-	case ID_NETPLAY_REPLACESAVES: ShellExecute(NULL, "open", "Replace.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
 	case ID_NETPLAY_ME: ShellExecute(NULL, "open", "https://discord.com/invite/F55qYKm", NULL, NULL, SW_SHOWMAXIMIZED); break;
 	case ID_NETPLAY_UPDATE_EMU: ShellExecute(NULL, "open", "Updater.bat", NULL, NULL, SW_SHOWMAXIMIZED); break;
 
@@ -1232,7 +1231,6 @@ void CMainMenu::FillOutMenu(HMENU hMenu)
 
 	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_ME, MENU_ME));
 	NetplayMenu.push_back(MENU_ITEM(SPLITER));
-	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_REPLACESAVES, MENU_REPLACESAVES));
 	NetplayMenu.push_back(MENU_ITEM(ID_NETPLAY_UPDATE_EMU, MENU_UPDATE_EMU));
 
     /* Main Title bar Menu

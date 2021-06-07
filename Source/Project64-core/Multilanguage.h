@@ -109,7 +109,6 @@ enum LanguageStringID
 
 	//Netplay Menu
 	MENU_NETPLAY = 4000,
-	MENU_REPLACESAVES = 4001,
 	MENU_ME = 4002,
 	MENU_UPDATE_EMU = 4003,
 
