@@ -988,7 +988,6 @@ int CALLBACK CCheatsUI::ManageCheatsProc(HWND hDlg, uint32_t uMsg, uint32_t wPar
         int X = (((rcParent.right - rcParent.left) - DlgWidth) / 2) + rcParent.left;
         int Y = (((rcParent.bottom - rcParent.top) - DlgHeight) / 2) + rcParent.top;
 
-        SetWindowPos(hDlg, NULL, X, Y, 0, 0, SWP_NOZORDER | SWP_NOSIZE);
 
         _this->RefreshCheatManager();
     }

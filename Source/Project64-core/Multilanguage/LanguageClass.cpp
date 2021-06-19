@@ -99,7 +99,7 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(MENU_CONFG_RSP, "RSP Settings");
 	DEF_STR(MENU_CHEAT, "Modifications Settings");
     DEF_STR(MENU_SHOW_CPU, "Show CPU Usage");
-    DEF_STR(MENU_SETTINGS, "&Settings...");
+    DEF_STR(MENU_SETTINGS, "&General Settings...");
 
     //Debugger Menu
     DEF_STR(MENU_DEBUGGER, "&Debugger");
@@ -139,7 +139,6 @@ void CLanguage::LoadDefaultStrings(void)
     DEF_STR(POPUP_SETTINGS, "Edit Game Settings");
     DEF_STR(POPUP_CHEATS, "Select Modifications");
     DEF_STR(POPUP_GFX_PLUGIN, "Graphics Plugin");
-    DEF_STR(POPUP_PLAYDISK, "Play Game with Disk");
 
     //Alternate Name to save Slot
     DEF_STR(SAVE_SLOT_DEFAULT, "Save Slot - Default");
