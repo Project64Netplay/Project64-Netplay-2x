@@ -1,0 +1,8 @@
+server.o: server.cpp stdafx.h server.h common.h packet.h room.h user.h \
+ connection.h version.h
+room.o: room.cpp stdafx.h room.h common.h packet.h user.h connection.h \
+ server.h
+user.o: user.cpp stdafx.h user.h common.h packet.h connection.h server.h \
+ room.h util.h
+connection.o: connection.cpp stdafx.h connection.h packet.h
+common.o: common.cpp stdafx.h common.h packet.h
