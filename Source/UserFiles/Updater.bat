@@ -14,16 +14,16 @@ cd Plugin
 cd GFX
 move GlideN64.ini ..\..\
 cd ..\..\
-rmdir Config /s
-rmdir Plugin /s
-rmdir Save /s
+rmdir Config /s /q
+rmdir Plugin /s /q
+rmdir Save /s /q
 cd Compiled-main
 move Config ..\
 move Plugin ..\
 move Save ..\
 move "Project64 Netplay.exe" ..\
 cd ..\
-rmdir Compiled-main /s
+rmdir Compiled-main /s Q 
 DEL main.zip
 move GlideN64.ini Plugin\GFX
 move NRage.ini Config
