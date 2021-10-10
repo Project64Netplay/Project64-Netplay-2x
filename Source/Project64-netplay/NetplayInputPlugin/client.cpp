@@ -395,7 +395,11 @@ void client::on_message(string message) {
                     set_lag(0);
                     start_game();
                 }
-            } else if (params[0] == "/lag") {
+            }
+            else if (params[0] == "/sync") {
+                send_savesync();
+            }  
+            else if (params[0] == "/lag") {
                 if (params.size() < 2) throw runtime_error("Missing parameter");
                 uint8_t lag = stoi(params[1]);
                 if (!is_open()) throw runtime_error("Not connected");
