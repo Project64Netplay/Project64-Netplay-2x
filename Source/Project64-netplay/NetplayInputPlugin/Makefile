@@ -19,7 +19,7 @@ $(OBJS): $(PCH)
 $(PCH): $(HEADER)
 	$(CXX) $(CXXFLAGS) -c -o $(PCH) $^
 
-version.h: ../.git/index
+version.h: ../../../.git/index
 	echo '#define APP_NAME "$(APP_NAME)"' > version.h
 	echo '#define APP_VERSION "$(GIT_COUNT) ($(GIT_COMMIT)$(GIT_DIRTY))"' >> version.h
 	echo '#define APP_NAME_AND_VERSION "$(APP_NAME) v$(GIT_COUNT) ($(GIT_COMMIT)$(GIT_DIRTY))"' >> version.h
