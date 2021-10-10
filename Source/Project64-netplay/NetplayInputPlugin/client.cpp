@@ -5,12 +5,12 @@
 #include "connection.h"
 #include "util.h"
 #include "uri.h"
-#include <dirent.h>
-#include <cryptopp/sha.h>
-#include <cryptopp/files.h>
-#include <cryptopp/filters.h>
-#include <cryptopp/base64.h>
-#include <cryptopp/hex.h>
+#include "../dirent/build/native/include/dirent.h"
+#include "../cryptopp/build/native/include/cryptopp/sha.h"
+#include "../cryptopp/build/native/include/cryptopp/files.h"
+#include "../cryptopp/build/native/include/cryptopp/filters.h"
+#include "../cryptopp/build/native/include/cryptopp/base64.h"
+#include "../cryptopp/build/native/include/cryptopp/hex.h"
 
 using namespace std;
 using namespace asio;

@@ -9,7 +9,7 @@
 *                                                                           *
 ****************************************************************************/
 #include "stdafx.h"
-#include <Project64/Settings/UISettings.h>
+#include <Project64-gui/Settings/UISettings.h>
 
 #include <commctrl.h>
 #include <shlobj.h>

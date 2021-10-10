@@ -11,7 +11,7 @@
 #pragma once
 
 #include <vector>
-#include <Project64/Settings/UISettings.h>
+#include <Project64-gui/Settings/UISettings.h>
 #include <Project64-core/RomList/RomList.h>
 
 class CMainGui;

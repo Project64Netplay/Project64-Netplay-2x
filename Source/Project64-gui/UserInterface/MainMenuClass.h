@@ -1,5 +1,5 @@
 #pragma once
-#include <Project64/Settings/UISettings.h>
+#include <Project64-gui/Settings/UISettings.h>
 
 enum MainMenuID
 {
