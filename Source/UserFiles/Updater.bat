@@ -10,9 +10,16 @@ goto :Exit
 TASKKILL /IM "Project64 Netplay.exe" /F
 "Plugin/Updater/wget.exe" https://github.com/Project64Netplay/Compiled/archive/refs/heads/main.zip
 "Plugin/Updater/7z.exe" x main.zip
+cd Config
+move NRage.ini ..\
+move Project64.cfg ..\
+cd ..\
 cd Plugin
 cd GFX
 move GlideN64.ini ..\..\
+cd ..\
+cd Input
+move netplay_input_plugin.ini ..\..\
 cd ..\..\
 rmdir Config /s /q
 rmdir Plugin /s /q
@@ -28,5 +35,6 @@ DEL main.zip
 move GlideN64.ini Plugin\GFX
 move NRage.ini Config
 move Project64.cfg Config
+move netplay_input_plugin.ini Plugin\Input
 :Exit
 EXIT
