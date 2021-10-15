@@ -25,3 +25,4 @@ Thumbs.db
 /ipch
 *.log
 /Target
+/Package

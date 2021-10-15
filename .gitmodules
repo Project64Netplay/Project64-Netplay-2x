@@ -7,3 +7,6 @@
 [submodule "Source/Project64-netplay/asio"]
 	path = Source/Project64-netplay/asio
 	url = https://github.com/chriskohlhoff/asio.git
+[submodule "Source/Project64-netplay"]
+	path = Source/Project64-netplay
+	url = https://github.com/project64netplay/netplayinputplugin.git
